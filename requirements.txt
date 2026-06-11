@@ -1,0 +1,7 @@
+pandas
+numpy
+pdfplumber
+beautifulsoup4
+requests
+scikit-learn
+jupyter

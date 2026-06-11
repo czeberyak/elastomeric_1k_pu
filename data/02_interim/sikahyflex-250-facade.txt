@@ -1,0 +1,222 @@
+PRODUCT DATA SHEET
+SikaHyflex®-250 Facade
+HIGH-PERFORMANCE, PROFESSIONAL, JOINT SEALANT FOR CONCRETE, MASONRY AND EIFS
+FACADES
+PRODUCT DESCRIPTION ENVIRONMENTAL INFORMATION
+SikaHyflex®-250 Facade is a 1-component, moisture- ▪EMICODE EC1PLUS R
+curing, low-modulus elastic joint sealant. ▪LEED v4 EQc 2: Low-Emitting Materials
+USES APPROVALS / STANDARDS
+SikaHyflex®-250 Facade is designed for the elastic joint ▪EN 15651-1 F EXT-INT CC 25 LM
+sealing and waterproofing of movement and connec- ▪ISO 11600 F 25 LM
+tion joints in building envelopes. Due to its very low ▪DIN 18540 F
+modulus, SikaHyflex®-250 Facade is also suitable for ▪ASTM C 920, class 100/50
+EIFS Facades.
+CHARACTERISTICS / ADVANTAGES
+▪Very good weathering resistance
+▪Movement capability of +100 / −50% (ASTM C 719)
+▪Bubble-free curing
+▪Low stress to the substrate
+▪Very good extrusion and workability
+▪Good adhesion to many different substrates
+▪Solvent-free
+▪Very low emissions
+PRODUCT INFORMATION
+Chemical Base i-Cure® Technology polyurethane
+Packaging 300 ml cartridge, 12 cartridges per box
+600 ml foil pack, 20 foil packs per box
+Colour Concrete Grey, White, Dark Grey, Black, Buff, Cream Ivory, Basalt Grey,
+Rustic Red, Precast White (R9010), Dark Beige and Light Grey.
+Shelf Life SikaHyflex®-250 Facade has a shelf life of 15 months from the date of pro-
+duction, if it is stored in undamaged, original, sealed packaging, and if the
+storage conditions are met.
+Storage Conditions SikaHyflex®-250 Facade shall be stored in dry conditions, where it is protec-
+ted from direct sunlight and at temperatures between +5 °C and +25 °C.
+Density ~1.35 kg/l (ISO 1183-1)
+Product Data Sheet
+SikaHyflex®-250 Facade
+May 2019, Version 03.01
+020511010000000048
+1 / 4
+TECHNICAL INFORMATION
+Shore A Hardness ~20 (after 28 days) (ISO 868)
+Secant Tensile Modulus ~0.30 N/mm2 at 100% elongation (23 °C) (ISO 8339)
+~0.60 N/mm2 at 100% elongation (−20 °C)
+Elongation at Break ~800% (ISO 37)
+Elastic Recovery ~80% (ISO 7389)
+Tear Propagation Resistance ~5.0 N/mm (ISO 34)
+Movement Capability ± 25% (ISO 9047)
++100 / −50% (ASTM C 719)
+Resistance to Weathering 10 (ISO / DIS 19862)
+Service Temperature −40 °C to +70 °C
+Joint Design The joint width must be designed to suit the joint movement required and
+the movement capability of the sealant. The joint width shall be ≥ 10 mm
+and ≤ 50 mm. A width to depth ratio of 2:1 must be maintained (for excep-
+tions, see table below).
+Standard joint widths for joints between concrete elements:
+Joint distance [m] Min. joint width [mm] Min. joint depth [mm]
+2 10 10
+4 15 10
+6 20 10
+8 30 15
+10 35 17
+All joints must be correctly designed and dimensioned in accordance with
+the relevant standards, before their construction. The basis for calculation
+of the necessary joint widths are the type of structure and its dimensions,
+the technical values of the adjacent building materials and the joint sealing
+material, as well as the specific exposure of the building and the joints.
+For larger joints please contact Sika Technical Service.
+APPLICATION INFORMATION
+Consumption Joint length [m] Joint width [mm] Joint depth [mm]
+per 600 ml foil pack
+6 10 10
+4 15 10
+3 20 10
+2 25 12
+1.3 30 15
+Backing Material Use closed cell, polyethylene foam backing rods.
+Sag Flow 0 mm (20 mm profile, 50 °C) (ISO 7390)
+Ambient Air Temperature +5 °C to +40 °C
+Substrate Temperature +5 °C to +40 °C, min. 3 °C above dew point temperature
+Curing Rate ~3 mm/24 hours (23 °C / 50% r.h.) (CQP 049-2)
+Skin Time ~70 minutes (23 °C / 50% r.h.) (CQP 019-1)
+Tooling Time ~65 minutes (23 °C / 50% r.h.) (CQP 019-2)
+Product Data Sheet
+SikaHyflex®-250 Facade
+May 2019, Version 03.01
+020511010000000048
+2 / 4
+APPLICATION INSTRUCTIONS CLEANING OF TOOLS
+Clean all tools and application equipment immediately
+SUBSTRATE PREPARATION
+after use with Sika® Remover-208 and/or Sika® Clean-
+The substrate must be clean, dry, sound and homo- ing Wipes-100. Once cured, residual material can only
+geneous, free from oils, grease, dust and loose or fri- be removed mechanically.
+able particles. SikaHyflex®-250 Facade adheres
+without primers and/or activators. FURTHER DOCUMENTS
+However, for optimum adhesion and critical, high per-
+formance applications, such as on multi-story build- ▪Safety Data Sheet (SDS)
+ings, highly stressed joints, extreme weather exposure ▪Pre-treatment Chart Sealing & Bonding
+or water immersion, the following priming and/or pre- ▪Method Statement Joint Sealing
+treatment procedures shall be followed: ▪Method Statement Joint Maintenance, Cleaning and
+Renovation
+Non-porous substrates ▪Technical Manual Facade Sealing
+Aluminium, anodised aluminium, stainless steel, gal-
+LIMITATIONS
+vanised steel, powder coated metals or glazed tiles
+have to be cleaned and pre-treated using Sika® Aktiv-
+▪SikaHyflex®-250 Facade can be overpainted with
+ator-205, wiped on with a clean towel. Before sealing,
+most conventional facade coating paint systems.
+allow a flash-off time of > 15 minutes (< 6 hours).
+However, paints must first be tested to ensure com-
+Other metals, such as copper, brass and titanium-zinc,
+patibility by carrying out preliminary trials (e.g. ac-
+also have to be cleaned and pre-treated using Sika®
+cording to ISO technical paper: Paintability and Paint
+Aktivator-205, wiped on with a clean towel. After the
+Compatibility of Sealants). The best over-painting
+necessary flash-off time, use a brush to apply Sika®
+results are obtained when the sealant is allowed to
+Primer-3 N and allow a further flash-off time of > 30
+fully cure first. Note: non-flexible paint systems may
+minutes (< 8 hours) before sealing the joints.
+impair the elasticity of the sealant and lead to crack-
+PVC has to be cleaned and pre-treated using Sika®
+ing of the paint film.
+Primer-215 applied with a brush. Before sealing, allow
+▪Colour variations may occur due to exposure to
+a flash-off time of > 30 minutes (< 8 hours).
+chemicals, high temperatures and/or UV-radiation
+(especially with the colour shade white). However, a
+Porous substrates
+change in colour is purely of aesthetic nature and
+Concrete, aerated concrete and cement based
+does not adversely influence the technical perform-
+renders, mortars and bricks shall be primed using
+ance or durability of the product.
+Sika® Primer-3 N applied with a brush. Before sealing,
+▪Before using SikaHyflex®-250 Facade on natural
+allow a flash-off time of > 30 minutes (< 8 hours).
+stone, please refer to Sika Technical Service for ad-
+vice.
+For more detailed advice and instructions please con-
+▪Do not use SikaHyflex®-250 Facade on bituminous
+tact Sika Technical Services.
+substrates, natural rubber, EPDM rubber or on any
+building materials which might bleed oils, plasticizers
+Note: Primers are adhesion promoters. They are
+or solvents that could attack the sealant.
+neither a substitute for the correct cleaning of a sur-
+▪Do not use SikaHyflex®-250 Facade to seal joints in
+face, nor do they improve the strength of the surface
+and around swimming pools.
+significantly.
+▪Do not use SikaHyflex®-250 Facade for joints under
+APPLICATION METHOD / TOOLS water pressure or for permanent water immersion.
+▪Do not expose uncured SikaHyflex®-250 Facade to al-
+SikaHyflex®-250 Facade is supplied ready to use. cohol containing products as this may interfere with
+After the necessary substrate preparation, insert a the curing reaction.
+suitable backing rod to the required depth and apply
+any primer if necessary. Insert a foil pack or cartridge VALUE BASE
+into the sealant gun and extrude SikaHyflex®-250
+Facade into the joint making sure that it comes into All technical data stated in this Data Sheet are based
+full contact with the sides of the joint and avoids any on laboratory tests. Actual measured data may vary
+air entrapment. SikaHyflex®-250 Facade must be firmly due to circumstances beyond our control.
+tooled against the joint sides to ensure adequate ad-
+hesion. LOCAL RESTRICTIONS
+It is recommended to use masking tape where exact
+joint lines or neat lines are required. Remove the tape Note that as a result of specific local regulations the
+within the skin time. Use a compatible tooling agent declared data and recommended uses for this product
+(e.g. Sika® Tooling Agent N) to smooth the joint sur- may vary from country to country. Consult the local
+faces. Do not use tooling products containing solvents. Product Data Sheet for the exact product data and
+uses.
+Product Data Sheet
+SikaHyflex®-250 Facade
+May 2019, Version 03.01
+020511010000000048
+3 / 4
+ECOLOGY, HEALTH AND SAFETY
+Local safety regulations must be observed and it advis-
+able to wear PPI when working with this product with
+particular attention paid to cutting and handling.
+Transportation Class: The product is not classified as
+hazardous good for transport. Disposal: The material is
+recyclable. Disposal must be according to local regula-
+tions. Please contact your local Sika sales organisation
+for more information.
+LEGAL NOTES
+The information, and, in particular, the recommenda-
+tions relating to the application and end-use of Sika
+products, are given in good faith based on Sika's cur-
+rent knowledge and experience of the products when
+properly stored, handled and applied under normal
+conditions in accordance with Sika's recommenda-
+tions. In practice, the differences in materials, sub-
+strates and actual site conditions are such that no war-
+ranty in respect of merchantability or of fitness for a
+particular purpose, nor any liability arising out of any
+legal relationship whatsoever, can be inferred either
+from this information, or from any written recom-
+mendations, or from any other advice offered. The
+user of the product must test the product’s suitability
+for the intended application and purpose. Sika re-
+serves the right to change the properties of its
+products. The proprietary rights of third parties must
+be observed. All orders are accepted subject to our
+current terms of sale and delivery. Users must always
+refer to the most recent issue of the local Product Data
+Sheet for the product concerned, copies of which will
+be supplied on request.
+SIKA IRELAND LIMITED
+Ballymun Industrial Estate
+Ballymun
+Dublin 11, Ireland
+Tel: +353 1 862 0709
+Web: www.sika.ie
+Twitter: @SikaIreland
+SikaHyflex-250Facade-en-IE-(05-2019)-3-1.pdf
+Product Data Sheet
+SikaHyflex®-250 Facade
+May 2019, Version 03.01
+020511010000000048
+4 / 4
