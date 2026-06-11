@@ -1392,3 +1392,1400 @@ Command Line Error: Wrong page range given: the first page (1) can not be after 
 2026-06-11 14:55:14,084 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 70 min.
 2026-06-11 14:55:14,084 [INFO] TDS_Parser_RND: ✅ mightyloc_6221.pdf | 6221 POLYURETHANE SEALANT | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
 2026-06-11 14:55:14,086 [INFO] TDS_Parser_RND: Пайплайны успешно завершены. Датасет собран.
+2026-06-11 15:24:41,627 [WARNING] TDS_Parser_RND: OPENROUTER_API_KEY не найден в переменных окружения. LLM Fallback отключен.
+2026-06-11 15:24:41,628 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 15:26:08,704 [WARNING] TDS_Parser_RND: OPENROUTER_API_KEY не найден в переменных окружения. LLM Fallback отключен.
+2026-06-11 15:26:08,705 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 15:26:09,332 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 15:26:09,333 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 15:26:10,054 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 15:26:10,054 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 15:26:10,054 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 15:26:10,304 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 15:26:10,304 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 15:26:10,619 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 15:26:10,619 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 15:27:25,536 [WARNING] TDS_Parser_RND: OPENROUTER_API_KEY не найден в переменных окружения. LLM Fallback отключен.
+2026-06-11 15:27:25,537 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 15:27:26,172 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 15:27:26,173 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 15:27:26,907 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 15:27:26,908 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 15:27:26,908 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 15:27:27,149 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 15:27:27,150 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 15:27:27,471 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 15:27:27,471 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 15:27:27,838 [INFO] TDS_Parser_RND: ✅ TDS-Soudal-Soudaflex-36FL.pdf | TDS-Soudal-Soudaflex-36FL | Shore: None | Elong: 900.0% | Skin: None мин
+2026-06-11 15:27:27,838 [INFO] TDS_Parser_RND: Обработка файла: chemitool_pu40.pdf
+2026-06-11 15:27:28,496 [INFO] TDS_Parser_RND: ✅ chemitool_pu40.pdf | Sealant and Adhesive | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 15:27:28,496 [INFO] TDS_Parser_RND: Обработка файла: tecnopol_mastic_pu.pdf
+2026-06-11 15:27:28,859 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 30~60 minutes
+2026-06-11 15:27:28,859 [INFO] TDS_Parser_RND: ✅ tecnopol_mastic_pu.pdf | tecnopol_mastic_pu | Shore: 37.5 | Elong: 600.0% | Skin: 45.0 мин
+2026-06-11 15:27:28,859 [INFO] TDS_Parser_RND: Обработка файла: 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 15:27:29,617 [INFO] TDS_Parser_RND: ✅ 89f6823564b5fb0d20f05830860f86c3.pdf | Sikaflex® Construction+ | Shore: 28.0 | Elong: None% | Skin: 65.0 мин
+2026-06-11 15:27:29,617 [INFO] TDS_Parser_RND: Обработка файла: 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 15:27:29,828 [INFO] TDS_Parser_RND: ✅ 3M-540-Polyurethane-Sealant.pdf | 3M 540 Polyurethane Sealant | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 15:27:29,828 [INFO] TDS_Parser_RND: Обработка файла: boss_pu25.pdf
+2026-06-11 15:27:30,108 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 45 min
+2026-06-11 15:27:30,109 [INFO] TDS_Parser_RND: ✅ boss_pu25.pdf | BOSS® PU 25 POLYURETHANE SEALANT | Shore: 35.0 | Elong: 850.0% | Skin: 45.0 мин
+2026-06-11 15:27:30,109 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_pl.pdf
+2026-06-11 15:27:30,283 [INFO] TDS_Parser_RND: ✅ novol_gravit630_pl.pdf | novol_gravit630_pl | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:27:30,283 [INFO] TDS_Parser_RND: Обработка файла: bauer_flexible_pu.pdf
+2026-06-11 15:27:30,524 [WARNING] TDS_Parser_RND: [bauer_flexible_pu.pdf] Elongation (41.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 15:27:30,524 [INFO] TDS_Parser_RND: ✅ bauer_flexible_pu.pdf | FLEXIBLE PU SEALANT | Shore: 30.0 | Elong: None% | Skin: None мин
+2026-06-11 15:27:30,524 [INFO] TDS_Parser_RND: Обработка файла: loctite_pl.pdf
+2026-06-11 15:27:31,573 [INFO] TDS_Parser_RND: ✅ loctite_pl.pdf | Polyurethane Sealant | Shore: None | Elong: 412.0% | Skin: 24.0 мин
+2026-06-11 15:27:31,573 [INFO] TDS_Parser_RND: Обработка файла: vipro_pu2k.pdf
+2026-06-11 15:27:31,928 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 80
+2026-06-11 15:27:31,928 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Shore_A (80.0) вне физических пределов [5 - 60]. Сброс.
+2026-06-11 15:27:31,928 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Elongation (15.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 15:27:31,929 [INFO] TDS_Parser_RND: ✅ vipro_pu2k.pdf | Vi-Pro® PU 2K POLYURETHANE ADHESIVE | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:27:31,929 [INFO] TDS_Parser_RND: Обработка файла: 3m-1k-general-purpose-polyurethane-sealer.pdf
+2026-06-11 15:27:32,360 [INFO] TDS_Parser_RND: ✅ 3m-1k-general-purpose-polyurethane-sealer.pdf | 3m-1k-general-purpose-polyurethane-sealer | Shore: 20.0 | Elong: 500.0% | Skin: 55.0 мин
+2026-06-11 15:27:32,360 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_ru.pdf
+2026-06-11 15:27:34,323 [INFO] TDS_Parser_RND: ✅ novol_gravit630_ru.pdf | novol_gravit630_ru | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:27:34,323 [INFO] TDS_Parser_RND: Обработка файла: fastcoat_pro_pu.pdf
+2026-06-11 15:27:34,811 [INFO] TDS_Parser_RND: ✅ fastcoat_pro_pu.pdf | fastcoat_pro_pu | Shore: 22.0 | Elong: 250.0% | Skin: None мин
+2026-06-11 15:27:34,811 [INFO] TDS_Parser_RND: Обработка файла: TDS SANZ PU MASTER.pdf
+2026-06-11 15:27:35,917 [INFO] TDS_Parser_RND: ✅ TDS SANZ PU MASTER.pdf | TDS SANZ PU MASTER | Shore: 40.0 | Elong: 740.0% | Skin: 90.0 мин
+2026-06-11 15:27:35,917 [INFO] TDS_Parser_RND: Обработка файла: 915_tds.pdf
+2026-06-11 15:27:36,903 [WARNING] TDS_Parser_RND: [915_tds.pdf] Elongation (65.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 15:27:36,904 [WARNING] TDS_Parser_RND: [915_tds.pdf] Skin_Time (4.0) вне физических пределов [5 - 600]. Сброс.
+2026-06-11 15:27:36,904 [INFO] TDS_Parser_RND: ✅ 915_tds.pdf | POLYURETHANE SEALANT & ADHESIVE | Shore: 42.0 | Elong: None% | Skin: None мин
+2026-06-11 15:27:36,904 [INFO] TDS_Parser_RND: Обработка файла: rubber_fc40.pdf
+2026-06-11 15:27:37,307 [INFO] TDS_Parser_RND: ✅ rubber_fc40.pdf | FC40 Polyurethane Sealant Material Data Sheet | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:27:37,307 [INFO] TDS_Parser_RND: Обработка файла: quikrete_nonsag.pdf
+2026-06-11 15:27:37,310 [INFO] TDS_Parser_RND: ✅ quikrete_nonsag.pdf | quikrete_nonsag | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:27:37,310 [INFO] TDS_Parser_RND: Обработка файла: mightyloc_6221.pdf
+2026-06-11 15:27:38,437 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 70 min.
+2026-06-11 15:27:38,437 [INFO] TDS_Parser_RND: ✅ mightyloc_6221.pdf | 6221 POLYURETHANE SEALANT | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 15:27:38,443 [INFO] TDS_Parser_RND: Пайплайны успешно завершены. Датасет собран.
+2026-06-11 15:35:13,281 [WARNING] TDS_Parser_RND: OPENROUTER_API_KEY не найден. LLM Fallback отключен.
+2026-06-11 15:35:13,281 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 15:35:13,893 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 15:35:13,893 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 15:35:14,615 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 15:35:14,616 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 15:35:14,616 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 15:35:14,869 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 15:35:14,869 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 15:35:15,197 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 15:35:15,197 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 15:35:15,561 [INFO] TDS_Parser_RND: ✅ TDS-Soudal-Soudaflex-36FL.pdf | TDS-Soudal-Soudaflex-36FL | Shore: None | Elong: 900.0% | Skin: None мин
+2026-06-11 15:35:15,561 [INFO] TDS_Parser_RND: Обработка файла: chemitool_pu40.pdf
+2026-06-11 15:35:16,225 [INFO] TDS_Parser_RND: ✅ chemitool_pu40.pdf | Sealant and Adhesive | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 15:35:16,225 [INFO] TDS_Parser_RND: Обработка файла: tecnopol_mastic_pu.pdf
+2026-06-11 15:35:16,589 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 30~60 minutes
+2026-06-11 15:35:16,589 [INFO] TDS_Parser_RND: ✅ tecnopol_mastic_pu.pdf | tecnopol_mastic_pu | Shore: 37.5 | Elong: 600.0% | Skin: 45.0 мин
+2026-06-11 15:35:16,589 [INFO] TDS_Parser_RND: Обработка файла: 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 15:35:17,358 [INFO] TDS_Parser_RND: ✅ 89f6823564b5fb0d20f05830860f86c3.pdf | Sikaflex® Construction+ | Shore: 28.0 | Elong: None% | Skin: 65.0 мин
+2026-06-11 15:35:17,358 [INFO] TDS_Parser_RND: Обработка файла: 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 15:35:17,563 [INFO] TDS_Parser_RND: ✅ 3M-540-Polyurethane-Sealant.pdf | 3M 540 Polyurethane Sealant | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 15:35:17,563 [INFO] TDS_Parser_RND: Обработка файла: boss_pu25.pdf
+2026-06-11 15:35:17,844 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 45 min
+2026-06-11 15:35:17,844 [INFO] TDS_Parser_RND: ✅ boss_pu25.pdf | BOSS® PU 25 POLYURETHANE SEALANT | Shore: 35.0 | Elong: 850.0% | Skin: 45.0 мин
+2026-06-11 15:35:17,844 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_pl.pdf
+2026-06-11 15:35:18,036 [INFO] TDS_Parser_RND: ✅ novol_gravit630_pl.pdf | novol_gravit630_pl | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:35:18,036 [INFO] TDS_Parser_RND: Обработка файла: bauer_flexible_pu.pdf
+2026-06-11 15:35:18,282 [WARNING] TDS_Parser_RND: [bauer_flexible_pu.pdf] Elongation (41.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 15:35:18,282 [INFO] TDS_Parser_RND: ✅ bauer_flexible_pu.pdf | FLEXIBLE PU SEALANT | Shore: 30.0 | Elong: None% | Skin: None мин
+2026-06-11 15:35:18,282 [INFO] TDS_Parser_RND: Обработка файла: loctite_pl.pdf
+2026-06-11 15:35:19,341 [INFO] TDS_Parser_RND: ✅ loctite_pl.pdf | Polyurethane Sealant | Shore: None | Elong: 412.0% | Skin: 24.0 мин
+2026-06-11 15:35:19,341 [INFO] TDS_Parser_RND: Обработка файла: vipro_pu2k.pdf
+2026-06-11 15:35:19,686 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 80
+2026-06-11 15:35:19,686 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Shore_A (80.0) вне физических пределов [5 - 60]. Сброс.
+2026-06-11 15:35:19,686 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Elongation (15.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 15:35:19,686 [INFO] TDS_Parser_RND: ✅ vipro_pu2k.pdf | Vi-Pro® PU 2K POLYURETHANE ADHESIVE | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:35:19,686 [INFO] TDS_Parser_RND: Обработка файла: 3m-1k-general-purpose-polyurethane-sealer.pdf
+2026-06-11 15:35:20,131 [INFO] TDS_Parser_RND: ✅ 3m-1k-general-purpose-polyurethane-sealer.pdf | 3m-1k-general-purpose-polyurethane-sealer | Shore: 20.0 | Elong: 500.0% | Skin: 55.0 мин
+2026-06-11 15:35:20,132 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_ru.pdf
+2026-06-11 15:35:22,103 [INFO] TDS_Parser_RND: ✅ novol_gravit630_ru.pdf | novol_gravit630_ru | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:35:22,103 [INFO] TDS_Parser_RND: Обработка файла: fastcoat_pro_pu.pdf
+2026-06-11 15:35:22,594 [INFO] TDS_Parser_RND: ✅ fastcoat_pro_pu.pdf | fastcoat_pro_pu | Shore: 22.0 | Elong: 250.0% | Skin: None мин
+2026-06-11 15:35:22,594 [INFO] TDS_Parser_RND: Обработка файла: TDS SANZ PU MASTER.pdf
+2026-06-11 15:35:23,704 [INFO] TDS_Parser_RND: ✅ TDS SANZ PU MASTER.pdf | TDS SANZ PU MASTER | Shore: 40.0 | Elong: 740.0% | Skin: 90.0 мин
+2026-06-11 15:35:23,704 [INFO] TDS_Parser_RND: Обработка файла: 915_tds.pdf
+2026-06-11 15:35:24,573 [WARNING] TDS_Parser_RND: [915_tds.pdf] Elongation (65.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 15:35:24,573 [WARNING] TDS_Parser_RND: [915_tds.pdf] Skin_Time (4.0) вне физических пределов [5 - 600]. Сброс.
+2026-06-11 15:35:24,573 [INFO] TDS_Parser_RND: ✅ 915_tds.pdf | POLYURETHANE SEALANT & ADHESIVE | Shore: 42.0 | Elong: None% | Skin: None мин
+2026-06-11 15:35:24,573 [INFO] TDS_Parser_RND: Обработка файла: rubber_fc40.pdf
+2026-06-11 15:35:24,980 [INFO] TDS_Parser_RND: ✅ rubber_fc40.pdf | FC40 Polyurethane Sealant Material Data Sheet | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:35:24,981 [INFO] TDS_Parser_RND: Обработка файла: quikrete_nonsag.pdf
+2026-06-11 15:35:24,982 [INFO] TDS_Parser_RND: ✅ quikrete_nonsag.pdf | quikrete_nonsag | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:35:24,982 [INFO] TDS_Parser_RND: Обработка файла: mightyloc_6221.pdf
+2026-06-11 15:35:26,089 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 70 min.
+2026-06-11 15:35:26,089 [INFO] TDS_Parser_RND: ✅ mightyloc_6221.pdf | 6221 POLYURETHANE SEALANT | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 15:35:26,091 [INFO] TDS_Parser_RND: Пайплайны успешно завершены. Датасет собран.
+2026-06-11 15:35:52,103 [WARNING] TDS_Parser_RND: OPENROUTER_API_KEY не найден. LLM Fallback отключен.
+2026-06-11 15:35:52,104 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 15:35:52,693 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 15:35:52,693 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 15:35:53,398 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 15:35:53,399 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 15:35:53,399 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 15:35:53,641 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 15:35:53,641 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 15:35:53,952 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 15:35:53,952 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 15:35:54,309 [INFO] TDS_Parser_RND: ✅ TDS-Soudal-Soudaflex-36FL.pdf | TDS-Soudal-Soudaflex-36FL | Shore: None | Elong: 900.0% | Skin: None мин
+2026-06-11 15:35:54,309 [INFO] TDS_Parser_RND: Обработка файла: chemitool_pu40.pdf
+2026-06-11 15:35:54,956 [INFO] TDS_Parser_RND: ✅ chemitool_pu40.pdf | Sealant and Adhesive | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 15:35:54,956 [INFO] TDS_Parser_RND: Обработка файла: tecnopol_mastic_pu.pdf
+2026-06-11 15:35:55,308 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 30~60 minutes
+2026-06-11 15:35:55,308 [INFO] TDS_Parser_RND: ✅ tecnopol_mastic_pu.pdf | tecnopol_mastic_pu | Shore: 37.5 | Elong: 600.0% | Skin: 45.0 мин
+2026-06-11 15:35:55,308 [INFO] TDS_Parser_RND: Обработка файла: 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 15:35:56,047 [INFO] TDS_Parser_RND: ✅ 89f6823564b5fb0d20f05830860f86c3.pdf | Sikaflex® Construction+ | Shore: 28.0 | Elong: None% | Skin: 65.0 мин
+2026-06-11 15:35:56,047 [INFO] TDS_Parser_RND: Обработка файла: 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 15:35:56,249 [INFO] TDS_Parser_RND: ✅ 3M-540-Polyurethane-Sealant.pdf | 3M 540 Polyurethane Sealant | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 15:35:56,249 [INFO] TDS_Parser_RND: Обработка файла: boss_pu25.pdf
+2026-06-11 15:35:56,523 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 45 min
+2026-06-11 15:35:56,523 [INFO] TDS_Parser_RND: ✅ boss_pu25.pdf | BOSS® PU 25 POLYURETHANE SEALANT | Shore: 35.0 | Elong: 850.0% | Skin: 45.0 мин
+2026-06-11 15:35:56,523 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_pl.pdf
+2026-06-11 15:35:56,692 [INFO] TDS_Parser_RND: ✅ novol_gravit630_pl.pdf | novol_gravit630_pl | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:35:56,692 [INFO] TDS_Parser_RND: Обработка файла: bauer_flexible_pu.pdf
+2026-06-11 15:35:56,932 [WARNING] TDS_Parser_RND: [bauer_flexible_pu.pdf] Elongation (41.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 15:35:56,932 [INFO] TDS_Parser_RND: ✅ bauer_flexible_pu.pdf | FLEXIBLE PU SEALANT | Shore: 30.0 | Elong: None% | Skin: None мин
+2026-06-11 15:35:56,932 [INFO] TDS_Parser_RND: Обработка файла: loctite_pl.pdf
+2026-06-11 15:35:57,976 [INFO] TDS_Parser_RND: ✅ loctite_pl.pdf | Polyurethane Sealant | Shore: None | Elong: 412.0% | Skin: 24.0 мин
+2026-06-11 15:35:57,976 [INFO] TDS_Parser_RND: Обработка файла: vipro_pu2k.pdf
+2026-06-11 15:35:58,319 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 80
+2026-06-11 15:35:58,320 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Shore_A (80.0) вне физических пределов [5 - 60]. Сброс.
+2026-06-11 15:35:58,320 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Elongation (15.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 15:35:58,320 [INFO] TDS_Parser_RND: ✅ vipro_pu2k.pdf | Vi-Pro® PU 2K POLYURETHANE ADHESIVE | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:35:58,320 [INFO] TDS_Parser_RND: Обработка файла: 3m-1k-general-purpose-polyurethane-sealer.pdf
+2026-06-11 15:35:58,741 [INFO] TDS_Parser_RND: ✅ 3m-1k-general-purpose-polyurethane-sealer.pdf | 3m-1k-general-purpose-polyurethane-sealer | Shore: 20.0 | Elong: 500.0% | Skin: 55.0 мин
+2026-06-11 15:35:58,741 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_ru.pdf
+2026-06-11 15:36:00,761 [INFO] TDS_Parser_RND: ✅ novol_gravit630_ru.pdf | novol_gravit630_ru | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:36:00,761 [INFO] TDS_Parser_RND: Обработка файла: fastcoat_pro_pu.pdf
+2026-06-11 15:36:01,303 [INFO] TDS_Parser_RND: ✅ fastcoat_pro_pu.pdf | fastcoat_pro_pu | Shore: 22.0 | Elong: 250.0% | Skin: None мин
+2026-06-11 15:36:01,304 [INFO] TDS_Parser_RND: Обработка файла: TDS SANZ PU MASTER.pdf
+2026-06-11 15:36:02,453 [INFO] TDS_Parser_RND: ✅ TDS SANZ PU MASTER.pdf | TDS SANZ PU MASTER | Shore: 40.0 | Elong: 740.0% | Skin: 90.0 мин
+2026-06-11 15:36:02,454 [INFO] TDS_Parser_RND: Обработка файла: 915_tds.pdf
+2026-06-11 15:36:03,326 [WARNING] TDS_Parser_RND: [915_tds.pdf] Elongation (65.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 15:36:03,326 [WARNING] TDS_Parser_RND: [915_tds.pdf] Skin_Time (4.0) вне физических пределов [5 - 600]. Сброс.
+2026-06-11 15:36:03,326 [INFO] TDS_Parser_RND: ✅ 915_tds.pdf | POLYURETHANE SEALANT & ADHESIVE | Shore: 42.0 | Elong: None% | Skin: None мин
+2026-06-11 15:36:03,327 [INFO] TDS_Parser_RND: Обработка файла: rubber_fc40.pdf
+2026-06-11 15:36:03,709 [INFO] TDS_Parser_RND: ✅ rubber_fc40.pdf | FC40 Polyurethane Sealant Material Data Sheet | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:36:03,710 [INFO] TDS_Parser_RND: Обработка файла: quikrete_nonsag.pdf
+2026-06-11 15:36:03,711 [INFO] TDS_Parser_RND: ✅ quikrete_nonsag.pdf | quikrete_nonsag | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:36:03,711 [INFO] TDS_Parser_RND: Обработка файла: mightyloc_6221.pdf
+2026-06-11 15:36:04,784 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 70 min.
+2026-06-11 15:36:04,784 [INFO] TDS_Parser_RND: ✅ mightyloc_6221.pdf | 6221 POLYURETHANE SEALANT | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 15:36:04,786 [INFO] TDS_Parser_RND: Пайплайны успешно завершены. Датасет собран.
+2026-06-11 15:51:04,864 [INFO] TDS_Parser_RND: ✅ OpenRouter API Fallback успешно активирован.
+2026-06-11 15:51:04,865 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 15:51:05,469 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 15:51:05,469 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 15:51:06,164 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 15:51:06,164 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 15:51:06,164 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 15:51:06,411 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 15:51:06,411 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 15:51:06,728 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 15:51:06,728 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 15:51:09,096 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для TDS-Soudal-Soudaflex-36FL.pdf по полям: ['Shore_A', 'Skin_Time']
+2026-06-11 15:51:29,122 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для TDS-Soudal-Soudaflex-36FL.pdf (Попытка 1): HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-11 15:51:29,122 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для TDS-Soudal-Soudaflex-36FL.pdf...
+2026-06-11 15:51:54,145 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для TDS-Soudal-Soudaflex-36FL.pdf (Попытка 2): HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-11 15:51:54,145 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для TDS-Soudal-Soudaflex-36FL.pdf...
+2026-06-11 15:52:19,167 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для TDS-Soudal-Soudaflex-36FL.pdf (Попытка 3): HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-11 15:52:19,167 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для TDS-Soudal-Soudaflex-36FL.pdf.
+2026-06-11 15:52:19,167 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 15:52:19,167 [INFO] TDS_Parser_RND: ✅ TDS-Soudal-Soudaflex-36FL.pdf | TDS-Soudal-Soudaflex-36FL | Shore: None | Elong: 900.0% | Skin: None мин
+2026-06-11 15:52:19,167 [INFO] TDS_Parser_RND: Обработка файла: chemitool_pu40.pdf
+2026-06-11 15:52:21,840 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для chemitool_pu40.pdf по полям: ['Skin_Time']
+2026-06-11 15:52:41,863 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для chemitool_pu40.pdf (Попытка 1): HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-11 15:52:41,863 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для chemitool_pu40.pdf...
+2026-06-11 15:53:06,885 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для chemitool_pu40.pdf (Попытка 2): HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-11 15:53:06,885 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для chemitool_pu40.pdf...
+2026-06-11 15:53:12,721 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для chemitool_pu40.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:53:12,721 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для chemitool_pu40.pdf.
+2026-06-11 15:53:12,722 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для chemitool_pu40.pdf
+2026-06-11 15:53:12,722 [INFO] TDS_Parser_RND: ✅ chemitool_pu40.pdf | Sealant and Adhesive | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 15:53:12,722 [INFO] TDS_Parser_RND: Обработка файла: tecnopol_mastic_pu.pdf
+2026-06-11 15:53:13,083 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 30~60 minutes
+2026-06-11 15:53:13,083 [INFO] TDS_Parser_RND: ✅ tecnopol_mastic_pu.pdf | tecnopol_mastic_pu | Shore: 37.5 | Elong: 600.0% | Skin: 45.0 мин
+2026-06-11 15:53:13,083 [INFO] TDS_Parser_RND: Обработка файла: 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 15:53:15,857 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для 89f6823564b5fb0d20f05830860f86c3.pdf по полям: ['Elongation']
+2026-06-11 15:53:16,450 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для 89f6823564b5fb0d20f05830860f86c3.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:53:16,450 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для 89f6823564b5fb0d20f05830860f86c3.pdf...
+2026-06-11 15:53:21,718 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для 89f6823564b5fb0d20f05830860f86c3.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:53:21,719 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для 89f6823564b5fb0d20f05830860f86c3.pdf...
+2026-06-11 15:53:26,969 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для 89f6823564b5fb0d20f05830860f86c3.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:53:26,969 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для 89f6823564b5fb0d20f05830860f86c3.pdf.
+2026-06-11 15:53:26,970 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 15:53:26,970 [INFO] TDS_Parser_RND: ✅ 89f6823564b5fb0d20f05830860f86c3.pdf | Sikaflex® Construction+ | Shore: 28.0 | Elong: None% | Skin: 65.0 мин
+2026-06-11 15:53:26,970 [INFO] TDS_Parser_RND: Обработка файла: 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 15:53:29,179 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для 3M-540-Polyurethane-Sealant.pdf по полям: ['Skin_Time']
+2026-06-11 15:53:29,406 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для 3M-540-Polyurethane-Sealant.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:53:29,406 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для 3M-540-Polyurethane-Sealant.pdf...
+2026-06-11 15:53:34,598 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для 3M-540-Polyurethane-Sealant.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:53:34,599 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для 3M-540-Polyurethane-Sealant.pdf...
+2026-06-11 15:53:39,894 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для 3M-540-Polyurethane-Sealant.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:53:39,894 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для 3M-540-Polyurethane-Sealant.pdf.
+2026-06-11 15:53:39,895 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 15:53:39,895 [INFO] TDS_Parser_RND: ✅ 3M-540-Polyurethane-Sealant.pdf | 3M 540 Polyurethane Sealant | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 15:53:39,895 [INFO] TDS_Parser_RND: Обработка файла: boss_pu25.pdf
+2026-06-11 15:53:40,178 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 45 min
+2026-06-11 15:53:40,178 [INFO] TDS_Parser_RND: ✅ boss_pu25.pdf | BOSS® PU 25 POLYURETHANE SEALANT | Shore: 35.0 | Elong: 850.0% | Skin: 45.0 мин
+2026-06-11 15:53:40,178 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_pl.pdf
+2026-06-11 15:53:42,352 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для novol_gravit630_pl.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 15:53:42,558 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для novol_gravit630_pl.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:53:42,558 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для novol_gravit630_pl.pdf...
+2026-06-11 15:53:47,817 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для novol_gravit630_pl.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:53:47,817 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для novol_gravit630_pl.pdf...
+2026-06-11 15:53:52,991 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для novol_gravit630_pl.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:53:52,991 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для novol_gravit630_pl.pdf.
+2026-06-11 15:53:52,992 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для novol_gravit630_pl.pdf
+2026-06-11 15:53:52,992 [INFO] TDS_Parser_RND: ✅ novol_gravit630_pl.pdf | novol_gravit630_pl | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:53:52,992 [INFO] TDS_Parser_RND: Обработка файла: bauer_flexible_pu.pdf
+2026-06-11 15:53:55,243 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для bauer_flexible_pu.pdf по полям: ['Skin_Time']
+2026-06-11 15:53:55,612 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для bauer_flexible_pu.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:53:55,613 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для bauer_flexible_pu.pdf...
+2026-06-11 15:54:00,791 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для bauer_flexible_pu.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:54:00,791 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для bauer_flexible_pu.pdf...
+2026-06-11 15:54:06,202 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для bauer_flexible_pu.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:54:06,202 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для bauer_flexible_pu.pdf.
+2026-06-11 15:54:06,203 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для bauer_flexible_pu.pdf
+2026-06-11 15:54:06,203 [WARNING] TDS_Parser_RND: [bauer_flexible_pu.pdf] Elongation (41.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 15:54:06,203 [INFO] TDS_Parser_RND: ✅ bauer_flexible_pu.pdf | FLEXIBLE PU SEALANT | Shore: 30.0 | Elong: None% | Skin: None мин
+2026-06-11 15:54:06,203 [INFO] TDS_Parser_RND: Обработка файла: loctite_pl.pdf
+2026-06-11 15:54:09,241 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для loctite_pl.pdf по полям: ['Shore_A']
+2026-06-11 15:54:09,725 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для loctite_pl.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:54:09,726 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для loctite_pl.pdf...
+2026-06-11 15:54:15,000 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для loctite_pl.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:54:15,000 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для loctite_pl.pdf...
+2026-06-11 15:54:20,254 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для loctite_pl.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:54:20,254 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для loctite_pl.pdf.
+2026-06-11 15:54:20,255 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для loctite_pl.pdf
+2026-06-11 15:54:20,255 [INFO] TDS_Parser_RND: ✅ loctite_pl.pdf | Polyurethane Sealant | Shore: None | Elong: 412.0% | Skin: 24.0 мин
+2026-06-11 15:54:20,255 [INFO] TDS_Parser_RND: Обработка файла: vipro_pu2k.pdf
+2026-06-11 15:54:20,610 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 80
+2026-06-11 15:54:22,619 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для vipro_pu2k.pdf по полям: ['Skin_Time']
+2026-06-11 15:54:22,824 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для vipro_pu2k.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:54:22,824 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для vipro_pu2k.pdf...
+2026-06-11 15:54:28,075 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для vipro_pu2k.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:54:28,075 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для vipro_pu2k.pdf...
+2026-06-11 15:54:33,277 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для vipro_pu2k.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:54:33,277 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для vipro_pu2k.pdf.
+2026-06-11 15:54:33,278 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для vipro_pu2k.pdf
+2026-06-11 15:54:33,279 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Shore_A (80.0) вне физических пределов [5 - 60]. Сброс.
+2026-06-11 15:54:33,279 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Elongation (15.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 15:54:33,279 [INFO] TDS_Parser_RND: ✅ vipro_pu2k.pdf | Vi-Pro® PU 2K POLYURETHANE ADHESIVE | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:54:33,279 [INFO] TDS_Parser_RND: Обработка файла: 3m-1k-general-purpose-polyurethane-sealer.pdf
+2026-06-11 15:54:33,737 [INFO] TDS_Parser_RND: ✅ 3m-1k-general-purpose-polyurethane-sealer.pdf | 3m-1k-general-purpose-polyurethane-sealer | Shore: 20.0 | Elong: 500.0% | Skin: 55.0 мин
+2026-06-11 15:54:33,737 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_ru.pdf
+2026-06-11 15:54:37,850 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для novol_gravit630_ru.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 15:54:38,039 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для novol_gravit630_ru.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:54:38,040 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для novol_gravit630_ru.pdf...
+2026-06-11 15:54:43,350 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для novol_gravit630_ru.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:54:43,350 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для novol_gravit630_ru.pdf...
+2026-06-11 15:54:48,561 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для novol_gravit630_ru.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:54:48,561 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для novol_gravit630_ru.pdf.
+2026-06-11 15:54:48,562 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для novol_gravit630_ru.pdf
+2026-06-11 15:54:48,562 [INFO] TDS_Parser_RND: ✅ novol_gravit630_ru.pdf | novol_gravit630_ru | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:54:48,562 [INFO] TDS_Parser_RND: Обработка файла: fastcoat_pro_pu.pdf
+2026-06-11 15:54:51,066 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для fastcoat_pro_pu.pdf по полям: ['Skin_Time']
+2026-06-11 15:54:51,291 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для fastcoat_pro_pu.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:54:51,291 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для fastcoat_pro_pu.pdf...
+2026-06-11 15:54:56,512 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для fastcoat_pro_pu.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:54:56,513 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для fastcoat_pro_pu.pdf...
+2026-06-11 15:55:02,120 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для fastcoat_pro_pu.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:55:02,120 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для fastcoat_pro_pu.pdf.
+2026-06-11 15:55:02,120 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для fastcoat_pro_pu.pdf
+2026-06-11 15:55:02,121 [INFO] TDS_Parser_RND: ✅ fastcoat_pro_pu.pdf | fastcoat_pro_pu | Shore: 22.0 | Elong: 250.0% | Skin: None мин
+2026-06-11 15:55:02,121 [INFO] TDS_Parser_RND: Обработка файла: TDS SANZ PU MASTER.pdf
+2026-06-11 15:55:03,308 [INFO] TDS_Parser_RND: ✅ TDS SANZ PU MASTER.pdf | TDS SANZ PU MASTER | Shore: 40.0 | Elong: 740.0% | Skin: 90.0 мин
+2026-06-11 15:55:03,308 [INFO] TDS_Parser_RND: Обработка файла: 915_tds.pdf
+2026-06-11 15:55:04,278 [WARNING] TDS_Parser_RND: [915_tds.pdf] Elongation (65.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 15:55:04,278 [WARNING] TDS_Parser_RND: [915_tds.pdf] Skin_Time (4.0) вне физических пределов [5 - 600]. Сброс.
+2026-06-11 15:55:04,278 [INFO] TDS_Parser_RND: ✅ 915_tds.pdf | POLYURETHANE SEALANT & ADHESIVE | Shore: 42.0 | Elong: None% | Skin: None мин
+2026-06-11 15:55:04,278 [INFO] TDS_Parser_RND: Обработка файла: rubber_fc40.pdf
+2026-06-11 15:55:06,710 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для rubber_fc40.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 15:55:06,927 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для rubber_fc40.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:55:06,927 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для rubber_fc40.pdf...
+2026-06-11 15:56:33,830 [INFO] TDS_Parser_RND: ✅ OpenRouter API Fallback успешно активирован.
+2026-06-11 15:56:33,831 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 15:56:34,442 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 15:56:34,443 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 15:56:35,190 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 15:56:35,190 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 15:56:35,190 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 15:56:35,444 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 15:56:35,444 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 15:56:35,786 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 15:56:35,786 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 15:56:38,166 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для TDS-Soudal-Soudaflex-36FL.pdf по полям: ['Shore_A', 'Skin_Time']
+2026-06-11 15:56:38,663 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для TDS-Soudal-Soudaflex-36FL.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:56:38,663 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для TDS-Soudal-Soudaflex-36FL.pdf...
+2026-06-11 15:56:44,703 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для TDS-Soudal-Soudaflex-36FL.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:56:44,704 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для TDS-Soudal-Soudaflex-36FL.pdf...
+2026-06-11 15:56:49,947 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для TDS-Soudal-Soudaflex-36FL.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:56:49,947 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для TDS-Soudal-Soudaflex-36FL.pdf.
+2026-06-11 15:56:49,949 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 15:56:49,949 [INFO] TDS_Parser_RND: ✅ TDS-Soudal-Soudaflex-36FL.pdf | TDS-Soudal-Soudaflex-36FL | Shore: None | Elong: 900.0% | Skin: None мин
+2026-06-11 15:56:49,949 [INFO] TDS_Parser_RND: Обработка файла: chemitool_pu40.pdf
+2026-06-11 15:56:52,686 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для chemitool_pu40.pdf по полям: ['Skin_Time']
+2026-06-11 15:56:52,921 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для chemitool_pu40.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:56:52,922 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для chemitool_pu40.pdf...
+2026-06-11 15:56:58,137 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для chemitool_pu40.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:56:58,137 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для chemitool_pu40.pdf...
+2026-06-11 15:57:03,339 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для chemitool_pu40.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:57:03,340 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для chemitool_pu40.pdf.
+2026-06-11 15:57:03,341 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для chemitool_pu40.pdf
+2026-06-11 15:57:03,341 [INFO] TDS_Parser_RND: ✅ chemitool_pu40.pdf | Sealant and Adhesive | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 15:57:03,341 [INFO] TDS_Parser_RND: Обработка файла: tecnopol_mastic_pu.pdf
+2026-06-11 15:57:03,739 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 30~60 minutes
+2026-06-11 15:57:03,739 [INFO] TDS_Parser_RND: ✅ tecnopol_mastic_pu.pdf | tecnopol_mastic_pu | Shore: 37.5 | Elong: 600.0% | Skin: 45.0 мин
+2026-06-11 15:57:03,739 [INFO] TDS_Parser_RND: Обработка файла: 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 15:57:06,560 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для 89f6823564b5fb0d20f05830860f86c3.pdf по полям: ['Elongation']
+2026-06-11 15:57:06,815 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для 89f6823564b5fb0d20f05830860f86c3.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:57:06,816 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для 89f6823564b5fb0d20f05830860f86c3.pdf...
+2026-06-11 15:57:12,148 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для 89f6823564b5fb0d20f05830860f86c3.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:57:12,148 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для 89f6823564b5fb0d20f05830860f86c3.pdf...
+2026-06-11 15:57:17,426 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для 89f6823564b5fb0d20f05830860f86c3.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:57:17,426 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для 89f6823564b5fb0d20f05830860f86c3.pdf.
+2026-06-11 15:57:17,427 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 15:57:17,427 [INFO] TDS_Parser_RND: ✅ 89f6823564b5fb0d20f05830860f86c3.pdf | Sikaflex® Construction+ | Shore: 28.0 | Elong: None% | Skin: 65.0 мин
+2026-06-11 15:57:17,427 [INFO] TDS_Parser_RND: Обработка файла: 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 15:57:19,649 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для 3M-540-Polyurethane-Sealant.pdf по полям: ['Skin_Time']
+2026-06-11 15:57:19,858 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для 3M-540-Polyurethane-Sealant.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:57:19,858 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для 3M-540-Polyurethane-Sealant.pdf...
+2026-06-11 15:57:25,104 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для 3M-540-Polyurethane-Sealant.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:57:25,104 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для 3M-540-Polyurethane-Sealant.pdf...
+2026-06-11 15:57:30,445 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для 3M-540-Polyurethane-Sealant.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:57:30,445 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для 3M-540-Polyurethane-Sealant.pdf.
+2026-06-11 15:57:30,446 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 15:57:30,446 [INFO] TDS_Parser_RND: ✅ 3M-540-Polyurethane-Sealant.pdf | 3M 540 Polyurethane Sealant | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 15:57:30,446 [INFO] TDS_Parser_RND: Обработка файла: boss_pu25.pdf
+2026-06-11 15:57:30,746 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 45 min
+2026-06-11 15:57:30,747 [INFO] TDS_Parser_RND: ✅ boss_pu25.pdf | BOSS® PU 25 POLYURETHANE SEALANT | Shore: 35.0 | Elong: 850.0% | Skin: 45.0 мин
+2026-06-11 15:57:30,747 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_pl.pdf
+2026-06-11 15:57:32,924 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для novol_gravit630_pl.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 15:57:33,141 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для novol_gravit630_pl.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:57:33,141 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для novol_gravit630_pl.pdf...
+2026-06-11 15:57:38,406 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для novol_gravit630_pl.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:57:38,406 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для novol_gravit630_pl.pdf...
+2026-06-11 15:57:43,630 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для novol_gravit630_pl.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:57:43,630 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для novol_gravit630_pl.pdf.
+2026-06-11 15:57:43,631 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для novol_gravit630_pl.pdf
+2026-06-11 15:57:43,631 [INFO] TDS_Parser_RND: ✅ novol_gravit630_pl.pdf | novol_gravit630_pl | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:57:43,631 [INFO] TDS_Parser_RND: Обработка файла: bauer_flexible_pu.pdf
+2026-06-11 15:57:45,893 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для bauer_flexible_pu.pdf по полям: ['Skin_Time']
+2026-06-11 15:57:46,136 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для bauer_flexible_pu.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:57:46,136 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для bauer_flexible_pu.pdf...
+2026-06-11 15:57:51,361 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для bauer_flexible_pu.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:57:51,362 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для bauer_flexible_pu.pdf...
+2026-06-11 15:57:56,663 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для bauer_flexible_pu.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:57:56,664 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для bauer_flexible_pu.pdf.
+2026-06-11 15:57:56,665 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для bauer_flexible_pu.pdf
+2026-06-11 15:57:56,665 [WARNING] TDS_Parser_RND: [bauer_flexible_pu.pdf] Elongation (41.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 15:57:56,665 [INFO] TDS_Parser_RND: ✅ bauer_flexible_pu.pdf | FLEXIBLE PU SEALANT | Shore: 30.0 | Elong: None% | Skin: None мин
+2026-06-11 15:57:56,665 [INFO] TDS_Parser_RND: Обработка файла: loctite_pl.pdf
+2026-06-11 15:57:59,825 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для loctite_pl.pdf по полям: ['Shore_A']
+2026-06-11 15:58:00,591 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для loctite_pl.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:58:00,591 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для loctite_pl.pdf...
+2026-06-11 15:58:05,816 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для loctite_pl.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:58:05,816 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для loctite_pl.pdf...
+2026-06-11 15:58:11,183 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для loctite_pl.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:58:11,183 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для loctite_pl.pdf.
+2026-06-11 15:58:11,184 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для loctite_pl.pdf
+2026-06-11 15:58:11,184 [INFO] TDS_Parser_RND: ✅ loctite_pl.pdf | Polyurethane Sealant | Shore: None | Elong: 412.0% | Skin: 24.0 мин
+2026-06-11 15:58:11,184 [INFO] TDS_Parser_RND: Обработка файла: vipro_pu2k.pdf
+2026-06-11 15:58:11,561 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 80
+2026-06-11 15:58:13,561 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для vipro_pu2k.pdf по полям: ['Skin_Time']
+2026-06-11 15:58:13,938 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для vipro_pu2k.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:58:13,938 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для vipro_pu2k.pdf...
+2026-06-11 15:58:19,151 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для vipro_pu2k.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:58:19,151 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для vipro_pu2k.pdf...
+2026-06-11 15:58:24,331 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для vipro_pu2k.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:58:24,331 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для vipro_pu2k.pdf.
+2026-06-11 15:58:24,332 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для vipro_pu2k.pdf
+2026-06-11 15:58:24,332 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Shore_A (80.0) вне физических пределов [5 - 60]. Сброс.
+2026-06-11 15:58:24,332 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Elongation (15.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 15:58:24,332 [INFO] TDS_Parser_RND: ✅ vipro_pu2k.pdf | Vi-Pro® PU 2K POLYURETHANE ADHESIVE | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:58:24,332 [INFO] TDS_Parser_RND: Обработка файла: 3m-1k-general-purpose-polyurethane-sealer.pdf
+2026-06-11 15:58:24,768 [INFO] TDS_Parser_RND: ✅ 3m-1k-general-purpose-polyurethane-sealer.pdf | 3m-1k-general-purpose-polyurethane-sealer | Shore: 20.0 | Elong: 500.0% | Skin: 55.0 мин
+2026-06-11 15:58:24,769 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_ru.pdf
+2026-06-11 15:58:28,852 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для novol_gravit630_ru.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 15:58:29,117 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для novol_gravit630_ru.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:58:29,117 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для novol_gravit630_ru.pdf...
+2026-06-11 15:58:34,319 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для novol_gravit630_ru.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:58:34,319 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для novol_gravit630_ru.pdf...
+2026-06-11 15:58:39,484 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для novol_gravit630_ru.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:58:39,484 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для novol_gravit630_ru.pdf.
+2026-06-11 15:58:39,485 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для novol_gravit630_ru.pdf
+2026-06-11 15:58:39,485 [INFO] TDS_Parser_RND: ✅ novol_gravit630_ru.pdf | novol_gravit630_ru | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:58:39,485 [INFO] TDS_Parser_RND: Обработка файла: fastcoat_pro_pu.pdf
+2026-06-11 15:58:42,021 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для fastcoat_pro_pu.pdf по полям: ['Skin_Time']
+2026-06-11 15:58:42,260 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для fastcoat_pro_pu.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:58:42,260 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для fastcoat_pro_pu.pdf...
+2026-06-11 15:58:47,448 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для fastcoat_pro_pu.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:58:47,449 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для fastcoat_pro_pu.pdf...
+2026-06-11 15:58:52,642 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для fastcoat_pro_pu.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:58:52,643 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для fastcoat_pro_pu.pdf.
+2026-06-11 15:58:52,644 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для fastcoat_pro_pu.pdf
+2026-06-11 15:58:52,644 [INFO] TDS_Parser_RND: ✅ fastcoat_pro_pu.pdf | fastcoat_pro_pu | Shore: 22.0 | Elong: 250.0% | Skin: None мин
+2026-06-11 15:58:52,645 [INFO] TDS_Parser_RND: Обработка файла: TDS SANZ PU MASTER.pdf
+2026-06-11 15:58:53,838 [INFO] TDS_Parser_RND: ✅ TDS SANZ PU MASTER.pdf | TDS SANZ PU MASTER | Shore: 40.0 | Elong: 740.0% | Skin: 90.0 мин
+2026-06-11 15:58:53,838 [INFO] TDS_Parser_RND: Обработка файла: 915_tds.pdf
+2026-06-11 15:58:54,802 [WARNING] TDS_Parser_RND: [915_tds.pdf] Elongation (65.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 15:58:54,802 [WARNING] TDS_Parser_RND: [915_tds.pdf] Skin_Time (4.0) вне физических пределов [5 - 600]. Сброс.
+2026-06-11 15:58:54,802 [INFO] TDS_Parser_RND: ✅ 915_tds.pdf | POLYURETHANE SEALANT & ADHESIVE | Shore: 42.0 | Elong: None% | Skin: None мин
+2026-06-11 15:58:54,802 [INFO] TDS_Parser_RND: Обработка файла: rubber_fc40.pdf
+2026-06-11 15:58:57,213 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для rubber_fc40.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 15:58:57,476 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для rubber_fc40.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:58:57,476 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для rubber_fc40.pdf...
+2026-06-11 15:59:02,670 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для rubber_fc40.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:59:02,671 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для rubber_fc40.pdf...
+2026-06-11 15:59:07,849 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для rubber_fc40.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:59:07,849 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для rubber_fc40.pdf.
+2026-06-11 15:59:07,850 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для rubber_fc40.pdf
+2026-06-11 15:59:07,850 [INFO] TDS_Parser_RND: ✅ rubber_fc40.pdf | FC40 Polyurethane Sealant Material Data Sheet | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:59:07,850 [INFO] TDS_Parser_RND: Обработка файла: quikrete_nonsag.pdf
+2026-06-11 15:59:09,855 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для quikrete_nonsag.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 15:59:10,057 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для quikrete_nonsag.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:59:10,057 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для quikrete_nonsag.pdf...
+2026-06-11 15:59:15,257 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для quikrete_nonsag.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:59:15,257 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для quikrete_nonsag.pdf...
+2026-06-11 15:59:20,479 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для quikrete_nonsag.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:59:20,479 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для quikrete_nonsag.pdf.
+2026-06-11 15:59:20,480 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для quikrete_nonsag.pdf
+2026-06-11 15:59:20,480 [INFO] TDS_Parser_RND: ✅ quikrete_nonsag.pdf | quikrete_nonsag | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 15:59:20,480 [INFO] TDS_Parser_RND: Обработка файла: mightyloc_6221.pdf
+2026-06-11 15:59:21,702 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 70 min.
+2026-06-11 15:59:21,702 [INFO] TDS_Parser_RND: ✅ mightyloc_6221.pdf | 6221 POLYURETHANE SEALANT | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 15:59:21,708 [INFO] TDS_Parser_RND: Пайплайны успешно завершены. Датасет собран.
+2026-06-11 15:59:43,648 [INFO] TDS_Parser_RND: ✅ OpenRouter API Fallback успешно активирован.
+2026-06-11 15:59:43,648 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 15:59:44,272 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 15:59:44,272 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 15:59:44,994 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 15:59:44,994 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 15:59:44,994 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 15:59:45,242 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 15:59:45,242 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 15:59:45,551 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 15:59:45,551 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 15:59:47,926 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для TDS-Soudal-Soudaflex-36FL.pdf по полям: ['Shore_A', 'Skin_Time']
+2026-06-11 15:59:48,097 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для TDS-Soudal-Soudaflex-36FL.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:59:48,097 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для TDS-Soudal-Soudaflex-36FL.pdf...
+2026-06-11 15:59:53,275 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для TDS-Soudal-Soudaflex-36FL.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:59:53,275 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для TDS-Soudal-Soudaflex-36FL.pdf...
+2026-06-11 15:59:58,493 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для TDS-Soudal-Soudaflex-36FL.pdf (Попытка 3): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 15:59:58,494 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для TDS-Soudal-Soudaflex-36FL.pdf.
+2026-06-11 15:59:58,494 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 15:59:58,494 [INFO] TDS_Parser_RND: ✅ TDS-Soudal-Soudaflex-36FL.pdf | TDS-Soudal-Soudaflex-36FL | Shore: None | Elong: 900.0% | Skin: None мин
+2026-06-11 15:59:58,495 [INFO] TDS_Parser_RND: Обработка файла: chemitool_pu40.pdf
+2026-06-11 16:00:01,147 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для chemitool_pu40.pdf по полям: ['Skin_Time']
+2026-06-11 16:00:01,872 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для chemitool_pu40.pdf (Попытка 1): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:00:01,872 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для chemitool_pu40.pdf...
+2026-06-11 16:00:07,097 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для chemitool_pu40.pdf (Попытка 2): 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:00:07,097 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для chemitool_pu40.pdf...
+2026-06-11 16:00:26,114 [INFO] TDS_Parser_RND: ✅ OpenRouter API Fallback успешно активирован.
+2026-06-11 16:00:26,115 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 16:00:26,741 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 16:00:26,741 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 16:00:27,455 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 16:00:27,455 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 16:00:27,455 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 16:00:27,696 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 16:00:27,696 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 16:00:28,018 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:00:28,018 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:00:30,384 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для TDS-Soudal-Soudaflex-36FL.pdf по полям: ['Shore_A', 'Skin_Time']
+2026-06-11 16:00:30,959 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для TDS-Soudal-Soudaflex-36FL.pdf (Попытка 1): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:00:30,959 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для TDS-Soudal-Soudaflex-36FL.pdf...
+2026-06-11 16:00:36,571 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для TDS-Soudal-Soudaflex-36FL.pdf (Попытка 2): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:00:36,571 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для TDS-Soudal-Soudaflex-36FL.pdf...
+2026-06-11 16:00:42,171 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для TDS-Soudal-Soudaflex-36FL.pdf (Попытка 3): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:00:42,171 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для TDS-Soudal-Soudaflex-36FL.pdf.
+2026-06-11 16:00:42,172 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:00:42,172 [INFO] TDS_Parser_RND: ✅ TDS-Soudal-Soudaflex-36FL.pdf | TDS-Soudal-Soudaflex-36FL | Shore: None | Elong: 900.0% | Skin: None мин
+2026-06-11 16:00:42,172 [INFO] TDS_Parser_RND: Обработка файла: chemitool_pu40.pdf
+2026-06-11 16:00:44,852 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для chemitool_pu40.pdf по полям: ['Skin_Time']
+2026-06-11 16:00:45,800 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для chemitool_pu40.pdf (Попытка 1): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:00:45,800 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для chemitool_pu40.pdf...
+2026-06-11 16:00:51,403 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для chemitool_pu40.pdf (Попытка 2): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:00:51,403 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для chemitool_pu40.pdf...
+2026-06-11 16:00:56,989 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для chemitool_pu40.pdf (Попытка 3): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:00:56,989 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для chemitool_pu40.pdf.
+2026-06-11 16:00:56,990 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для chemitool_pu40.pdf
+2026-06-11 16:00:56,990 [INFO] TDS_Parser_RND: ✅ chemitool_pu40.pdf | Sealant and Adhesive | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 16:00:56,990 [INFO] TDS_Parser_RND: Обработка файла: tecnopol_mastic_pu.pdf
+2026-06-11 16:00:57,382 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 30~60 minutes
+2026-06-11 16:00:57,382 [INFO] TDS_Parser_RND: ✅ tecnopol_mastic_pu.pdf | tecnopol_mastic_pu | Shore: 37.5 | Elong: 600.0% | Skin: 45.0 мин
+2026-06-11 16:00:57,382 [INFO] TDS_Parser_RND: Обработка файла: 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 16:01:00,267 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для 89f6823564b5fb0d20f05830860f86c3.pdf по полям: ['Elongation']
+2026-06-11 16:01:00,916 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для 89f6823564b5fb0d20f05830860f86c3.pdf (Попытка 1): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:01:00,916 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для 89f6823564b5fb0d20f05830860f86c3.pdf...
+2026-06-11 16:01:06,620 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для 89f6823564b5fb0d20f05830860f86c3.pdf (Попытка 2): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:01:06,620 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для 89f6823564b5fb0d20f05830860f86c3.pdf...
+2026-06-11 16:01:12,212 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для 89f6823564b5fb0d20f05830860f86c3.pdf (Попытка 3): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:01:12,213 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для 89f6823564b5fb0d20f05830860f86c3.pdf.
+2026-06-11 16:01:12,214 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 16:01:12,215 [INFO] TDS_Parser_RND: ✅ 89f6823564b5fb0d20f05830860f86c3.pdf | Sikaflex® Construction+ | Shore: 28.0 | Elong: None% | Skin: 65.0 мин
+2026-06-11 16:01:12,215 [INFO] TDS_Parser_RND: Обработка файла: 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 16:01:14,435 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для 3M-540-Polyurethane-Sealant.pdf по полям: ['Skin_Time']
+2026-06-11 16:01:19,506 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для 3M-540-Polyurethane-Sealant.pdf (Попытка 1): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:01:19,507 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для 3M-540-Polyurethane-Sealant.pdf...
+2026-06-11 16:01:25,092 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для 3M-540-Polyurethane-Sealant.pdf (Попытка 2): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:01:25,092 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для 3M-540-Polyurethane-Sealant.pdf...
+2026-06-11 16:01:30,670 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для 3M-540-Polyurethane-Sealant.pdf (Попытка 3): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:01:30,670 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для 3M-540-Polyurethane-Sealant.pdf.
+2026-06-11 16:01:30,672 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 16:01:30,672 [INFO] TDS_Parser_RND: ✅ 3M-540-Polyurethane-Sealant.pdf | 3M 540 Polyurethane Sealant | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 16:01:30,672 [INFO] TDS_Parser_RND: Обработка файла: boss_pu25.pdf
+2026-06-11 16:01:30,972 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 45 min
+2026-06-11 16:01:30,972 [INFO] TDS_Parser_RND: ✅ boss_pu25.pdf | BOSS® PU 25 POLYURETHANE SEALANT | Shore: 35.0 | Elong: 850.0% | Skin: 45.0 мин
+2026-06-11 16:01:30,972 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_pl.pdf
+2026-06-11 16:01:33,166 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для novol_gravit630_pl.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:01:33,984 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для novol_gravit630_pl.pdf (Попытка 1): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:01:33,984 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для novol_gravit630_pl.pdf...
+2026-06-11 16:01:39,688 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для novol_gravit630_pl.pdf (Попытка 2): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:01:39,688 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для novol_gravit630_pl.pdf...
+2026-06-11 16:01:45,025 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для novol_gravit630_pl.pdf (Попытка 3): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:01:45,026 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для novol_gravit630_pl.pdf.
+2026-06-11 16:01:45,026 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для novol_gravit630_pl.pdf
+2026-06-11 16:01:45,026 [INFO] TDS_Parser_RND: ✅ novol_gravit630_pl.pdf | novol_gravit630_pl | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:01:45,026 [INFO] TDS_Parser_RND: Обработка файла: bauer_flexible_pu.pdf
+2026-06-11 16:01:47,281 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для bauer_flexible_pu.pdf по полям: ['Skin_Time']
+2026-06-11 16:01:47,648 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для bauer_flexible_pu.pdf (Попытка 1): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:01:47,648 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для bauer_flexible_pu.pdf...
+2026-06-11 16:01:52,992 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для bauer_flexible_pu.pdf (Попытка 2): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:01:52,992 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для bauer_flexible_pu.pdf...
+2026-06-11 16:01:58,337 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для bauer_flexible_pu.pdf (Попытка 3): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:01:58,337 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для bauer_flexible_pu.pdf.
+2026-06-11 16:01:58,338 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для bauer_flexible_pu.pdf
+2026-06-11 16:01:58,338 [WARNING] TDS_Parser_RND: [bauer_flexible_pu.pdf] Elongation (41.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 16:01:58,338 [INFO] TDS_Parser_RND: ✅ bauer_flexible_pu.pdf | FLEXIBLE PU SEALANT | Shore: 30.0 | Elong: None% | Skin: None мин
+2026-06-11 16:01:58,338 [INFO] TDS_Parser_RND: Обработка файла: loctite_pl.pdf
+2026-06-11 16:02:01,527 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для loctite_pl.pdf по полям: ['Shore_A']
+2026-06-11 16:02:02,274 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для loctite_pl.pdf (Попытка 1): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:02:02,274 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для loctite_pl.pdf...
+2026-06-11 16:02:07,944 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для loctite_pl.pdf (Попытка 2): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:02:07,945 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для loctite_pl.pdf...
+2026-06-11 16:02:13,478 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для loctite_pl.pdf (Попытка 3): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:02:13,478 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для loctite_pl.pdf.
+2026-06-11 16:02:13,480 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для loctite_pl.pdf
+2026-06-11 16:02:13,480 [INFO] TDS_Parser_RND: ✅ loctite_pl.pdf | Polyurethane Sealant | Shore: None | Elong: 412.0% | Skin: 24.0 мин
+2026-06-11 16:02:13,480 [INFO] TDS_Parser_RND: Обработка файла: vipro_pu2k.pdf
+2026-06-11 16:02:13,887 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 80
+2026-06-11 16:02:15,888 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для vipro_pu2k.pdf по полям: ['Skin_Time']
+2026-06-11 16:02:16,408 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для vipro_pu2k.pdf (Попытка 1): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:02:16,409 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для vipro_pu2k.pdf...
+2026-06-11 16:02:21,989 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для vipro_pu2k.pdf (Попытка 2): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:02:21,990 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для vipro_pu2k.pdf...
+2026-06-11 16:02:27,570 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для vipro_pu2k.pdf (Попытка 3): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:02:27,570 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для vipro_pu2k.pdf.
+2026-06-11 16:02:27,571 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для vipro_pu2k.pdf
+2026-06-11 16:02:27,571 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Shore_A (80.0) вне физических пределов [5 - 60]. Сброс.
+2026-06-11 16:02:27,571 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Elongation (15.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 16:02:27,572 [INFO] TDS_Parser_RND: ✅ vipro_pu2k.pdf | Vi-Pro® PU 2K POLYURETHANE ADHESIVE | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:02:27,572 [INFO] TDS_Parser_RND: Обработка файла: 3m-1k-general-purpose-polyurethane-sealer.pdf
+2026-06-11 16:02:28,007 [INFO] TDS_Parser_RND: ✅ 3m-1k-general-purpose-polyurethane-sealer.pdf | 3m-1k-general-purpose-polyurethane-sealer | Shore: 20.0 | Elong: 500.0% | Skin: 55.0 мин
+2026-06-11 16:02:28,007 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_ru.pdf
+2026-06-11 16:02:32,062 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для novol_gravit630_ru.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:02:32,669 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для novol_gravit630_ru.pdf (Попытка 1): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:02:32,669 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для novol_gravit630_ru.pdf...
+2026-06-11 16:02:38,563 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для novol_gravit630_ru.pdf (Попытка 2): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:02:38,564 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для novol_gravit630_ru.pdf...
+2026-06-11 16:02:43,973 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для novol_gravit630_ru.pdf (Попытка 3): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:02:43,973 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для novol_gravit630_ru.pdf.
+2026-06-11 16:02:43,974 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для novol_gravit630_ru.pdf
+2026-06-11 16:02:43,974 [INFO] TDS_Parser_RND: ✅ novol_gravit630_ru.pdf | novol_gravit630_ru | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:02:43,974 [INFO] TDS_Parser_RND: Обработка файла: fastcoat_pro_pu.pdf
+2026-06-11 16:02:46,512 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для fastcoat_pro_pu.pdf по полям: ['Skin_Time']
+2026-06-11 16:02:46,883 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для fastcoat_pro_pu.pdf (Попытка 1): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:02:46,883 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для fastcoat_pro_pu.pdf...
+2026-06-11 16:02:53,262 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для fastcoat_pro_pu.pdf (Попытка 2): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:02:53,262 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для fastcoat_pro_pu.pdf...
+2026-06-11 16:02:58,671 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для fastcoat_pro_pu.pdf (Попытка 3): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:02:58,672 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для fastcoat_pro_pu.pdf.
+2026-06-11 16:02:58,673 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для fastcoat_pro_pu.pdf
+2026-06-11 16:02:58,673 [INFO] TDS_Parser_RND: ✅ fastcoat_pro_pu.pdf | fastcoat_pro_pu | Shore: 22.0 | Elong: 250.0% | Skin: None мин
+2026-06-11 16:02:58,673 [INFO] TDS_Parser_RND: Обработка файла: TDS SANZ PU MASTER.pdf
+2026-06-11 16:02:59,944 [INFO] TDS_Parser_RND: ✅ TDS SANZ PU MASTER.pdf | TDS SANZ PU MASTER | Shore: 40.0 | Elong: 740.0% | Skin: 90.0 мин
+2026-06-11 16:02:59,945 [INFO] TDS_Parser_RND: Обработка файла: 915_tds.pdf
+2026-06-11 16:03:01,026 [WARNING] TDS_Parser_RND: [915_tds.pdf] Elongation (65.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 16:03:01,026 [WARNING] TDS_Parser_RND: [915_tds.pdf] Skin_Time (4.0) вне физических пределов [5 - 600]. Сброс.
+2026-06-11 16:03:01,027 [INFO] TDS_Parser_RND: ✅ 915_tds.pdf | POLYURETHANE SEALANT & ADHESIVE | Shore: 42.0 | Elong: None% | Skin: None мин
+2026-06-11 16:03:01,027 [INFO] TDS_Parser_RND: Обработка файла: rubber_fc40.pdf
+2026-06-11 16:03:03,482 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для rubber_fc40.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:03:04,272 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для rubber_fc40.pdf (Попытка 1): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:03:04,272 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для rubber_fc40.pdf...
+2026-06-11 16:03:09,801 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для rubber_fc40.pdf (Попытка 2): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:03:09,801 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для rubber_fc40.pdf...
+2026-06-11 16:03:15,390 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для rubber_fc40.pdf (Попытка 3): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:03:15,391 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для rubber_fc40.pdf.
+2026-06-11 16:03:15,391 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для rubber_fc40.pdf
+2026-06-11 16:03:15,391 [INFO] TDS_Parser_RND: ✅ rubber_fc40.pdf | FC40 Polyurethane Sealant Material Data Sheet | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:03:15,392 [INFO] TDS_Parser_RND: Обработка файла: quikrete_nonsag.pdf
+2026-06-11 16:03:17,393 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для quikrete_nonsag.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:03:17,950 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для quikrete_nonsag.pdf (Попытка 1): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:03:17,950 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для quikrete_nonsag.pdf...
+2026-06-11 16:03:23,526 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для quikrete_nonsag.pdf (Попытка 2): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:03:23,526 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для quikrete_nonsag.pdf...
+2026-06-11 16:03:29,052 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для quikrete_nonsag.pdf (Попытка 3): 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:03:29,052 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для quikrete_nonsag.pdf.
+2026-06-11 16:03:29,053 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для quikrete_nonsag.pdf
+2026-06-11 16:03:29,053 [INFO] TDS_Parser_RND: ✅ quikrete_nonsag.pdf | quikrete_nonsag | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:03:29,053 [INFO] TDS_Parser_RND: Обработка файла: mightyloc_6221.pdf
+2026-06-11 16:03:30,164 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 70 min.
+2026-06-11 16:03:30,165 [INFO] TDS_Parser_RND: ✅ mightyloc_6221.pdf | 6221 POLYURETHANE SEALANT | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:03:30,167 [INFO] TDS_Parser_RND: Пайплайны успешно завершены. Датасет собран.
+2026-06-11 16:09:22,093 [INFO] TDS_Parser_RND: ✅ OpenRouter API Fallback успешно активирован.
+2026-06-11 16:09:22,093 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 16:09:22,721 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 16:09:22,721 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 16:09:23,483 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 16:09:23,483 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 16:09:23,483 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 16:09:23,726 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 16:09:23,726 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 16:09:24,050 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:09:24,050 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:09:26,440 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для TDS-Soudal-Soudaflex-36FL.pdf по полям: ['Shore_A', 'Skin_Time']
+2026-06-11 16:09:46,463 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для TDS-Soudal-Soudaflex-36FL.pdf (Попытка 1): HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-11 16:09:46,464 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для TDS-Soudal-Soudaflex-36FL.pdf...
+2026-06-11 16:10:11,486 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для TDS-Soudal-Soudaflex-36FL.pdf (Попытка 2): HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-11 16:10:11,486 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для TDS-Soudal-Soudaflex-36FL.pdf...
+2026-06-11 16:10:36,508 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для TDS-Soudal-Soudaflex-36FL.pdf (Попытка 3): HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-11 16:10:36,508 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для TDS-Soudal-Soudaflex-36FL.pdf.
+2026-06-11 16:10:36,508 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:10:36,508 [INFO] TDS_Parser_RND: ✅ TDS-Soudal-Soudaflex-36FL.pdf | TDS-Soudal-Soudaflex-36FL | Shore: None | Elong: 900.0% | Skin: None мин
+2026-06-11 16:10:36,508 [INFO] TDS_Parser_RND: Обработка файла: chemitool_pu40.pdf
+2026-06-11 16:10:39,184 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для chemitool_pu40.pdf по полям: ['Skin_Time']
+2026-06-11 16:10:59,207 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для chemitool_pu40.pdf (Попытка 1): HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-11 16:10:59,207 [INFO] TDS_Parser_RND: Повторная попытка 2/3 для chemitool_pu40.pdf...
+2026-06-11 16:11:24,228 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для chemitool_pu40.pdf (Попытка 2): HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-11 16:11:24,228 [INFO] TDS_Parser_RND: Повторная попытка 3/3 для chemitool_pu40.pdf...
+2026-06-11 16:11:49,250 [WARNING] TDS_Parser_RND: Сетевая ошибка OpenRouter для chemitool_pu40.pdf (Попытка 3): HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-11 16:11:49,253 [ERROR] TDS_Parser_RND: ❌ Исчерпаны все попытки для chemitool_pu40.pdf.
+2026-06-11 16:11:49,253 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для chemitool_pu40.pdf
+2026-06-11 16:11:49,253 [INFO] TDS_Parser_RND: ✅ chemitool_pu40.pdf | Sealant and Adhesive | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 16:11:49,253 [INFO] TDS_Parser_RND: Обработка файла: tecnopol_mastic_pu.pdf
+2026-06-11 16:11:49,710 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 30~60 minutes
+2026-06-11 16:11:49,710 [INFO] TDS_Parser_RND: ✅ tecnopol_mastic_pu.pdf | tecnopol_mastic_pu | Shore: 37.5 | Elong: 600.0% | Skin: 45.0 мин
+2026-06-11 16:11:49,710 [INFO] TDS_Parser_RND: Обработка файла: 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 16:11:52,620 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для 89f6823564b5fb0d20f05830860f86c3.pdf по полям: ['Elongation']
+2026-06-11 16:12:28,089 [INFO] TDS_Parser_RND: ✅ OpenRouter API Fallback успешно активирован.
+2026-06-11 16:12:28,090 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 16:12:28,724 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 16:12:28,724 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 16:12:29,464 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 16:12:29,464 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 16:12:29,464 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 16:12:29,720 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 16:12:29,720 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 16:12:30,050 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:12:30,051 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:12:32,425 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для TDS-Soudal-Soudaflex-36FL.pdf по полям: ['Shore_A', 'Skin_Time']
+2026-06-11 16:12:52,450 [ERROR] TDS_Parser_RND: Сбой Groq API для TDS-Soudal-Soudaflex-36FL.pdf: HTTPSConnectionPool(host='api.groq.com', port=443): Max retries exceeded with url: /openai/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.groq.com', port=443): Failed to resolve 'api.groq.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-11 16:12:52,450 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:12:52,450 [INFO] TDS_Parser_RND: ✅ TDS-Soudal-Soudaflex-36FL.pdf | TDS-Soudal-Soudaflex-36FL | Shore: None | Elong: 900.0% | Skin: None мин
+2026-06-11 16:12:52,451 [INFO] TDS_Parser_RND: Обработка файла: chemitool_pu40.pdf
+2026-06-11 16:12:55,154 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для chemitool_pu40.pdf по полям: ['Skin_Time']
+2026-06-11 16:13:15,172 [ERROR] TDS_Parser_RND: Сбой Groq API для chemitool_pu40.pdf: HTTPSConnectionPool(host='api.groq.com', port=443): Max retries exceeded with url: /openai/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.groq.com', port=443): Failed to resolve 'api.groq.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-11 16:13:15,173 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для chemitool_pu40.pdf
+2026-06-11 16:13:15,173 [INFO] TDS_Parser_RND: ✅ chemitool_pu40.pdf | Sealant and Adhesive | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 16:13:15,173 [INFO] TDS_Parser_RND: Обработка файла: tecnopol_mastic_pu.pdf
+2026-06-11 16:13:15,561 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 30~60 minutes
+2026-06-11 16:13:15,561 [INFO] TDS_Parser_RND: ✅ tecnopol_mastic_pu.pdf | tecnopol_mastic_pu | Shore: 37.5 | Elong: 600.0% | Skin: 45.0 мин
+2026-06-11 16:13:15,561 [INFO] TDS_Parser_RND: Обработка файла: 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 16:13:18,398 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для 89f6823564b5fb0d20f05830860f86c3.pdf по полям: ['Elongation']
+2026-06-11 16:13:38,419 [ERROR] TDS_Parser_RND: Сбой Groq API для 89f6823564b5fb0d20f05830860f86c3.pdf: HTTPSConnectionPool(host='api.groq.com', port=443): Max retries exceeded with url: /openai/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.groq.com', port=443): Failed to resolve 'api.groq.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-11 16:13:38,420 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 16:13:38,420 [INFO] TDS_Parser_RND: ✅ 89f6823564b5fb0d20f05830860f86c3.pdf | Sikaflex® Construction+ | Shore: 28.0 | Elong: None% | Skin: 65.0 мин
+2026-06-11 16:13:38,420 [INFO] TDS_Parser_RND: Обработка файла: 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 16:15:11,806 [INFO] TDS_Parser_RND: ✅ Groq API Fallback успешно активирован.
+2026-06-11 16:15:11,807 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 16:15:12,445 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 16:15:12,445 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 16:15:13,165 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 16:15:13,165 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 16:15:13,165 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 16:15:13,405 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 16:15:13,406 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 16:15:13,730 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:15:13,730 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:15:16,116 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для TDS-Soudal-Soudaflex-36FL.pdf по полям: ['Shore_A', 'Skin_Time']
+2026-06-11 16:15:36,142 [ERROR] TDS_Parser_RND: Сбой Groq API для TDS-Soudal-Soudaflex-36FL.pdf: HTTPSConnectionPool(host='api.groq.com', port=443): Max retries exceeded with url: /openai/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.groq.com', port=443): Failed to resolve 'api.groq.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-11 16:15:36,142 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:15:36,142 [INFO] TDS_Parser_RND: ✅ TDS-Soudal-Soudaflex-36FL.pdf | TDS-Soudal-Soudaflex-36FL | Shore: None | Elong: 900.0% | Skin: None мин
+2026-06-11 16:15:36,142 [INFO] TDS_Parser_RND: Обработка файла: chemitool_pu40.pdf
+2026-06-11 16:15:38,801 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для chemitool_pu40.pdf по полям: ['Skin_Time']
+2026-06-11 16:15:58,823 [ERROR] TDS_Parser_RND: Сбой Groq API для chemitool_pu40.pdf: HTTPSConnectionPool(host='api.groq.com', port=443): Max retries exceeded with url: /openai/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.groq.com', port=443): Failed to resolve 'api.groq.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-11 16:15:58,823 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для chemitool_pu40.pdf
+2026-06-11 16:15:58,823 [INFO] TDS_Parser_RND: ✅ chemitool_pu40.pdf | Sealant and Adhesive | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 16:15:58,823 [INFO] TDS_Parser_RND: Обработка файла: tecnopol_mastic_pu.pdf
+2026-06-11 16:15:59,199 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 30~60 minutes
+2026-06-11 16:15:59,200 [INFO] TDS_Parser_RND: ✅ tecnopol_mastic_pu.pdf | tecnopol_mastic_pu | Shore: 37.5 | Elong: 600.0% | Skin: 45.0 мин
+2026-06-11 16:15:59,200 [INFO] TDS_Parser_RND: Обработка файла: 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 16:16:02,037 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для 89f6823564b5fb0d20f05830860f86c3.pdf по полям: ['Elongation']
+2026-06-11 16:16:22,058 [ERROR] TDS_Parser_RND: Сбой Groq API для 89f6823564b5fb0d20f05830860f86c3.pdf: HTTPSConnectionPool(host='api.groq.com', port=443): Max retries exceeded with url: /openai/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.groq.com', port=443): Failed to resolve 'api.groq.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-11 16:16:22,058 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 16:16:22,058 [INFO] TDS_Parser_RND: ✅ 89f6823564b5fb0d20f05830860f86c3.pdf | Sikaflex® Construction+ | Shore: 28.0 | Elong: None% | Skin: 65.0 мин
+2026-06-11 16:16:22,058 [INFO] TDS_Parser_RND: Обработка файла: 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 16:16:24,276 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для 3M-540-Polyurethane-Sealant.pdf по полям: ['Skin_Time']
+2026-06-11 16:19:49,196 [INFO] TDS_Parser_RND: ✅ Groq API Fallback успешно активирован.
+2026-06-11 16:19:49,198 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 16:19:49,809 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 16:19:49,810 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 16:19:50,535 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 16:19:50,535 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 16:19:50,535 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 16:19:50,775 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 16:19:50,775 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 16:19:51,103 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:19:51,103 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:19:53,470 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для TDS-Soudal-Soudaflex-36FL.pdf по полям: ['Shore_A', 'Skin_Time']
+2026-06-11 16:19:53,686 [ERROR] TDS_Parser_RND: Сбой Groq API для TDS-Soudal-Soudaflex-36FL.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:19:53,687 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:19:53,687 [INFO] TDS_Parser_RND: ✅ TDS-Soudal-Soudaflex-36FL.pdf | TDS-Soudal-Soudaflex-36FL | Shore: None | Elong: 900.0% | Skin: None мин
+2026-06-11 16:19:53,687 [INFO] TDS_Parser_RND: Обработка файла: chemitool_pu40.pdf
+2026-06-11 16:19:56,373 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для chemitool_pu40.pdf по полям: ['Skin_Time']
+2026-06-11 16:19:56,541 [ERROR] TDS_Parser_RND: Сбой Groq API для chemitool_pu40.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:19:56,542 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для chemitool_pu40.pdf
+2026-06-11 16:19:56,542 [INFO] TDS_Parser_RND: ✅ chemitool_pu40.pdf | Sealant and Adhesive | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 16:19:56,542 [INFO] TDS_Parser_RND: Обработка файла: tecnopol_mastic_pu.pdf
+2026-06-11 16:19:56,917 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 30~60 minutes
+2026-06-11 16:19:56,917 [INFO] TDS_Parser_RND: ✅ tecnopol_mastic_pu.pdf | tecnopol_mastic_pu | Shore: 37.5 | Elong: 600.0% | Skin: 45.0 мин
+2026-06-11 16:19:56,917 [INFO] TDS_Parser_RND: Обработка файла: 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 16:19:59,735 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для 89f6823564b5fb0d20f05830860f86c3.pdf по полям: ['Elongation']
+2026-06-11 16:20:14,874 [ERROR] TDS_Parser_RND: Сбой Groq API для 89f6823564b5fb0d20f05830860f86c3.pdf: HTTPSConnectionPool(host='api.groq.com', port=443): Read timed out. (read timeout=15)
+2026-06-11 16:20:14,874 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 16:20:14,874 [INFO] TDS_Parser_RND: ✅ 89f6823564b5fb0d20f05830860f86c3.pdf | Sikaflex® Construction+ | Shore: 28.0 | Elong: None% | Skin: 65.0 мин
+2026-06-11 16:20:14,874 [INFO] TDS_Parser_RND: Обработка файла: 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 16:20:17,092 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для 3M-540-Polyurethane-Sealant.pdf по полям: ['Skin_Time']
+2026-06-11 16:20:17,283 [ERROR] TDS_Parser_RND: Сбой Groq API для 3M-540-Polyurethane-Sealant.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:20:17,284 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 16:20:17,285 [INFO] TDS_Parser_RND: ✅ 3M-540-Polyurethane-Sealant.pdf | 3M 540 Polyurethane Sealant | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 16:20:17,285 [INFO] TDS_Parser_RND: Обработка файла: boss_pu25.pdf
+2026-06-11 16:20:17,569 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 45 min
+2026-06-11 16:20:17,569 [INFO] TDS_Parser_RND: ✅ boss_pu25.pdf | BOSS® PU 25 POLYURETHANE SEALANT | Shore: 35.0 | Elong: 850.0% | Skin: 45.0 мин
+2026-06-11 16:20:17,569 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_pl.pdf
+2026-06-11 16:20:19,747 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для novol_gravit630_pl.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:20:19,926 [ERROR] TDS_Parser_RND: Сбой Groq API для novol_gravit630_pl.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:20:19,927 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для novol_gravit630_pl.pdf
+2026-06-11 16:20:19,927 [INFO] TDS_Parser_RND: ✅ novol_gravit630_pl.pdf | novol_gravit630_pl | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:20:19,928 [INFO] TDS_Parser_RND: Обработка файла: bauer_flexible_pu.pdf
+2026-06-11 16:20:22,186 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для bauer_flexible_pu.pdf по полям: ['Skin_Time']
+2026-06-11 16:20:22,588 [ERROR] TDS_Parser_RND: Сбой Groq API для bauer_flexible_pu.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:20:22,588 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для bauer_flexible_pu.pdf
+2026-06-11 16:20:22,589 [WARNING] TDS_Parser_RND: [bauer_flexible_pu.pdf] Elongation (41.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 16:20:22,589 [INFO] TDS_Parser_RND: ✅ bauer_flexible_pu.pdf | FLEXIBLE PU SEALANT | Shore: 30.0 | Elong: None% | Skin: None мин
+2026-06-11 16:20:22,589 [INFO] TDS_Parser_RND: Обработка файла: loctite_pl.pdf
+2026-06-11 16:20:25,704 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для loctite_pl.pdf по полям: ['Shore_A']
+2026-06-11 16:20:25,924 [ERROR] TDS_Parser_RND: Сбой Groq API для loctite_pl.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:20:25,926 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для loctite_pl.pdf
+2026-06-11 16:20:25,926 [INFO] TDS_Parser_RND: ✅ loctite_pl.pdf | Polyurethane Sealant | Shore: None | Elong: 412.0% | Skin: 24.0 мин
+2026-06-11 16:20:25,926 [INFO] TDS_Parser_RND: Обработка файла: vipro_pu2k.pdf
+2026-06-11 16:20:26,297 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 80
+2026-06-11 16:20:28,297 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для vipro_pu2k.pdf по полям: ['Skin_Time']
+2026-06-11 16:20:28,605 [ERROR] TDS_Parser_RND: Сбой Groq API для vipro_pu2k.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:20:28,606 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для vipro_pu2k.pdf
+2026-06-11 16:20:28,606 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Shore_A (80.0) вне физических пределов [5 - 60]. Сброс.
+2026-06-11 16:20:28,606 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Elongation (15.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 16:20:28,606 [INFO] TDS_Parser_RND: ✅ vipro_pu2k.pdf | Vi-Pro® PU 2K POLYURETHANE ADHESIVE | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:20:28,606 [INFO] TDS_Parser_RND: Обработка файла: 3m-1k-general-purpose-polyurethane-sealer.pdf
+2026-06-11 16:20:29,056 [INFO] TDS_Parser_RND: ✅ 3m-1k-general-purpose-polyurethane-sealer.pdf | 3m-1k-general-purpose-polyurethane-sealer | Shore: 20.0 | Elong: 500.0% | Skin: 55.0 мин
+2026-06-11 16:20:29,056 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_ru.pdf
+2026-06-11 16:20:33,112 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для novol_gravit630_ru.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:20:33,526 [ERROR] TDS_Parser_RND: Сбой Groq API для novol_gravit630_ru.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:20:33,527 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для novol_gravit630_ru.pdf
+2026-06-11 16:20:33,527 [INFO] TDS_Parser_RND: ✅ novol_gravit630_ru.pdf | novol_gravit630_ru | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:20:33,527 [INFO] TDS_Parser_RND: Обработка файла: fastcoat_pro_pu.pdf
+2026-06-11 16:20:36,048 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для fastcoat_pro_pu.pdf по полям: ['Skin_Time']
+2026-06-11 16:20:36,239 [ERROR] TDS_Parser_RND: Сбой Groq API для fastcoat_pro_pu.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:20:36,240 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для fastcoat_pro_pu.pdf
+2026-06-11 16:20:36,240 [INFO] TDS_Parser_RND: ✅ fastcoat_pro_pu.pdf | fastcoat_pro_pu | Shore: 22.0 | Elong: 250.0% | Skin: None мин
+2026-06-11 16:20:36,240 [INFO] TDS_Parser_RND: Обработка файла: TDS SANZ PU MASTER.pdf
+2026-06-11 16:20:37,427 [INFO] TDS_Parser_RND: ✅ TDS SANZ PU MASTER.pdf | TDS SANZ PU MASTER | Shore: 40.0 | Elong: 740.0% | Skin: 90.0 мин
+2026-06-11 16:20:37,427 [INFO] TDS_Parser_RND: Обработка файла: 915_tds.pdf
+2026-06-11 16:20:38,358 [WARNING] TDS_Parser_RND: [915_tds.pdf] Elongation (65.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 16:20:38,358 [WARNING] TDS_Parser_RND: [915_tds.pdf] Skin_Time (4.0) вне физических пределов [5 - 600]. Сброс.
+2026-06-11 16:20:38,358 [INFO] TDS_Parser_RND: ✅ 915_tds.pdf | POLYURETHANE SEALANT & ADHESIVE | Shore: 42.0 | Elong: None% | Skin: None мин
+2026-06-11 16:20:38,358 [INFO] TDS_Parser_RND: Обработка файла: rubber_fc40.pdf
+2026-06-11 16:20:40,772 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для rubber_fc40.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:20:40,989 [ERROR] TDS_Parser_RND: Сбой Groq API для rubber_fc40.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:20:40,990 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для rubber_fc40.pdf
+2026-06-11 16:20:40,990 [INFO] TDS_Parser_RND: ✅ rubber_fc40.pdf | FC40 Polyurethane Sealant Material Data Sheet | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:20:40,990 [INFO] TDS_Parser_RND: Обработка файла: quikrete_nonsag.pdf
+2026-06-11 16:20:42,996 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для quikrete_nonsag.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:20:43,171 [ERROR] TDS_Parser_RND: Сбой Groq API для quikrete_nonsag.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:20:43,172 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для quikrete_nonsag.pdf
+2026-06-11 16:20:43,172 [INFO] TDS_Parser_RND: ✅ quikrete_nonsag.pdf | quikrete_nonsag | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:20:43,172 [INFO] TDS_Parser_RND: Обработка файла: mightyloc_6221.pdf
+2026-06-11 16:20:44,310 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 70 min.
+2026-06-11 16:20:44,311 [INFO] TDS_Parser_RND: ✅ mightyloc_6221.pdf | 6221 POLYURETHANE SEALANT | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:20:44,316 [INFO] TDS_Parser_RND: Пайплайны успешно завершены. Датасет собран.
+2026-06-11 16:23:16,146 [INFO] TDS_Parser_RND: ✅ Groq API Fallback успешно активирован.
+2026-06-11 16:23:16,147 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 16:23:16,756 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 16:23:16,756 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 16:23:17,453 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 16:23:17,453 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 16:23:17,453 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 16:23:17,700 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 16:23:17,700 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 16:23:18,018 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:23:18,018 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:23:20,376 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для TDS-Soudal-Soudaflex-36FL.pdf по полям: ['Shore_A', 'Skin_Time']
+2026-06-11 16:23:20,523 [ERROR] TDS_Parser_RND: Сбой Groq API для TDS-Soudal-Soudaflex-36FL.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:23:20,524 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:23:20,524 [INFO] TDS_Parser_RND: ✅ TDS-Soudal-Soudaflex-36FL.pdf | TDS-Soudal-Soudaflex-36FL | Shore: None | Elong: 900.0% | Skin: None мин
+2026-06-11 16:23:20,524 [INFO] TDS_Parser_RND: Обработка файла: chemitool_pu40.pdf
+2026-06-11 16:23:23,182 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для chemitool_pu40.pdf по полям: ['Skin_Time']
+2026-06-11 16:23:38,334 [ERROR] TDS_Parser_RND: Сбой Groq API для chemitool_pu40.pdf: HTTPSConnectionPool(host='api.groq.com', port=443): Read timed out. (read timeout=15)
+2026-06-11 16:23:38,334 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для chemitool_pu40.pdf
+2026-06-11 16:23:38,334 [INFO] TDS_Parser_RND: ✅ chemitool_pu40.pdf | Sealant and Adhesive | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 16:23:38,334 [INFO] TDS_Parser_RND: Обработка файла: tecnopol_mastic_pu.pdf
+2026-06-11 16:23:38,701 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 30~60 minutes
+2026-06-11 16:23:38,701 [INFO] TDS_Parser_RND: ✅ tecnopol_mastic_pu.pdf | tecnopol_mastic_pu | Shore: 37.5 | Elong: 600.0% | Skin: 45.0 мин
+2026-06-11 16:23:38,701 [INFO] TDS_Parser_RND: Обработка файла: 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 16:23:41,490 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для 89f6823564b5fb0d20f05830860f86c3.pdf по полям: ['Elongation']
+2026-06-11 16:23:56,702 [ERROR] TDS_Parser_RND: Сбой Groq API для 89f6823564b5fb0d20f05830860f86c3.pdf: HTTPSConnectionPool(host='api.groq.com', port=443): Read timed out. (read timeout=15)
+2026-06-11 16:23:56,702 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 16:23:56,702 [INFO] TDS_Parser_RND: ✅ 89f6823564b5fb0d20f05830860f86c3.pdf | Sikaflex® Construction+ | Shore: 28.0 | Elong: None% | Skin: 65.0 мин
+2026-06-11 16:23:56,702 [INFO] TDS_Parser_RND: Обработка файла: 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 16:23:58,930 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для 3M-540-Polyurethane-Sealant.pdf по полям: ['Skin_Time']
+2026-06-11 16:23:59,149 [ERROR] TDS_Parser_RND: Сбой Groq API для 3M-540-Polyurethane-Sealant.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:23:59,150 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 16:23:59,150 [INFO] TDS_Parser_RND: ✅ 3M-540-Polyurethane-Sealant.pdf | 3M 540 Polyurethane Sealant | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 16:23:59,150 [INFO] TDS_Parser_RND: Обработка файла: boss_pu25.pdf
+2026-06-11 16:23:59,457 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 45 min
+2026-06-11 16:23:59,457 [INFO] TDS_Parser_RND: ✅ boss_pu25.pdf | BOSS® PU 25 POLYURETHANE SEALANT | Shore: 35.0 | Elong: 850.0% | Skin: 45.0 мин
+2026-06-11 16:23:59,457 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_pl.pdf
+2026-06-11 16:24:01,646 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для novol_gravit630_pl.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:24:01,846 [ERROR] TDS_Parser_RND: Сбой Groq API для novol_gravit630_pl.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:24:01,846 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для novol_gravit630_pl.pdf
+2026-06-11 16:24:01,846 [INFO] TDS_Parser_RND: ✅ novol_gravit630_pl.pdf | novol_gravit630_pl | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:24:01,847 [INFO] TDS_Parser_RND: Обработка файла: bauer_flexible_pu.pdf
+2026-06-11 16:24:04,089 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для bauer_flexible_pu.pdf по полям: ['Skin_Time']
+2026-06-11 16:24:04,271 [ERROR] TDS_Parser_RND: Сбой Groq API для bauer_flexible_pu.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:24:04,272 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для bauer_flexible_pu.pdf
+2026-06-11 16:24:04,272 [WARNING] TDS_Parser_RND: [bauer_flexible_pu.pdf] Elongation (41.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 16:24:04,272 [INFO] TDS_Parser_RND: ✅ bauer_flexible_pu.pdf | FLEXIBLE PU SEALANT | Shore: 30.0 | Elong: None% | Skin: None мин
+2026-06-11 16:24:04,272 [INFO] TDS_Parser_RND: Обработка файла: loctite_pl.pdf
+2026-06-11 16:24:07,361 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для loctite_pl.pdf по полям: ['Shore_A']
+2026-06-11 16:24:07,656 [ERROR] TDS_Parser_RND: Сбой Groq API для loctite_pl.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:24:07,657 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для loctite_pl.pdf
+2026-06-11 16:24:07,657 [INFO] TDS_Parser_RND: ✅ loctite_pl.pdf | Polyurethane Sealant | Shore: None | Elong: 412.0% | Skin: 24.0 мин
+2026-06-11 16:24:07,657 [INFO] TDS_Parser_RND: Обработка файла: vipro_pu2k.pdf
+2026-06-11 16:24:08,022 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 80
+2026-06-11 16:24:10,023 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для vipro_pu2k.pdf по полям: ['Skin_Time']
+2026-06-11 16:24:10,181 [ERROR] TDS_Parser_RND: Сбой Groq API для vipro_pu2k.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:24:10,182 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для vipro_pu2k.pdf
+2026-06-11 16:24:10,183 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Shore_A (80.0) вне физических пределов [5 - 60]. Сброс.
+2026-06-11 16:24:10,183 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Elongation (15.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 16:24:10,183 [INFO] TDS_Parser_RND: ✅ vipro_pu2k.pdf | Vi-Pro® PU 2K POLYURETHANE ADHESIVE | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:24:10,183 [INFO] TDS_Parser_RND: Обработка файла: 3m-1k-general-purpose-polyurethane-sealer.pdf
+2026-06-11 16:24:10,613 [INFO] TDS_Parser_RND: ✅ 3m-1k-general-purpose-polyurethane-sealer.pdf | 3m-1k-general-purpose-polyurethane-sealer | Shore: 20.0 | Elong: 500.0% | Skin: 55.0 мин
+2026-06-11 16:24:10,614 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_ru.pdf
+2026-06-11 16:24:14,646 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для novol_gravit630_ru.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:24:14,789 [ERROR] TDS_Parser_RND: Сбой Groq API для novol_gravit630_ru.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:24:14,790 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для novol_gravit630_ru.pdf
+2026-06-11 16:24:14,790 [INFO] TDS_Parser_RND: ✅ novol_gravit630_ru.pdf | novol_gravit630_ru | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:24:14,790 [INFO] TDS_Parser_RND: Обработка файла: fastcoat_pro_pu.pdf
+2026-06-11 16:24:17,288 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для fastcoat_pro_pu.pdf по полям: ['Skin_Time']
+2026-06-11 16:24:17,435 [ERROR] TDS_Parser_RND: Сбой Groq API для fastcoat_pro_pu.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:24:17,436 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для fastcoat_pro_pu.pdf
+2026-06-11 16:24:17,436 [INFO] TDS_Parser_RND: ✅ fastcoat_pro_pu.pdf | fastcoat_pro_pu | Shore: 22.0 | Elong: 250.0% | Skin: None мин
+2026-06-11 16:24:17,437 [INFO] TDS_Parser_RND: Обработка файла: TDS SANZ PU MASTER.pdf
+2026-06-11 16:24:18,599 [INFO] TDS_Parser_RND: ✅ TDS SANZ PU MASTER.pdf | TDS SANZ PU MASTER | Shore: 40.0 | Elong: 740.0% | Skin: 90.0 мин
+2026-06-11 16:24:18,599 [INFO] TDS_Parser_RND: Обработка файла: 915_tds.pdf
+2026-06-11 16:24:19,503 [WARNING] TDS_Parser_RND: [915_tds.pdf] Elongation (65.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 16:24:19,503 [WARNING] TDS_Parser_RND: [915_tds.pdf] Skin_Time (4.0) вне физических пределов [5 - 600]. Сброс.
+2026-06-11 16:24:19,503 [INFO] TDS_Parser_RND: ✅ 915_tds.pdf | POLYURETHANE SEALANT & ADHESIVE | Shore: 42.0 | Elong: None% | Skin: None мин
+2026-06-11 16:24:19,503 [INFO] TDS_Parser_RND: Обработка файла: rubber_fc40.pdf
+2026-06-11 16:24:21,883 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для rubber_fc40.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:24:22,073 [ERROR] TDS_Parser_RND: Сбой Groq API для rubber_fc40.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:24:22,074 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для rubber_fc40.pdf
+2026-06-11 16:24:22,074 [INFO] TDS_Parser_RND: ✅ rubber_fc40.pdf | FC40 Polyurethane Sealant Material Data Sheet | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:24:22,075 [INFO] TDS_Parser_RND: Обработка файла: quikrete_nonsag.pdf
+2026-06-11 16:24:24,077 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для quikrete_nonsag.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:24:24,222 [ERROR] TDS_Parser_RND: Сбой Groq API для quikrete_nonsag.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:24:24,224 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для quikrete_nonsag.pdf
+2026-06-11 16:24:24,224 [INFO] TDS_Parser_RND: ✅ quikrete_nonsag.pdf | quikrete_nonsag | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:24:24,224 [INFO] TDS_Parser_RND: Обработка файла: mightyloc_6221.pdf
+2026-06-11 16:24:25,330 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 70 min.
+2026-06-11 16:24:25,330 [INFO] TDS_Parser_RND: ✅ mightyloc_6221.pdf | 6221 POLYURETHANE SEALANT | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:24:25,333 [INFO] TDS_Parser_RND: Пайплайны успешно завершены. Датасет собран.
+2026-06-11 16:29:13,576 [INFO] TDS_Parser_RND: ✅ Groq API Fallback успешно активирован.
+2026-06-11 16:29:13,576 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 16:29:14,262 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 16:29:14,262 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 16:29:15,044 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 16:29:15,044 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 16:29:15,044 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 16:29:15,320 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 16:29:15,320 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 16:29:15,666 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:29:15,666 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:29:18,064 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для TDS-Soudal-Soudaflex-36FL.pdf по полям: ['Shore_A', 'Skin_Time']
+2026-06-11 16:29:38,087 [ERROR] TDS_Parser_RND: Сбой Groq API для TDS-Soudal-Soudaflex-36FL.pdf: HTTPSConnectionPool(host='api.groq.com', port=443): Max retries exceeded with url: /openai/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.groq.com', port=443): Failed to resolve 'api.groq.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-06-11 16:29:38,087 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:29:38,088 [INFO] TDS_Parser_RND: ✅ TDS-Soudal-Soudaflex-36FL.pdf | TDS-Soudal-Soudaflex-36FL | Shore: None | Elong: 900.0% | Skin: None мин
+2026-06-11 16:29:38,088 [INFO] TDS_Parser_RND: Обработка файла: chemitool_pu40.pdf
+2026-06-11 16:29:40,788 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для chemitool_pu40.pdf по полям: ['Skin_Time']
+2026-06-11 16:29:41,572 [ERROR] TDS_Parser_RND: Сбой Groq API для chemitool_pu40.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:29:41,573 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для chemitool_pu40.pdf
+2026-06-11 16:29:41,574 [INFO] TDS_Parser_RND: ✅ chemitool_pu40.pdf | Sealant and Adhesive | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 16:29:41,574 [INFO] TDS_Parser_RND: Обработка файла: tecnopol_mastic_pu.pdf
+2026-06-11 16:29:41,945 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 30~60 minutes
+2026-06-11 16:29:41,945 [INFO] TDS_Parser_RND: ✅ tecnopol_mastic_pu.pdf | tecnopol_mastic_pu | Shore: 37.5 | Elong: 600.0% | Skin: 45.0 мин
+2026-06-11 16:29:41,945 [INFO] TDS_Parser_RND: Обработка файла: 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 16:29:44,717 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для 89f6823564b5fb0d20f05830860f86c3.pdf по полям: ['Elongation']
+2026-06-11 16:30:00,404 [ERROR] TDS_Parser_RND: Сбой Groq API для 89f6823564b5fb0d20f05830860f86c3.pdf: HTTPSConnectionPool(host='api.groq.com', port=443): Read timed out. (read timeout=15)
+2026-06-11 16:30:00,404 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 16:30:00,404 [INFO] TDS_Parser_RND: ✅ 89f6823564b5fb0d20f05830860f86c3.pdf | Sikaflex® Construction+ | Shore: 28.0 | Elong: None% | Skin: 65.0 мин
+2026-06-11 16:30:00,405 [INFO] TDS_Parser_RND: Обработка файла: 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 16:30:02,636 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для 3M-540-Polyurethane-Sealant.pdf по полям: ['Skin_Time']
+2026-06-11 16:30:03,312 [ERROR] TDS_Parser_RND: Сбой Groq API для 3M-540-Polyurethane-Sealant.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:30:03,314 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 16:30:03,314 [INFO] TDS_Parser_RND: ✅ 3M-540-Polyurethane-Sealant.pdf | 3M 540 Polyurethane Sealant | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 16:30:03,314 [INFO] TDS_Parser_RND: Обработка файла: boss_pu25.pdf
+2026-06-11 16:30:03,600 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 45 min
+2026-06-11 16:30:03,600 [INFO] TDS_Parser_RND: ✅ boss_pu25.pdf | BOSS® PU 25 POLYURETHANE SEALANT | Shore: 35.0 | Elong: 850.0% | Skin: 45.0 мин
+2026-06-11 16:30:03,600 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_pl.pdf
+2026-06-11 16:30:05,788 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для novol_gravit630_pl.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:30:06,385 [ERROR] TDS_Parser_RND: Сбой Groq API для novol_gravit630_pl.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:30:06,387 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для novol_gravit630_pl.pdf
+2026-06-11 16:30:06,387 [INFO] TDS_Parser_RND: ✅ novol_gravit630_pl.pdf | novol_gravit630_pl | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:30:06,387 [INFO] TDS_Parser_RND: Обработка файла: bauer_flexible_pu.pdf
+2026-06-11 16:30:08,627 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для bauer_flexible_pu.pdf по полям: ['Skin_Time']
+2026-06-11 16:30:08,860 [ERROR] TDS_Parser_RND: Сбой Groq API для bauer_flexible_pu.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:30:08,861 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для bauer_flexible_pu.pdf
+2026-06-11 16:30:08,861 [WARNING] TDS_Parser_RND: [bauer_flexible_pu.pdf] Elongation (41.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 16:30:08,861 [INFO] TDS_Parser_RND: ✅ bauer_flexible_pu.pdf | FLEXIBLE PU SEALANT | Shore: 30.0 | Elong: None% | Skin: None мин
+2026-06-11 16:30:08,861 [INFO] TDS_Parser_RND: Обработка файла: loctite_pl.pdf
+2026-06-11 16:30:11,963 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для loctite_pl.pdf по полям: ['Shore_A']
+2026-06-11 16:30:12,188 [ERROR] TDS_Parser_RND: Сбой Groq API для loctite_pl.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:30:12,189 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для loctite_pl.pdf
+2026-06-11 16:30:12,189 [INFO] TDS_Parser_RND: ✅ loctite_pl.pdf | Polyurethane Sealant | Shore: None | Elong: 412.0% | Skin: 24.0 мин
+2026-06-11 16:30:12,189 [INFO] TDS_Parser_RND: Обработка файла: vipro_pu2k.pdf
+2026-06-11 16:30:12,560 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 80
+2026-06-11 16:30:14,561 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для vipro_pu2k.pdf по полям: ['Skin_Time']
+2026-06-11 16:30:14,835 [ERROR] TDS_Parser_RND: Сбой Groq API для vipro_pu2k.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:30:14,836 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для vipro_pu2k.pdf
+2026-06-11 16:30:14,836 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Shore_A (80.0) вне физических пределов [5 - 60]. Сброс.
+2026-06-11 16:30:14,836 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Elongation (15.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 16:30:14,836 [INFO] TDS_Parser_RND: ✅ vipro_pu2k.pdf | Vi-Pro® PU 2K POLYURETHANE ADHESIVE | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:30:14,836 [INFO] TDS_Parser_RND: Обработка файла: 3m-1k-general-purpose-polyurethane-sealer.pdf
+2026-06-11 16:30:15,307 [INFO] TDS_Parser_RND: ✅ 3m-1k-general-purpose-polyurethane-sealer.pdf | 3m-1k-general-purpose-polyurethane-sealer | Shore: 20.0 | Elong: 500.0% | Skin: 55.0 мин
+2026-06-11 16:30:15,307 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_ru.pdf
+2026-06-11 16:30:19,367 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для novol_gravit630_ru.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:30:19,584 [ERROR] TDS_Parser_RND: Сбой Groq API для novol_gravit630_ru.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:30:19,586 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для novol_gravit630_ru.pdf
+2026-06-11 16:30:19,586 [INFO] TDS_Parser_RND: ✅ novol_gravit630_ru.pdf | novol_gravit630_ru | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:30:19,586 [INFO] TDS_Parser_RND: Обработка файла: fastcoat_pro_pu.pdf
+2026-06-11 16:30:22,096 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для fastcoat_pro_pu.pdf по полям: ['Skin_Time']
+2026-06-11 16:30:22,451 [ERROR] TDS_Parser_RND: Сбой Groq API для fastcoat_pro_pu.pdf: 403 Client Error: Forbidden for url: https://api.groq.com/openai/v1/chat/completions
+2026-06-11 16:30:22,453 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для fastcoat_pro_pu.pdf
+2026-06-11 16:30:22,453 [INFO] TDS_Parser_RND: ✅ fastcoat_pro_pu.pdf | fastcoat_pro_pu | Shore: 22.0 | Elong: 250.0% | Skin: None мин
+2026-06-11 16:30:22,453 [INFO] TDS_Parser_RND: Обработка файла: TDS SANZ PU MASTER.pdf
+2026-06-11 16:30:23,637 [INFO] TDS_Parser_RND: ✅ TDS SANZ PU MASTER.pdf | TDS SANZ PU MASTER | Shore: 40.0 | Elong: 740.0% | Skin: 90.0 мин
+2026-06-11 16:30:23,637 [INFO] TDS_Parser_RND: Обработка файла: 915_tds.pdf
+2026-06-11 16:32:34,888 [INFO] TDS_Parser_RND: ✅ OpenRouter API Fallback успешно активирован.
+2026-06-11 16:32:34,889 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 16:32:35,506 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 16:32:35,506 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 16:32:36,214 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 16:32:36,215 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 16:32:36,215 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 16:32:36,461 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 16:32:36,461 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 16:32:36,771 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:32:36,771 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:34:03,750 [INFO] TDS_Parser_RND: ✅ OpenRouter API Fallback успешно активирован.
+2026-06-11 16:34:03,750 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 16:34:04,368 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 16:34:04,368 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 16:34:05,131 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 16:34:05,131 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 16:34:05,131 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 16:34:05,391 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 16:34:05,391 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 16:34:05,721 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:34:05,721 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:34:40,214 [INFO] TDS_Parser_RND: ✅ OpenRouter API Fallback успешно активирован.
+2026-06-11 16:34:40,214 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 16:34:40,817 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 16:34:40,818 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 16:34:41,521 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 16:34:41,521 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 16:34:41,521 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 16:34:41,760 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 16:34:41,760 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 16:34:42,067 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:34:42,067 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:36:13,260 [INFO] TDS_Parser_RND: ✅ OpenRouter API Fallback успешно активирован.
+2026-06-11 16:36:13,260 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 16:36:13,888 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 16:36:13,888 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 16:36:14,596 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 16:36:14,596 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 16:36:14,596 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 16:36:14,830 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 16:36:14,830 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 16:36:15,139 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:36:15,139 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:36:17,499 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для TDS-Soudal-Soudaflex-36FL.pdf по полям: ['Shore_A', 'Skin_Time']
+2026-06-11 16:36:18,271 [ERROR] TDS_Parser_RND: Ошибка доступа Openrouter API для TDS-Soudal-Soudaflex-36FL.pdf: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions. Проверьте валидность ключа и лимиты.
+2026-06-11 16:36:18,273 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:36:18,273 [INFO] TDS_Parser_RND: ✅ TDS-Soudal-Soudaflex-36FL.pdf | TDS-Soudal-Soudaflex-36FL | Shore: None | Elong: 900.0% | Skin: None мин
+2026-06-11 16:36:18,273 [INFO] TDS_Parser_RND: Обработка файла: chemitool_pu40.pdf
+2026-06-11 16:36:20,917 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для chemitool_pu40.pdf по полям: ['Skin_Time']
+2026-06-11 16:36:21,482 [ERROR] TDS_Parser_RND: Ошибка доступа Openrouter API для chemitool_pu40.pdf: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions. Проверьте валидность ключа и лимиты.
+2026-06-11 16:36:21,483 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для chemitool_pu40.pdf
+2026-06-11 16:36:21,483 [INFO] TDS_Parser_RND: ✅ chemitool_pu40.pdf | Sealant and Adhesive | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 16:36:21,483 [INFO] TDS_Parser_RND: Обработка файла: tecnopol_mastic_pu.pdf
+2026-06-11 16:36:21,839 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 30~60 minutes
+2026-06-11 16:36:21,839 [INFO] TDS_Parser_RND: ✅ tecnopol_mastic_pu.pdf | tecnopol_mastic_pu | Shore: 37.5 | Elong: 600.0% | Skin: 45.0 мин
+2026-06-11 16:36:21,839 [INFO] TDS_Parser_RND: Обработка файла: 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 16:36:24,608 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для 89f6823564b5fb0d20f05830860f86c3.pdf по полям: ['Elongation']
+2026-06-11 16:36:25,343 [ERROR] TDS_Parser_RND: Ошибка доступа Openrouter API для 89f6823564b5fb0d20f05830860f86c3.pdf: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions. Проверьте валидность ключа и лимиты.
+2026-06-11 16:36:25,345 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 16:36:25,346 [INFO] TDS_Parser_RND: ✅ 89f6823564b5fb0d20f05830860f86c3.pdf | Sikaflex® Construction+ | Shore: 28.0 | Elong: None% | Skin: 65.0 мин
+2026-06-11 16:36:25,346 [INFO] TDS_Parser_RND: Обработка файла: 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 16:36:27,553 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для 3M-540-Polyurethane-Sealant.pdf по полям: ['Skin_Time']
+2026-06-11 16:36:28,519 [ERROR] TDS_Parser_RND: Ошибка доступа Openrouter API для 3M-540-Polyurethane-Sealant.pdf: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions. Проверьте валидность ключа и лимиты.
+2026-06-11 16:36:28,520 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 16:36:28,520 [INFO] TDS_Parser_RND: ✅ 3M-540-Polyurethane-Sealant.pdf | 3M 540 Polyurethane Sealant | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 16:36:28,520 [INFO] TDS_Parser_RND: Обработка файла: boss_pu25.pdf
+2026-06-11 16:36:28,802 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 45 min
+2026-06-11 16:36:28,802 [INFO] TDS_Parser_RND: ✅ boss_pu25.pdf | BOSS® PU 25 POLYURETHANE SEALANT | Shore: 35.0 | Elong: 850.0% | Skin: 45.0 мин
+2026-06-11 16:36:28,802 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_pl.pdf
+2026-06-11 16:36:30,978 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для novol_gravit630_pl.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:36:31,605 [ERROR] TDS_Parser_RND: Ошибка доступа Openrouter API для novol_gravit630_pl.pdf: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions. Проверьте валидность ключа и лимиты.
+2026-06-11 16:36:31,606 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для novol_gravit630_pl.pdf
+2026-06-11 16:36:31,606 [INFO] TDS_Parser_RND: ✅ novol_gravit630_pl.pdf | novol_gravit630_pl | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:36:31,606 [INFO] TDS_Parser_RND: Обработка файла: bauer_flexible_pu.pdf
+2026-06-11 16:36:33,848 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для bauer_flexible_pu.pdf по полям: ['Skin_Time']
+2026-06-11 16:36:34,455 [ERROR] TDS_Parser_RND: Ошибка доступа Openrouter API для bauer_flexible_pu.pdf: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions. Проверьте валидность ключа и лимиты.
+2026-06-11 16:36:34,457 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для bauer_flexible_pu.pdf
+2026-06-11 16:36:34,457 [WARNING] TDS_Parser_RND: [bauer_flexible_pu.pdf] Elongation (41.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 16:36:34,457 [INFO] TDS_Parser_RND: ✅ bauer_flexible_pu.pdf | FLEXIBLE PU SEALANT | Shore: 30.0 | Elong: None% | Skin: None мин
+2026-06-11 16:36:34,457 [INFO] TDS_Parser_RND: Обработка файла: loctite_pl.pdf
+2026-06-11 16:36:37,680 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для loctite_pl.pdf по полям: ['Shore_A']
+2026-06-11 16:36:38,253 [ERROR] TDS_Parser_RND: Ошибка доступа Openrouter API для loctite_pl.pdf: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions. Проверьте валидность ключа и лимиты.
+2026-06-11 16:36:38,255 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для loctite_pl.pdf
+2026-06-11 16:36:38,255 [INFO] TDS_Parser_RND: ✅ loctite_pl.pdf | Polyurethane Sealant | Shore: None | Elong: 412.0% | Skin: 24.0 мин
+2026-06-11 16:36:38,255 [INFO] TDS_Parser_RND: Обработка файла: vipro_pu2k.pdf
+2026-06-11 16:36:38,625 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 80
+2026-06-11 16:36:40,625 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для vipro_pu2k.pdf по полям: ['Skin_Time']
+2026-06-11 16:36:41,197 [ERROR] TDS_Parser_RND: Ошибка доступа Openrouter API для vipro_pu2k.pdf: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions. Проверьте валидность ключа и лимиты.
+2026-06-11 16:36:41,199 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для vipro_pu2k.pdf
+2026-06-11 16:36:41,199 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Shore_A (80.0) вне физических пределов [5 - 60]. Сброс.
+2026-06-11 16:36:41,199 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Elongation (15.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 16:36:41,200 [INFO] TDS_Parser_RND: ✅ vipro_pu2k.pdf | Vi-Pro® PU 2K POLYURETHANE ADHESIVE | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:36:41,200 [INFO] TDS_Parser_RND: Обработка файла: 3m-1k-general-purpose-polyurethane-sealer.pdf
+2026-06-11 16:36:41,625 [INFO] TDS_Parser_RND: ✅ 3m-1k-general-purpose-polyurethane-sealer.pdf | 3m-1k-general-purpose-polyurethane-sealer | Shore: 20.0 | Elong: 500.0% | Skin: 55.0 мин
+2026-06-11 16:36:41,625 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_ru.pdf
+2026-06-11 16:36:45,625 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для novol_gravit630_ru.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:36:46,009 [ERROR] TDS_Parser_RND: Ошибка доступа Openrouter API для novol_gravit630_ru.pdf: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions. Проверьте валидность ключа и лимиты.
+2026-06-11 16:36:46,010 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для novol_gravit630_ru.pdf
+2026-06-11 16:36:46,010 [INFO] TDS_Parser_RND: ✅ novol_gravit630_ru.pdf | novol_gravit630_ru | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:36:46,010 [INFO] TDS_Parser_RND: Обработка файла: fastcoat_pro_pu.pdf
+2026-06-11 16:36:48,550 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для fastcoat_pro_pu.pdf по полям: ['Skin_Time']
+2026-06-11 16:36:48,894 [ERROR] TDS_Parser_RND: Ошибка доступа Openrouter API для fastcoat_pro_pu.pdf: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions. Проверьте валидность ключа и лимиты.
+2026-06-11 16:36:48,895 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для fastcoat_pro_pu.pdf
+2026-06-11 16:36:48,895 [INFO] TDS_Parser_RND: ✅ fastcoat_pro_pu.pdf | fastcoat_pro_pu | Shore: 22.0 | Elong: 250.0% | Skin: None мин
+2026-06-11 16:36:48,895 [INFO] TDS_Parser_RND: Обработка файла: TDS SANZ PU MASTER.pdf
+2026-06-11 16:36:50,051 [INFO] TDS_Parser_RND: ✅ TDS SANZ PU MASTER.pdf | TDS SANZ PU MASTER | Shore: 40.0 | Elong: 740.0% | Skin: 90.0 мин
+2026-06-11 16:36:50,051 [INFO] TDS_Parser_RND: Обработка файла: 915_tds.pdf
+2026-06-11 16:36:50,957 [WARNING] TDS_Parser_RND: [915_tds.pdf] Elongation (65.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 16:36:50,957 [WARNING] TDS_Parser_RND: [915_tds.pdf] Skin_Time (4.0) вне физических пределов [5 - 600]. Сброс.
+2026-06-11 16:36:50,958 [INFO] TDS_Parser_RND: ✅ 915_tds.pdf | POLYURETHANE SEALANT & ADHESIVE | Shore: 42.0 | Elong: None% | Skin: None мин
+2026-06-11 16:36:50,958 [INFO] TDS_Parser_RND: Обработка файла: rubber_fc40.pdf
+2026-06-11 16:36:53,354 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для rubber_fc40.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:36:53,716 [ERROR] TDS_Parser_RND: Ошибка доступа Openrouter API для rubber_fc40.pdf: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions. Проверьте валидность ключа и лимиты.
+2026-06-11 16:36:53,717 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для rubber_fc40.pdf
+2026-06-11 16:36:53,717 [INFO] TDS_Parser_RND: ✅ rubber_fc40.pdf | FC40 Polyurethane Sealant Material Data Sheet | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:36:53,717 [INFO] TDS_Parser_RND: Обработка файла: quikrete_nonsag.pdf
+2026-06-11 16:36:55,719 [INFO] TDS_Parser_RND: 🚀 Запуск OpenRouter LLM Fallback для quikrete_nonsag.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:36:56,166 [ERROR] TDS_Parser_RND: Ошибка доступа Openrouter API для quikrete_nonsag.pdf: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions. Проверьте валидность ключа и лимиты.
+2026-06-11 16:36:56,167 [WARNING] TDS_Parser_RND:    ↳ Не удалось получить изображения для quikrete_nonsag.pdf
+2026-06-11 16:36:56,167 [INFO] TDS_Parser_RND: ✅ quikrete_nonsag.pdf | quikrete_nonsag | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:36:56,167 [INFO] TDS_Parser_RND: Обработка файла: mightyloc_6221.pdf
+2026-06-11 16:36:57,253 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 70 min.
+2026-06-11 16:36:57,253 [INFO] TDS_Parser_RND: ✅ mightyloc_6221.pdf | 6221 POLYURETHANE SEALANT | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:36:57,256 [INFO] TDS_Parser_RND: Пайплайны успешно завершены. Датасет собран.
+2026-06-11 16:43:56,162 [INFO] TDS_Parser_RND: ✅ OpenRouter API Fallback успешно активирован.
+2026-06-11 16:43:56,162 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 16:43:56,769 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 16:43:56,769 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 16:43:57,463 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 16:43:57,463 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 16:43:57,463 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 16:43:57,698 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 16:43:57,698 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 16:43:58,012 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:43:58,012 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:44:00,390 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для TDS-Soudal-Soudaflex-36FL.pdf по полям: ['Shore_A', 'Skin_Time']
+2026-06-11 16:44:00,811 [ERROR] TDS_Parser_RND: HTTP Error meta-llama/llama-3.1-8b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:01,049 [ERROR] TDS_Parser_RND: HTTP Error mistralai/mistral-nemo:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:01,051 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:44:01,051 [INFO] TDS_Parser_RND: ✅ TDS-Soudal-Soudaflex-36FL.pdf | TDS-Soudal-Soudaflex-36FL | Shore: None | Elong: 900.0% | Skin: None мин
+2026-06-11 16:44:01,051 [INFO] TDS_Parser_RND: Обработка файла: chemitool_pu40.pdf
+2026-06-11 16:44:03,727 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для chemitool_pu40.pdf по полям: ['Skin_Time']
+2026-06-11 16:44:03,967 [ERROR] TDS_Parser_RND: HTTP Error meta-llama/llama-3.1-8b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:04,236 [ERROR] TDS_Parser_RND: HTTP Error mistralai/mistral-nemo:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:04,237 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для chemitool_pu40.pdf
+2026-06-11 16:44:04,237 [INFO] TDS_Parser_RND: ✅ chemitool_pu40.pdf | Sealant and Adhesive | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 16:44:04,237 [INFO] TDS_Parser_RND: Обработка файла: tecnopol_mastic_pu.pdf
+2026-06-11 16:44:04,604 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 30~60 minutes
+2026-06-11 16:44:04,604 [INFO] TDS_Parser_RND: ✅ tecnopol_mastic_pu.pdf | tecnopol_mastic_pu | Shore: 37.5 | Elong: 600.0% | Skin: 45.0 мин
+2026-06-11 16:44:04,604 [INFO] TDS_Parser_RND: Обработка файла: 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 16:44:07,403 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для 89f6823564b5fb0d20f05830860f86c3.pdf по полям: ['Elongation']
+2026-06-11 16:44:07,632 [ERROR] TDS_Parser_RND: HTTP Error meta-llama/llama-3.1-8b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:07,972 [ERROR] TDS_Parser_RND: HTTP Error mistralai/mistral-nemo:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:07,973 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 16:44:07,973 [INFO] TDS_Parser_RND: ✅ 89f6823564b5fb0d20f05830860f86c3.pdf | Sikaflex® Construction+ | Shore: 28.0 | Elong: None% | Skin: 65.0 мин
+2026-06-11 16:44:07,973 [INFO] TDS_Parser_RND: Обработка файла: 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 16:44:10,177 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для 3M-540-Polyurethane-Sealant.pdf по полям: ['Skin_Time']
+2026-06-11 16:44:10,356 [ERROR] TDS_Parser_RND: HTTP Error meta-llama/llama-3.1-8b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:10,617 [ERROR] TDS_Parser_RND: HTTP Error mistralai/mistral-nemo:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:10,619 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 16:44:10,619 [INFO] TDS_Parser_RND: ✅ 3M-540-Polyurethane-Sealant.pdf | 3M 540 Polyurethane Sealant | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 16:44:10,619 [INFO] TDS_Parser_RND: Обработка файла: boss_pu25.pdf
+2026-06-11 16:44:10,899 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 45 min
+2026-06-11 16:44:10,899 [INFO] TDS_Parser_RND: ✅ boss_pu25.pdf | BOSS® PU 25 POLYURETHANE SEALANT | Shore: 35.0 | Elong: 850.0% | Skin: 45.0 мин
+2026-06-11 16:44:10,899 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_pl.pdf
+2026-06-11 16:44:13,070 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для novol_gravit630_pl.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:44:13,249 [ERROR] TDS_Parser_RND: HTTP Error meta-llama/llama-3.1-8b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:13,471 [ERROR] TDS_Parser_RND: HTTP Error mistralai/mistral-nemo:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:13,472 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для novol_gravit630_pl.pdf
+2026-06-11 16:44:13,472 [INFO] TDS_Parser_RND: ✅ novol_gravit630_pl.pdf | novol_gravit630_pl | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:44:13,472 [INFO] TDS_Parser_RND: Обработка файла: bauer_flexible_pu.pdf
+2026-06-11 16:44:15,714 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для bauer_flexible_pu.pdf по полям: ['Skin_Time']
+2026-06-11 16:44:15,883 [ERROR] TDS_Parser_RND: HTTP Error meta-llama/llama-3.1-8b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:16,103 [ERROR] TDS_Parser_RND: HTTP Error mistralai/mistral-nemo:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:16,103 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для bauer_flexible_pu.pdf
+2026-06-11 16:44:16,103 [WARNING] TDS_Parser_RND: [bauer_flexible_pu.pdf] Elongation (41.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 16:44:16,104 [INFO] TDS_Parser_RND: ✅ bauer_flexible_pu.pdf | FLEXIBLE PU SEALANT | Shore: 30.0 | Elong: None% | Skin: None мин
+2026-06-11 16:44:16,104 [INFO] TDS_Parser_RND: Обработка файла: loctite_pl.pdf
+2026-06-11 16:44:19,206 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для loctite_pl.pdf по полям: ['Shore_A']
+2026-06-11 16:44:19,440 [ERROR] TDS_Parser_RND: HTTP Error meta-llama/llama-3.1-8b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:19,636 [ERROR] TDS_Parser_RND: HTTP Error mistralai/mistral-nemo:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:19,637 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для loctite_pl.pdf
+2026-06-11 16:44:19,637 [INFO] TDS_Parser_RND: ✅ loctite_pl.pdf | Polyurethane Sealant | Shore: None | Elong: 412.0% | Skin: 24.0 мин
+2026-06-11 16:44:19,637 [INFO] TDS_Parser_RND: Обработка файла: vipro_pu2k.pdf
+2026-06-11 16:44:20,013 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 80
+2026-06-11 16:44:22,013 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для vipro_pu2k.pdf по полям: ['Skin_Time']
+2026-06-11 16:44:22,198 [ERROR] TDS_Parser_RND: HTTP Error meta-llama/llama-3.1-8b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:22,415 [ERROR] TDS_Parser_RND: HTTP Error mistralai/mistral-nemo:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:22,416 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для vipro_pu2k.pdf
+2026-06-11 16:44:22,416 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Shore_A (80.0) вне физических пределов [5 - 60]. Сброс.
+2026-06-11 16:44:22,416 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Elongation (15.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 16:44:22,416 [INFO] TDS_Parser_RND: ✅ vipro_pu2k.pdf | Vi-Pro® PU 2K POLYURETHANE ADHESIVE | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:44:22,416 [INFO] TDS_Parser_RND: Обработка файла: 3m-1k-general-purpose-polyurethane-sealer.pdf
+2026-06-11 16:44:22,875 [INFO] TDS_Parser_RND: ✅ 3m-1k-general-purpose-polyurethane-sealer.pdf | 3m-1k-general-purpose-polyurethane-sealer | Shore: 20.0 | Elong: 500.0% | Skin: 55.0 мин
+2026-06-11 16:44:22,875 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_ru.pdf
+2026-06-11 16:44:26,904 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для novol_gravit630_ru.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:44:27,152 [ERROR] TDS_Parser_RND: HTTP Error meta-llama/llama-3.1-8b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:27,653 [ERROR] TDS_Parser_RND: HTTP Error mistralai/mistral-nemo:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:27,654 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для novol_gravit630_ru.pdf
+2026-06-11 16:44:27,655 [INFO] TDS_Parser_RND: ✅ novol_gravit630_ru.pdf | novol_gravit630_ru | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:44:27,655 [INFO] TDS_Parser_RND: Обработка файла: fastcoat_pro_pu.pdf
+2026-06-11 16:44:30,152 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для fastcoat_pro_pu.pdf по полям: ['Skin_Time']
+2026-06-11 16:44:30,329 [ERROR] TDS_Parser_RND: HTTP Error meta-llama/llama-3.1-8b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:30,585 [ERROR] TDS_Parser_RND: HTTP Error mistralai/mistral-nemo:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:30,585 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для fastcoat_pro_pu.pdf
+2026-06-11 16:44:30,586 [INFO] TDS_Parser_RND: ✅ fastcoat_pro_pu.pdf | fastcoat_pro_pu | Shore: 22.0 | Elong: 250.0% | Skin: None мин
+2026-06-11 16:44:30,586 [INFO] TDS_Parser_RND: Обработка файла: TDS SANZ PU MASTER.pdf
+2026-06-11 16:44:31,809 [INFO] TDS_Parser_RND: ✅ TDS SANZ PU MASTER.pdf | TDS SANZ PU MASTER | Shore: 40.0 | Elong: 740.0% | Skin: 90.0 мин
+2026-06-11 16:44:31,809 [INFO] TDS_Parser_RND: Обработка файла: 915_tds.pdf
+2026-06-11 16:44:32,743 [WARNING] TDS_Parser_RND: [915_tds.pdf] Elongation (65.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 16:44:32,743 [WARNING] TDS_Parser_RND: [915_tds.pdf] Skin_Time (4.0) вне физических пределов [5 - 600]. Сброс.
+2026-06-11 16:44:32,743 [INFO] TDS_Parser_RND: ✅ 915_tds.pdf | POLYURETHANE SEALANT & ADHESIVE | Shore: 42.0 | Elong: None% | Skin: None мин
+2026-06-11 16:44:32,743 [INFO] TDS_Parser_RND: Обработка файла: rubber_fc40.pdf
+2026-06-11 16:44:35,167 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для rubber_fc40.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:44:35,393 [ERROR] TDS_Parser_RND: HTTP Error meta-llama/llama-3.1-8b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:35,602 [ERROR] TDS_Parser_RND: HTTP Error mistralai/mistral-nemo:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:35,604 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для rubber_fc40.pdf
+2026-06-11 16:44:35,604 [INFO] TDS_Parser_RND: ✅ rubber_fc40.pdf | FC40 Polyurethane Sealant Material Data Sheet | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:44:35,604 [INFO] TDS_Parser_RND: Обработка файла: quikrete_nonsag.pdf
+2026-06-11 16:44:37,606 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для quikrete_nonsag.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 16:44:37,860 [ERROR] TDS_Parser_RND: HTTP Error meta-llama/llama-3.1-8b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:38,035 [ERROR] TDS_Parser_RND: HTTP Error mistralai/mistral-nemo:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:44:38,036 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для quikrete_nonsag.pdf
+2026-06-11 16:44:38,036 [INFO] TDS_Parser_RND: ✅ quikrete_nonsag.pdf | quikrete_nonsag | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 16:44:38,036 [INFO] TDS_Parser_RND: Обработка файла: mightyloc_6221.pdf
+2026-06-11 16:44:39,181 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 70 min.
+2026-06-11 16:44:39,182 [INFO] TDS_Parser_RND: ✅ mightyloc_6221.pdf | 6221 POLYURETHANE SEALANT | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:44:39,184 [INFO] TDS_Parser_RND: Пайплайны успешно завершены. Датасет собран.
+2026-06-11 16:51:47,880 [INFO] TDS_Parser_RND: ✅ OpenRouter API Fallback успешно активирован.
+2026-06-11 16:51:47,881 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 16:51:48,493 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 16:51:48,493 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 16:51:49,254 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 16:51:49,255 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 16:51:49,255 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 16:51:49,518 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 16:51:49,518 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 16:51:49,836 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:51:49,837 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:51:52,225 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для TDS-Soudal-Soudaflex-36FL.pdf по полям: ['Shore_A', 'Skin_Time']
+2026-06-11 16:51:52,621 [ERROR] TDS_Parser_RND: HTTP Error meta-llama/llama-3.1-8b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:51:52,818 [ERROR] TDS_Parser_RND: HTTP Error mistralai/mistral-nemo:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:51:52,819 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:51:52,819 [INFO] TDS_Parser_RND: ✅ TDS-Soudal-Soudaflex-36FL.pdf | TDS-Soudal-Soudaflex-36FL | Shore: None | Elong: 900.0% | Skin: None мин
+2026-06-11 16:51:52,819 [INFO] TDS_Parser_RND: Обработка файла: chemitool_pu40.pdf
+2026-06-11 16:51:55,503 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для chemitool_pu40.pdf по полям: ['Skin_Time']
+2026-06-11 16:51:56,058 [ERROR] TDS_Parser_RND: HTTP Error meta-llama/llama-3.1-8b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:51:56,281 [ERROR] TDS_Parser_RND: HTTP Error mistralai/mistral-nemo:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:51:56,282 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для chemitool_pu40.pdf
+2026-06-11 16:51:56,282 [INFO] TDS_Parser_RND: ✅ chemitool_pu40.pdf | Sealant and Adhesive | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 16:51:56,282 [INFO] TDS_Parser_RND: Обработка файла: tecnopol_mastic_pu.pdf
+2026-06-11 16:53:25,055 [INFO] TDS_Parser_RND: ✅ OpenRouter API Fallback успешно активирован.
+2026-06-11 16:53:25,056 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 16:53:25,672 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 16:53:25,672 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 16:53:26,379 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 16:53:26,379 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 16:53:26,379 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 16:53:26,627 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 16:53:26,627 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 16:53:26,939 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:53:26,939 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:53:29,303 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для TDS-Soudal-Soudaflex-36FL.pdf по полям: ['Shore_A', 'Skin_Time']
+2026-06-11 16:53:29,758 [ERROR] TDS_Parser_RND: HTTP Error google/gemini-2.0-flash-lite-preview-02-05:free: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:53:29,978 [ERROR] TDS_Parser_RND: HTTP Error microsoft/phi-3-mini-128k-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:53:30,191 [ERROR] TDS_Parser_RND: HTTP Error microsoft/phi-3-mini-128k-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:58:44,989 [INFO] TDS_Parser_RND: ✅ OpenRouter API Fallback успешно активирован.
+2026-06-11 16:58:44,990 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 16:58:45,622 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 16:58:45,622 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 16:58:46,332 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 16:58:46,332 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 16:58:46,333 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 16:58:46,580 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 16:58:46,581 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 16:58:46,900 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 16:58:46,900 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:58:49,286 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для TDS-Soudal-Soudaflex-36FL.pdf по полям: ['Shore_A', 'Skin_Time']
+2026-06-11 16:58:49,779 [ERROR] TDS_Parser_RND: HTTP Error meta-llama/llama-3.1-8b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:58:50,126 [ERROR] TDS_Parser_RND: HTTP Error qwen/qwen-2.5-7b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:58:50,777 [WARNING] TDS_Parser_RND: ⏳ OpenRouter Rate Limit (429). Ожидание 12 сек...
+2026-06-11 16:59:03,394 [WARNING] TDS_Parser_RND: ⏳ OpenRouter Rate Limit (429). Ожидание 29 сек...
+2026-06-11 16:59:32,395 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 16:59:32,395 [INFO] TDS_Parser_RND: ✅ TDS-Soudal-Soudaflex-36FL.pdf | TDS-Soudal-Soudaflex-36FL | Shore: None | Elong: 900.0% | Skin: None мин
+2026-06-11 16:59:32,395 [INFO] TDS_Parser_RND: Обработка файла: chemitool_pu40.pdf
+2026-06-11 16:59:35,097 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для chemitool_pu40.pdf по полям: ['Skin_Time']
+2026-06-11 16:59:35,494 [ERROR] TDS_Parser_RND: HTTP Error meta-llama/llama-3.1-8b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:59:35,885 [ERROR] TDS_Parser_RND: HTTP Error qwen/qwen-2.5-7b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 16:59:36,448 [WARNING] TDS_Parser_RND: ⏳ OpenRouter Rate Limit (429). Ожидание 26 сек...
+2026-06-11 17:00:03,104 [WARNING] TDS_Parser_RND: ⏳ OpenRouter Rate Limit (429). Ожидание 29 сек...
+2026-06-11 17:00:32,107 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для chemitool_pu40.pdf
+2026-06-11 17:00:32,107 [INFO] TDS_Parser_RND: ✅ chemitool_pu40.pdf | Sealant and Adhesive | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 17:00:32,107 [INFO] TDS_Parser_RND: Обработка файла: tecnopol_mastic_pu.pdf
+2026-06-11 17:00:32,489 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 30~60 minutes
+2026-06-11 17:00:32,489 [INFO] TDS_Parser_RND: ✅ tecnopol_mastic_pu.pdf | tecnopol_mastic_pu | Shore: 37.5 | Elong: 600.0% | Skin: 45.0 мин
+2026-06-11 17:00:32,489 [INFO] TDS_Parser_RND: Обработка файла: 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 17:00:35,310 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для 89f6823564b5fb0d20f05830860f86c3.pdf по полям: ['Elongation']
+2026-06-11 17:00:35,950 [ERROR] TDS_Parser_RND: HTTP Error meta-llama/llama-3.1-8b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 17:00:36,221 [ERROR] TDS_Parser_RND: HTTP Error qwen/qwen-2.5-7b-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2026-06-11 17:00:37,001 [WARNING] TDS_Parser_RND: ⏳ OpenRouter Rate Limit (429). Ожидание 25 сек...
+2026-06-11 17:00:59,360 [INFO] TDS_Parser_RND: ✅ OpenRouter API Fallback успешно активирован.
+2026-06-11 17:00:59,361 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 17:01:00,018 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 17:01:00,018 [INFO] TDS_Parser_RND: Обработка файла: tikiseal_pu40.pdf
+2026-06-11 17:01:00,811 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 40
+2026-06-11 17:01:00,811 [INFO] TDS_Parser_RND: ✅ tikiseal_pu40.pdf | 1K PU Based Joint Sealant | Shore: 40.0 | Elong: 412.0% | Skin: 35.0 мин
+2026-06-11 17:01:00,811 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 17:01:01,065 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 17:01:01,065 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 17:01:01,421 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 17:01:01,421 [INFO] TDS_Parser_RND: Обработка файла: TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 17:01:03,793 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для TDS-Soudal-Soudaflex-36FL.pdf по полям: ['Shore_A', 'Skin_Time']
+2026-06-11 17:01:10,956 [INFO] TDS_Parser_RND: ✅ openrouter/free успешно извлек данные для TDS-Soudal-Soudaflex-36FL.pdf
+2026-06-11 17:01:10,957 [INFO] TDS_Parser_RND:    ↳ LLM восстановил Shore_A: 35.0
+2026-06-11 17:01:10,957 [INFO] TDS_Parser_RND:    ↳ LLM восстановил Skin_Time: 60.0
+2026-06-11 17:01:10,957 [INFO] TDS_Parser_RND: ✅ TDS-Soudal-Soudaflex-36FL.pdf | TDS-Soudal-Soudaflex-36FL | Shore: 35.0 | Elong: 900.0% | Skin: 60.0 мин
+2026-06-11 17:01:10,957 [INFO] TDS_Parser_RND: Обработка файла: chemitool_pu40.pdf
+2026-06-11 17:01:13,617 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для chemitool_pu40.pdf по полям: ['Skin_Time']
+2026-06-11 17:01:21,267 [INFO] TDS_Parser_RND: ✅ openrouter/free успешно извлек данные для chemitool_pu40.pdf
+2026-06-11 17:01:21,268 [INFO] TDS_Parser_RND:    ↳ LLM восстановил Skin_Time: 50.0
+2026-06-11 17:01:21,268 [INFO] TDS_Parser_RND: ✅ chemitool_pu40.pdf | Sealant and Adhesive | Shore: 40.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 17:01:21,268 [INFO] TDS_Parser_RND: Обработка файла: tecnopol_mastic_pu.pdf
+2026-06-11 17:01:21,647 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 30~60 minutes
+2026-06-11 17:01:21,648 [INFO] TDS_Parser_RND: ✅ tecnopol_mastic_pu.pdf | tecnopol_mastic_pu | Shore: 37.5 | Elong: 600.0% | Skin: 45.0 мин
+2026-06-11 17:01:21,648 [INFO] TDS_Parser_RND: Обработка файла: 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 17:01:24,413 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для 89f6823564b5fb0d20f05830860f86c3.pdf по полям: ['Elongation']
+2026-06-11 17:01:35,027 [INFO] TDS_Parser_RND: ✅ openrouter/free успешно извлек данные для 89f6823564b5fb0d20f05830860f86c3.pdf
+2026-06-11 17:01:35,028 [INFO] TDS_Parser_RND:    ↳ LLM восстановил Elongation: 800.0
+2026-06-11 17:01:35,028 [INFO] TDS_Parser_RND: ✅ 89f6823564b5fb0d20f05830860f86c3.pdf | Sikaflex® Construction+ | Shore: 28.0 | Elong: 800.0% | Skin: 65.0 мин
+2026-06-11 17:01:35,028 [INFO] TDS_Parser_RND: Обработка файла: 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 17:01:37,244 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для 3M-540-Polyurethane-Sealant.pdf по полям: ['Skin_Time']
+2026-06-11 17:01:42,310 [ERROR] TDS_Parser_RND: Невалидный JSON от openrouter/free. Ответ: User Safety: safe
+2026-06-11 17:01:42,825 [WARNING] TDS_Parser_RND: ⏳ OpenRouter Rate Limit (429). Ожидание 20 сек...
+2026-06-11 17:02:03,536 [WARNING] TDS_Parser_RND: ⏳ OpenRouter Rate Limit (429). Ожидание 29 сек...
+2026-06-11 17:02:32,539 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для 3M-540-Polyurethane-Sealant.pdf
+2026-06-11 17:02:32,540 [INFO] TDS_Parser_RND: ✅ 3M-540-Polyurethane-Sealant.pdf | 3M 540 Polyurethane Sealant | Shore: 40.0 | Elong: 600.0% | Skin: None мин
+2026-06-11 17:02:32,540 [INFO] TDS_Parser_RND: Обработка файла: boss_pu25.pdf
+2026-06-11 17:02:32,844 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 45 min
+2026-06-11 17:02:32,844 [INFO] TDS_Parser_RND: ✅ boss_pu25.pdf | BOSS® PU 25 POLYURETHANE SEALANT | Shore: 35.0 | Elong: 850.0% | Skin: 45.0 мин
+2026-06-11 17:02:32,844 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_pl.pdf
+2026-06-11 17:02:35,031 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для novol_gravit630_pl.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 17:03:34,370 [INFO] TDS_Parser_RND: ✅ openrouter/free успешно извлек данные для novol_gravit630_pl.pdf
+2026-06-11 17:03:34,371 [INFO] TDS_Parser_RND:    ↳ LLM восстановил Skin_Time: 60.0
+2026-06-11 17:03:34,371 [INFO] TDS_Parser_RND: ✅ novol_gravit630_pl.pdf | novol_gravit630_pl | Shore: None | Elong: None% | Skin: 60.0 мин
+2026-06-11 17:03:34,371 [INFO] TDS_Parser_RND: Обработка файла: bauer_flexible_pu.pdf
+2026-06-11 17:03:36,633 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для bauer_flexible_pu.pdf по полям: ['Skin_Time']
+2026-06-11 17:04:01,238 [INFO] TDS_Parser_RND: ✅ openrouter/free успешно извлек данные для bauer_flexible_pu.pdf
+2026-06-11 17:04:01,239 [INFO] TDS_Parser_RND:    ↳ LLM восстановил Skin_Time: 180
+2026-06-11 17:04:01,239 [WARNING] TDS_Parser_RND: [bauer_flexible_pu.pdf] Elongation (41.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 17:04:01,239 [INFO] TDS_Parser_RND: ✅ bauer_flexible_pu.pdf | FLEXIBLE PU SEALANT | Shore: 30.0 | Elong: None% | Skin: 180 мин
+2026-06-11 17:04:01,239 [INFO] TDS_Parser_RND: Обработка файла: loctite_pl.pdf
+2026-06-11 17:04:04,375 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для loctite_pl.pdf по полям: ['Shore_A']
+2026-06-11 17:04:24,838 [INFO] TDS_Parser_RND: ✅ openrouter/free успешно извлек данные для loctite_pl.pdf
+2026-06-11 17:04:24,839 [INFO] TDS_Parser_RND:    ↳ LLM восстановил Shore_A: 27.5
+2026-06-11 17:04:24,840 [INFO] TDS_Parser_RND: ✅ loctite_pl.pdf | Polyurethane Sealant | Shore: 27.5 | Elong: 412.0% | Skin: 24.0 мин
+2026-06-11 17:04:24,840 [INFO] TDS_Parser_RND: Обработка файла: vipro_pu2k.pdf
+2026-06-11 17:04:25,207 [INFO] TDS_Parser_RND: Найдено в таблице: Shore_A -> 80
+2026-06-11 17:04:27,207 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для vipro_pu2k.pdf по полям: ['Skin_Time']
+2026-06-11 17:04:29,267 [INFO] TDS_Parser_RND: ✅ openrouter/free успешно извлек данные для vipro_pu2k.pdf
+2026-06-11 17:04:29,269 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Shore_A (80.0) вне физических пределов [5 - 60]. Сброс.
+2026-06-11 17:04:29,269 [WARNING] TDS_Parser_RND: [vipro_pu2k.pdf] Elongation (15.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 17:04:29,269 [INFO] TDS_Parser_RND: ✅ vipro_pu2k.pdf | Vi-Pro® PU 2K POLYURETHANE ADHESIVE | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 17:04:29,269 [INFO] TDS_Parser_RND: Обработка файла: 3m-1k-general-purpose-polyurethane-sealer.pdf
+2026-06-11 17:04:29,728 [INFO] TDS_Parser_RND: ✅ 3m-1k-general-purpose-polyurethane-sealer.pdf | 3m-1k-general-purpose-polyurethane-sealer | Shore: 20.0 | Elong: 500.0% | Skin: 55.0 мин
+2026-06-11 17:04:29,729 [INFO] TDS_Parser_RND: Обработка файла: novol_gravit630_ru.pdf
+2026-06-11 17:04:33,768 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для novol_gravit630_ru.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 17:04:49,754 [ERROR] TDS_Parser_RND: Невалидный JSON от openrouter/free. Ответ: Пожалуйста, предоставьте текст TDS. Вы забыли вставить его после разделителя. Как только вы пришлете текст, я мгновенно извлеку данные в требуемом формате JSON.
+2026-06-11 17:04:50,346 [WARNING] TDS_Parser_RND: ⏳ OpenRouter Rate Limit (429). Ожидание 12 сек...
+2026-06-11 17:05:03,033 [WARNING] TDS_Parser_RND: ⏳ OpenRouter Rate Limit (429). Ожидание 30 сек...
+2026-06-11 17:05:33,035 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для novol_gravit630_ru.pdf
+2026-06-11 17:05:33,036 [INFO] TDS_Parser_RND: ✅ novol_gravit630_ru.pdf | novol_gravit630_ru | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 17:05:33,036 [INFO] TDS_Parser_RND: Обработка файла: fastcoat_pro_pu.pdf
+2026-06-11 17:05:35,560 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для fastcoat_pro_pu.pdf по полям: ['Skin_Time']
+2026-06-11 17:05:39,634 [INFO] TDS_Parser_RND: ✅ openrouter/free успешно извлек данные для fastcoat_pro_pu.pdf
+2026-06-11 17:05:39,635 [INFO] TDS_Parser_RND:    ↳ LLM восстановил Skin_Time: 60.0
+2026-06-11 17:05:39,635 [INFO] TDS_Parser_RND: ✅ fastcoat_pro_pu.pdf | fastcoat_pro_pu | Shore: 22.0 | Elong: 250.0% | Skin: 60.0 мин
+2026-06-11 17:05:39,635 [INFO] TDS_Parser_RND: Обработка файла: TDS SANZ PU MASTER.pdf
+2026-06-11 17:05:40,838 [INFO] TDS_Parser_RND: ✅ TDS SANZ PU MASTER.pdf | TDS SANZ PU MASTER | Shore: 40.0 | Elong: 740.0% | Skin: 90.0 мин
+2026-06-11 17:05:40,839 [INFO] TDS_Parser_RND: Обработка файла: 915_tds.pdf
+2026-06-11 17:05:41,909 [WARNING] TDS_Parser_RND: [915_tds.pdf] Elongation (65.0) вне физических пределов [100 - 2500]. Сброс.
+2026-06-11 17:05:41,910 [WARNING] TDS_Parser_RND: [915_tds.pdf] Skin_Time (4.0) вне физических пределов [5 - 600]. Сброс.
+2026-06-11 17:05:41,910 [INFO] TDS_Parser_RND: ✅ 915_tds.pdf | POLYURETHANE SEALANT & ADHESIVE | Shore: 42.0 | Elong: None% | Skin: None мин
+2026-06-11 17:05:41,910 [INFO] TDS_Parser_RND: Обработка файла: rubber_fc40.pdf
+2026-06-11 17:05:44,336 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для rubber_fc40.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 17:05:55,340 [INFO] TDS_Parser_RND: ✅ openrouter/free успешно извлек данные для rubber_fc40.pdf
+2026-06-11 17:05:55,341 [INFO] TDS_Parser_RND:    ↳ LLM восстановил Shore_A: 48.0
+2026-06-11 17:05:55,341 [INFO] TDS_Parser_RND:    ↳ LLM восстановил Elongation: 450.0
+2026-06-11 17:05:55,341 [INFO] TDS_Parser_RND:    ↳ LLM восстановил Skin_Time: 45.0
+2026-06-11 17:05:55,341 [INFO] TDS_Parser_RND: ✅ rubber_fc40.pdf | FC40 Polyurethane Sealant Material Data Sheet | Shore: 48.0 | Elong: 450.0% | Skin: 45.0 мин
+2026-06-11 17:05:55,341 [INFO] TDS_Parser_RND: Обработка файла: quikrete_nonsag.pdf
+2026-06-11 17:05:57,345 [INFO] TDS_Parser_RND: 🚀 Запуск LLM Fallback для quikrete_nonsag.pdf по полям: ['Shore_A', 'Elongation', 'Skin_Time']
+2026-06-11 17:06:00,021 [ERROR] TDS_Parser_RND: Невалидный JSON от openrouter/free. Ответ: User Safety: safe
+2026-06-11 17:06:00,745 [WARNING] TDS_Parser_RND: ⏳ OpenRouter Rate Limit (429). Ожидание 2 сек...
+2026-06-11 17:06:03,363 [WARNING] TDS_Parser_RND: ⏳ OpenRouter Rate Limit (429). Ожидание 29 сек...
+2026-06-11 17:06:32,365 [WARNING] TDS_Parser_RND:    ↳ LLM не смогла извлечь недостающие данные для quikrete_nonsag.pdf
+2026-06-11 17:06:32,365 [INFO] TDS_Parser_RND: ✅ quikrete_nonsag.pdf | quikrete_nonsag | Shore: None | Elong: None% | Skin: None мин
+2026-06-11 17:06:32,365 [INFO] TDS_Parser_RND: Обработка файла: mightyloc_6221.pdf
+2026-06-11 17:06:33,510 [INFO] TDS_Parser_RND: Найдено в таблице: Skin_Time -> 70 min.
+2026-06-11 17:06:33,511 [INFO] TDS_Parser_RND: ✅ mightyloc_6221.pdf | 6221 POLYURETHANE SEALANT | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 17:06:33,518 [INFO] TDS_Parser_RND: Пайплайны успешно завершены. Датасет собран.

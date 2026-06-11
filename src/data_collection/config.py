@@ -3,8 +3,8 @@ import re
 
 # Физические ограничения для валидации полиуретановых эластомеров (герметиков)
 VALIDATION_LIMITS = {
-    "shore_a": {"min": 5, "max": 100},
-    "elongation": {"min": 50, "max": 2500},
+    "shore_a": {"min": 5, "max": 60},
+    "elongation": {"min": 100, "max": 2500},
     "skin_time": {"min": 5, "max": 600}
 }
 

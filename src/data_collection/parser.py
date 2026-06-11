@@ -2,30 +2,37 @@
 import os
 import re
 import json
+import time
 import logging
+import requests
 from typing import List, Dict, Any, Optional
 from src.data_collection.config import REGEX_PATTERNS
 
 class MetricsParser:
     def __init__(self, logger: logging.Logger):
         self.logger = logger
-        self.gemini_enabled = False
-        api_key = os.environ.get("GEMINI_API_KEY")
-        if api_key:
-            try:
-                from google import genai
-                self.client = genai.Client(api_key=api_key)
-                self.gemini_enabled = True
-                self.logger.info("Gemini API (новый SDK google-genai) успешно активирован.")
-            except ImportError:
-                self.logger.warning("Пакет 'google-genai' не найден. Установите: pip install google-genai")
+        self.provider = None
+        self.api_key = None
+        
+        # Приоритет: OpenRouter (стабильнее для РФ), затем Groq
+        if os.environ.get("OPENROUTER_API_KEY"):
+            self.provider = "openrouter"
+            self.api_key = os.environ.get("OPENROUTER_API_KEY")
+            self.logger.info("✅ OpenRouter API Fallback успешно активирован.")
+        elif os.environ.get("GROQ_API_KEY"):
+            self.provider = "groq"
+            self.api_key = os.environ.get("GROQ_API_KEY")
+            self.logger.info("✅ Groq API Fallback активирован (возможны лимиты).")
         else:
-            self.logger.info("GEMINI_API_KEY отсутствует. LLM Fallback отключен.")
+            self.logger.warning("OPENROUTER_API_KEY / GROQ_API_KEY не найдены. LLM Fallback отключен.")
 
     def parse_range_values(self, match_str: str):
+        """Парсит строку с цифрами и возвращает (min_val, max_val, mean_val)."""
         if not match_str:
             return None, None, None
+        
         match_str = re.sub(r'\s*([±\+\-\/~\.]+)\s*', r'\1', match_str.strip())
+        
         tolerance_match = re.search(r'(\d+(?:\.\d+)?)(?:±|(?:\+/\-))\s*(\d+(?:\.\d+)?)', match_str)
         if tolerance_match:
             center = float(tolerance_match.group(1))
@@ -33,16 +40,19 @@ class MetricsParser:
             return center - tolerance, center + tolerance, center
 
         numbers = [float(x) for x in re.findall(r'\d+(?:\.\d+)?', match_str)]
+        
         if len(numbers) == 1:
             return numbers[0], numbers[0], numbers[0]
         elif len(numbers) >= 2:
             min_v = min(numbers[:2])
             max_v = max(numbers[:2])
-            return min_v, max_v, (min_v + max_v) / 2.0
+            mean_v = (min_v + max_v) / 2.0
+            return min_v, max_v, mean_v
+            
         return None, None, None
 
     def parse_from_lines(self, lines: List[str], metrics: Dict[str, Any]) -> Dict[str, Any]:
-        """Шаг 1: Построчный точный Regex-поиск."""
+        """Этап 1: Построчный точный Regex-поиск."""
         shore_match, elong_match, skin_match = None, None, None
         for line in lines:
             if not shore_match:
@@ -53,10 +63,12 @@ class MetricsParser:
                         shore_match = m
             if not elong_match:
                 m = REGEX_PATTERNS["elongation"].search(line)
-                if m: elong_match = m
+                if m:
+                    elong_match = m
             if not skin_match:
                 m = REGEX_PATTERNS["skin_time"].search(line)
-                if m: skin_match = m
+                if m:
+                    skin_match = m
 
         if shore_match:
             metrics["Shore_A_min"], metrics["Shore_A_max"], metrics["Shore_A_mean"] = self.parse_range_values(shore_match.group(1))
@@ -67,7 +79,7 @@ class MetricsParser:
         return metrics
 
     def parse_from_sliding_window(self, lines: List[str], metrics: Dict[str, Any]) -> Dict[str, Any]:
-        """Шаг 2: Сканирование скользящим окном для незаполненных полей."""
+        """Этап 2: Поиск скользящим окном."""
         window_size = 3
         combined = [" ".join(lines[i : i + window_size]) for i in range(len(lines))]
         
@@ -89,7 +101,7 @@ class MetricsParser:
         return metrics
 
     def parse_from_tables(self, tables: List[List[List[str]]], metrics: Dict[str, Any]) -> Dict[str, Any]:
-        """Шаг 3: Прямой поиск показателей в изолированных таблицах."""
+        """Этап 3: Прямой поиск в таблицах."""
         if not tables:
             return metrics
 
@@ -120,54 +132,101 @@ class MetricsParser:
                                 break
         return metrics
 
-    def query_gemini_vision_fallback(self, images: List, file_name: str) -> dict:
-        """
-        Шаг 4: LLM Vision Fallback через Gemini API (новый SDK google-genai).
-        Принимает список PIL.Image объектов и извлекает метрики.
-        """
-        if not self.gemini_enabled or not images:
+    # CHANGED: Переименован метод для совместимости с pipeline.py
+        # CHANGED: Переименован метод для совместимости с pipeline.py
+    def query_gemini_vision_fallback(self, raw_text: str, file_name: str) -> Dict[str, Any]:
+        """Этап 4: LLM Fallback через OpenRouter с актуальными бесплатными моделями."""
+        if not self.provider:
             return {}
 
-        prompt = """
-        Ты — эксперт-химик по полимерам и эластомерам. Твоя задача: извлечь технические характеристики полиуретанового герметика с изображения технической спецификации (TDS).
+        prompt = f"""
+Ты — эксперт-химик по полиуретановым герметикам. Извлеки технические характеристики из текста TDS.
 
-        Найди и извлеки ТОЛЬКО следующие 3 параметра:
-        1. "Shore_A": Твердость по Шору А (число от 5 до 100). Ищи: "Shore A", "Твердость по Шору А".
-        2. "Elongation": Относительное удлинение при разрыве в % (число от 100 до 1500). Ищи: "Elongation at break", "Удлинение при разрыве". НЕ путай с "Modulus" (модуль упругости)!
-        3. "Skin_Time": Время образования поверхностной пленки. Если указано в часах (h, hours), умножь на 60, чтобы получить минуты. Ищи: "Skin time", "Tack free time", "Время образования пленки".
+Найди и верни ТОЛЬКО следующие параметры:
+1. "Shore_A": Твердость по Шору А (число от 5 до 100).
+2. "Elongation": Относительное удлинение при разрыве в % (число от 100 до 1500). НЕ путай с "Modulus"!
+3. "Skin_Time": Время образования поверхностной пленки в МИНУТАХ. Если в часах — умножь на 60.
 
-        Правила:
-        - Если параметр не найден на изображении, верни для него null.
-        - Если указан диапазон (например, 30-40), верни min, max и mean (среднее).
-        - Если указано одно число, верни его как min, max и mean.
-        
-        Верни ответ СТРОГО в формате JSON, без markdown-оберток (```json), без пояснений:
-        {
-            "Shore_A": {"min": 20, "max": 20, "mean": 20.0},
-            "Elongation": {"min": 600, "max": 600, "mean": 600.0},
-            "Skin_Time": {"min": 60, "max": 60, "mean": 60.0}
-        }
-        """
+Правила:
+- Если параметр не найден, верни null.
+- Если указан диапазон (30-40), верни min, max и mean.
+- Если одно число, верни его как min, max и mean.
 
-        try:
-            # Новый синтаксис google-genai: передаем модель, содержимое (промпт + картинки)
-            response = self.client.models.generate_content(
-                model="gemini-2.5-flash",
-                contents=[prompt] + images
-            )
-            
-            # Очистка ответа от возможных markdown-оберток
-            clean_str = response.text.strip()
-            if clean_str.startswith("```"):
-                clean_str = re.sub(r"^```(?:json)?\n|```$", "", clean_str, flags=re.MULTILINE).strip()
-            
-            parsed_data = json.loads(clean_str)
-            self.logger.info(f"✅ Gemini Vision успешно извлек данные для {file_name}")
-            return parsed_data
-            
-        except json.JSONDecodeError as e:
-            self.logger.error(f"Gemini вернул невалидный JSON для {file_name}. Ответ: {response.text[:200]}")
-            return {}
-        except Exception as e:
-            self.logger.error(f"Сбой Gemini Vision API для {file_name}: {e}")
-            return {}
+Верни СТРОГО JSON без markdown:
+{{
+    "Shore_A": {{"min": 20, "max": 20, "mean": 20.0}},
+    "Elongation": null,
+    "Skin_Time": null
+}}
+
+Текст TDS:
+---
+{raw_text[:8000]}
+---
+"""
+
+            # ... (начало метода и prompt остаются без изменений) ...
+
+        if self.provider == "openrouter":
+            url = "https://openrouter.ai/api/v1/chat/completions"
+            # Используем умный роутер - он автоматически выберет доступную бесплатную модель
+            models_to_try = [
+                "openrouter/free",  # Автоматический выбор из всех free моделей
+                "meta-llama/llama-3.2-3b-instruct:free",  # Резервный вариант
+            ]
+            headers = {
+                "Authorization": f"Bearer {self.api_key}",
+                "Content-Type": "application/json",
+                "HTTP-Referer": "https://elastomeric-pu.local",
+                "X-Title": "Elastomeric PU TDS Parser",
+            }
+        else: # groq
+            url = "https://api.groq.com/openai/v1/chat/completions"
+            models_to_try = ["llama3-70b-8192"]
+            headers = {
+                "Authorization": f"Bearer {self.api_key}",
+                "Content-Type": "application/json"
+            }
+
+        # Цикл по моделям и попыткам (защита от 429)
+        for model in models_to_try:
+            data = {
+                "model": model,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.1,
+                "max_tokens": 1024  # Увеличили с 500 до 1024, чтобы избежать 400 Bad Request
+            }
+
+            for attempt in range(2):  # 2 попытки на каждую модель
+                try:
+                    response = requests.post(url, headers=headers, json=data, timeout=30)
+                    
+                    # Обработка Rate Limit (429)
+                    if response.status_code == 429:
+                        wait_time = int(response.headers.get("Retry-After", 60))
+                        self.logger.warning(f"⏳ OpenRouter Rate Limit (429). Ожидание {wait_time} сек...")
+                        time.sleep(wait_time)
+                        continue  # Повторяем попытку
+                    
+                    response.raise_for_status()
+                    result_json = response.json()
+                    content = result_json['choices'][0]['message']['content'].strip()
+                    
+                    if content.startswith("```"):
+                        content = re.sub(r"^```(?:json)?\n|```$", "", content, flags=re.MULTILINE).strip()
+                    
+                    parsed_data = json.loads(content)
+                    self.logger.info(f"✅ {model} успешно извлек данные для {file_name}")
+                    return parsed_data
+                    
+                except json.JSONDecodeError:
+                    self.logger.error(f"Невалидный JSON от {model}. Ответ: {content[:200]}")
+                    break  # Ломать JSON нет смысла повторять, пробуем следующую модель
+                except requests.exceptions.HTTPError as e:
+                    self.logger.error(f"HTTP Error {model}: {e}")
+                    break
+                except Exception as e:
+                    self.logger.error(f"Сбой {model}: {e}")
+                    break
+
+        return {}
