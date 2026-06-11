@@ -1,4 +1,5 @@
 # src/data_collection/pipeline.py
+import time
 import logging
 from pathlib import Path
 import pandas as pd
@@ -43,7 +44,8 @@ class TDSPipeline:
         for line in cleaned_lines[:8]:
             line_strip = line.strip()
             if any(keyword in line_strip.lower() for keyword in ["герметик", "клей", "sealant", "adhesive", "sika", "bostik"]):
-                if len(line_strip) > 5 and not line_strip.startswith(('Техническое', 'Technical', 'Product Data', 'Паспорт')):
+                # НОВОЕ: Отсекаем длинные описания (предложения)
+                if 5 < len(line_strip) < 60 and '.' not in line_strip and ',' not in line_strip:
                     metrics["Product_Name"] = line_strip
                     break
         if metrics["Product_Name"] == "Unknown":
@@ -58,28 +60,31 @@ class TDSPipeline:
         if any(metrics[k] is None for k in ["Shore_A_mean", "Elongation_mean", "Skin_Time_mean"]):
             metrics = self.parser.parse_from_tables(tables, metrics)
 
-        # LLM Fallback
+        # 3.3 LLM Vision Fallback (если Regex и Таблицы не справились)
         missing = []
         if metrics["Shore_A_mean"] is None: missing.append("Shore_A")
         if metrics["Elongation_mean"] is None: missing.append("Elongation")
         if metrics["Skin_Time_mean"] is None: missing.append("Skin_Time")
 
         if missing and self.parser.gemini_enabled:
-            self.logger.info(f"Запуск Gemini Fallback для {pdf_path.name} по полям: {missing}")
-            gemini_data = self.parser.query_gemini_fallback(raw_text, missing)
-            for key in missing:
-                if gemini_data.get(key) is not None:
-                    metrics[f"{key}_min"] = gemini_data[key].get("min")
-                    metrics[f"{key}_max"] = gemini_data[key].get("max")
-                    metrics[f"{key}_mean"] = gemini_data[key].get("mean")
-                    self.logger.info(f"Gemini Fallback успешно восстановил {key}: {metrics[f'{key}_mean']}")
-
-        # Корректировка Skin Time при обнаружении часов
-        sk_mean = metrics["Skin_Time_mean"]
-        if sk_mean is not None and any(unit in raw_text.lower() for unit in ["час", "hour", " ч ", " h "]) and not any(unit in raw_text.lower() for unit in ["мин", "min"]):
-            metrics["Skin_Time_min"] = metrics["Skin_Time_min"] * 60 if metrics["Skin_Time_min"] else None
-            metrics["Skin_Time_max"] = metrics["Skin_Time_max"] * 60 if metrics["Skin_Time_max"] else None
-            metrics["Skin_Time_mean"] = metrics["Skin_Time_mean"] * 60 if metrics["Skin_Time_mean"] else None
+            time.sleep(2)  # ⏳ Защита от 429 Too Many Requests (Free tier = 15 RPM)
+            self.logger.info(f"🚀 Запуск Gemini Vision Fallback для {pdf_path.name} по полям: {missing}")
+            
+            # Рендерим первые 3 страницы в изображения
+            images = extractor.extract_page_images(max_pages=3)
+            
+            if images:
+                gemini_data = self.parser.query_gemini_vision_fallback(images, pdf_path.name)
+                
+                # Обновляем метрики данными от LLM
+                for key in missing:
+                    if gemini_data.get(key) is not None:
+                        metrics[f"{key}_min"] = gemini_data[key].get("min")
+                        metrics[f"{key}_max"] = gemini_data[key].get("max")
+                        metrics[f"{key}_mean"] = gemini_data[key].get("mean")
+                        self.logger.info(f"   ↳ Gemini восстановил {key}: {metrics[f'{key}_mean']}")
+            else:
+                self.logger.warning(f"   ↳ Не удалось получить изображения для {pdf_path.name}")
 
         # 4. Валидация
         metrics = DataValidator.validate_metrics(metrics, pdf_path.name, self.logger)

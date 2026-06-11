@@ -13,13 +13,12 @@ class MetricsParser:
         api_key = os.environ.get("GEMINI_API_KEY")
         if api_key:
             try:
-                import google.generativeai as genai
-                genai.configure(api_key=api_key)
-                self.model = genai.GenerativeModel("gemini-1.5-flash")
+                from google import genai
+                self.client = genai.Client(api_key=api_key)
                 self.gemini_enabled = True
-                self.logger.info("Gemini API Fallback успешно активирован.")
+                self.logger.info("Gemini API (новый SDK google-genai) успешно активирован.")
             except ImportError:
-                self.logger.warning("Пакет 'google-generativeai' не найден. LLM Fallback отключен.")
+                self.logger.warning("Пакет 'google-genai' не найден. Установите: pip install google-genai")
         else:
             self.logger.info("GEMINI_API_KEY отсутствует. LLM Fallback отключен.")
 
@@ -121,35 +120,54 @@ class MetricsParser:
                                 break
         return metrics
 
-    def query_gemini_fallback(self, raw_text: str, missing_metrics: List[str]) -> Dict[str, Any]:
-        """Шаг 4: LLM Fallback через Gemini API."""
-        if not self.gemini_enabled or not missing_metrics:
+    def query_gemini_vision_fallback(self, images: List, file_name: str) -> dict:
+        """
+        Шаг 4: LLM Vision Fallback через Gemini API (новый SDK google-genai).
+        Принимает список PIL.Image объектов и извлекает метрики.
+        """
+        if not self.gemini_enabled or not images:
             return {}
 
-        prompt = f"""
-        Ты — эксперт в R&D химии полимеров. Извлеки пропущенные показатели герметика из сырого текста TDS.
-        Список к извлечению: {missing_metrics}
+        prompt = """
+        Ты — эксперт-химик по полимерам и эластомерам. Твоя задача: извлечь технические характеристики полиуретанового герметика с изображения технической спецификации (TDS).
+
+        Найди и извлеки ТОЛЬКО следующие 3 параметра:
+        1. "Shore_A": Твердость по Шору А (число от 5 до 100). Ищи: "Shore A", "Твердость по Шору А".
+        2. "Elongation": Относительное удлинение при разрыве в % (число от 100 до 1500). Ищи: "Elongation at break", "Удлинение при разрыве". НЕ путай с "Modulus" (модуль упругости)!
+        3. "Skin_Time": Время образования поверхностной пленки. Если указано в часах (h, hours), умножь на 60, чтобы получить минуты. Ищи: "Skin time", "Tack free time", "Время образования пленки".
 
         Правила:
-        1. "Shore_A": Твердость по Шору А (диапазон 5-100).
-        2. "Elongation": Относительное удлинение при разрыве (в процентах, диапазон 100-2000).
-        3. "Skin_Time": Время образования пленки. Если в ЧАСАХ, обязательно переведи в МИНУТЫ (1 час = 60 мин).
-
-        Верни ответ СТРОГО в формате JSON без markdown и объяснений:
-        {{
-            "Shore_A": {{"min": 20, "max": 20, "mean": 20.0}},
-            "Elongation": null,
-            "Skin_Time": null
-        }}
-        Текст TDS:
-        {raw_text[:8000]}
+        - Если параметр не найден на изображении, верни для него null.
+        - Если указан диапазон (например, 30-40), верни min, max и mean (среднее).
+        - Если указано одно число, верни его как min, max и mean.
+        
+        Верни ответ СТРОГО в формате JSON, без markdown-оберток (```json), без пояснений:
+        {
+            "Shore_A": {"min": 20, "max": 20, "mean": 20.0},
+            "Elongation": {"min": 600, "max": 600, "mean": 600.0},
+            "Skin_Time": {"min": 60, "max": 60, "mean": 60.0}
+        }
         """
+
         try:
-            response = self.model.generate_content(prompt)
+            # Новый синтаксис google-genai: передаем модель, содержимое (промпт + картинки)
+            response = self.client.models.generate_content(
+                model="gemini-2.5-flash",
+                contents=[prompt] + images
+            )
+            
+            # Очистка ответа от возможных markdown-оберток
             clean_str = response.text.strip()
             if clean_str.startswith("```"):
                 clean_str = re.sub(r"^```(?:json)?\n|```$", "", clean_str, flags=re.MULTILINE).strip()
-            return json.loads(clean_str)
+            
+            parsed_data = json.loads(clean_str)
+            self.logger.info(f"✅ Gemini Vision успешно извлек данные для {file_name}")
+            return parsed_data
+            
+        except json.JSONDecodeError as e:
+            self.logger.error(f"Gemini вернул невалидный JSON для {file_name}. Ответ: {response.text[:200]}")
+            return {}
         except Exception as e:
-            self.logger.error(f"Сбой Gemini API Fallback: {e}")
+            self.logger.error(f"Сбой Gemini Vision API для {file_name}: {e}")
             return {}
