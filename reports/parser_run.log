@@ -1,0 +1,22 @@
+2026-06-11 10:31:17,331 [INFO] TDS_Parser_RND: GEMINI_API_KEY отсутствует. LLM Fallback отключен.
+2026-06-11 10:31:17,331 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 10:31:17,941 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 10:31:18,220 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 10:31:18,534 [INFO] TDS_Parser_RND: Обработка файла: TDS SANZ PU MASTER.pdf
+2026-06-11 10:31:19,684 [INFO] TDS_Parser_RND: Пайплайны успешно завершены. Датасет собран.
+2026-06-11 10:34:31,897 [INFO] TDS_Parser_RND: GEMINI_API_KEY отсутствует. LLM Fallback отключен.
+2026-06-11 10:34:31,897 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 10:34:32,497 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 10:34:32,783 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 10:34:33,099 [INFO] TDS_Parser_RND: Обработка файла: TDS SANZ PU MASTER.pdf
+2026-06-11 10:34:34,211 [INFO] TDS_Parser_RND: Пайплайны успешно завершены. Датасет собран.
+2026-06-11 10:37:05,249 [INFO] TDS_Parser_RND: GEMINI_API_KEY отсутствует. LLM Fallback отключен.
+2026-06-11 10:37:05,250 [INFO] TDS_Parser_RND: Обработка файла: sikahyflex-250-facade.pdf
+2026-06-11 10:37:05,881 [INFO] TDS_Parser_RND: ✅ sikahyflex-250-facade.pdf | SikaHyflex®-250 Facade | Shore: 20.0 | Elong: 800.0% | Skin: 70.0 мин
+2026-06-11 10:37:05,881 [INFO] TDS_Parser_RND: Обработка файла: 2254654_other.pdf
+2026-06-11 10:37:06,155 [INFO] TDS_Parser_RND: ✅ 2254654_other.pdf | Герметик полиуретановый MASTERFIX-PU | Shore: 30.0 | Elong: 600.0% | Skin: 50.0 мин
+2026-06-11 10:37:06,155 [INFO] TDS_Parser_RND: Обработка файла: f0d103663006c9a4c3b4a63bb10da91f.pdf
+2026-06-11 10:37:06,453 [INFO] TDS_Parser_RND: ✅ f0d103663006c9a4c3b4a63bb10da91f.pdf | Полиуретановый клей-герметик PU | Shore: 40.0 | Elong: 600.0% | Skin: 70.0 мин
+2026-06-11 10:37:06,453 [INFO] TDS_Parser_RND: Обработка файла: TDS SANZ PU MASTER.pdf
+2026-06-11 10:37:07,573 [INFO] TDS_Parser_RND: ✅ TDS SANZ PU MASTER.pdf | Полиуретановый строительный клей-герметик. | Shore: 40.0 | Elong: 740.0% | Skin: 90.0 мин
+2026-06-11 10:37:07,576 [INFO] TDS_Parser_RND: Пайплайны успешно завершены. Датасет собран.
