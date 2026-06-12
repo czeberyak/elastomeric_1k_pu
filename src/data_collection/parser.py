@@ -209,7 +209,12 @@ class MetricsParser:
                     
                     response.raise_for_status()
                     result_json = response.json()
-                    content = result_json['choices'][0]['message']['content'].strip()
+                    message = result_json['choices'][0]['message']
+                    content = message.get('content') or ""
+                    if not content:
+                        self.logger.warning(f"{model} вернул пустой ответ (None) для {file_name}.")
+                        break
+                    content = content.strip()
                     
                     if content.startswith("```"):
                         content = re.sub(r"^```(?:json)?\n|```$", "", content, flags=re.MULTILINE).strip()
