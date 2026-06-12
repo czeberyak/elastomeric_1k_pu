@@ -133,7 +133,6 @@ class MetricsParser:
         return metrics
 
     # CHANGED: Переименован метод для совместимости с pipeline.py
-        # CHANGED: Переименован метод для совместимости с pipeline.py
     def query_gemini_vision_fallback(self, raw_text: str, file_name: str) -> Dict[str, Any]:
         """Этап 4: LLM Fallback через OpenRouter с актуальными бесплатными моделями."""
         if not self.provider:
