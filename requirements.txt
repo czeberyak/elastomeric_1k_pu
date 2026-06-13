@@ -1,7 +1,29 @@
-pandas
-numpy
-pdfplumber
-beautifulsoup4
-requests
-scikit-learn
-jupyter
+# --- Ядро и Обработка данных ---
+numpy==2.4.6
+pandas==3.0.3
+scipy==1.17.1
+
+# --- Машинное обучение и Статистика ---
+scikit-learn==1.9.0
+statsmodels==0.14.6
+
+# --- Парсинг данных и Экспорт отчетов ---
+pdfplumber==0.11.9
+beautifulsoup4==4.15.0
+lxml==6.1.1
+requests==2.34.2
+openpyxl==3.1.5
+
+# --- Визуализация и Аналитика ---
+matplotlib==3.10.9
+seaborn==0.13.2
+tqdm==4.68.2
+
+# --- Интерактивная среда (Среда разработки) ---
+jupyter==1.1.1
+notebook==7.5.7
+ipykernel==7.3.0
+
+# --- Интеграция с LLM (Патентный агент) ---
+google-genai==2.8.0
+python-dotenv==1.0.1
