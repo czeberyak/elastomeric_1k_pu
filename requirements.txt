@@ -27,3 +27,5 @@ ipykernel==7.3.0
 # --- Интеграция с LLM (Патентный агент) ---
 google-genai==2.8.0
 python-dotenv==1.0.1
+
+streamlit>=1.28.0
