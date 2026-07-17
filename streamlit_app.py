@@ -26,6 +26,7 @@ st.markdown("""
     .sub-header { font-size: 1.1rem; color: #7f8c8d; margin-bottom: 1.5rem; }
     .info-box {
         background-color: #e8f4fd;
+        color: #2c3e50; /* Принудительно делаем текст темно-синим/серым */
         border-left: 5px solid #2980b9;
         padding: 15px;
         border-radius: 4px;
@@ -84,7 +85,7 @@ with st.sidebar:
     st.markdown("- Физическая валидация: Активна")
     
     st.markdown("---")
-    st.caption("Эластомерик Системс R&D © 2026")
+    st.caption("ИП Чеберяк Д.Н. R&D © 2026")
 
 # Основной контент: Вкладки
 tab1, tab2, tab3, tab4 = st.tabs([
