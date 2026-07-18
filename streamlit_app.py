@@ -1,4 +1,5 @@
 # streamlit_app.py
+import sys
 import os
 import re
 import json
@@ -129,7 +130,23 @@ with tab1:
         if st.button("🚀 Запустить парсинг (make data)", type="primary", width="stretch"):
             with st.spinner("⏳ Выполняется парсинг и валидация данных..."):
                 try:
-                    result = subprocess.run(["make", "data"], capture_output=True, text=True, cwd=str(BASE_DIR))
+                    # Создаем копию текущего окружения (где pandas уже есть)
+                    my_env = os.environ.copy()
+                    
+                    # Принудительно ставим путь к Python от Streamlit на первое место для оболочки
+                    my_env["PATH"] = os.path.dirname(sys.executable) + os.pathsep + my_env.get("PATH", "")
+                    
+                    # Явно указываем корень проекта, чтобы избежать ошибок импорта внутренних модулей (src...)
+                    my_env["PYTHONPATH"] = str(BASE_DIR)
+                    
+                    # Вызываем процесс, передавая ему наше модифицированное окружение
+                    result = subprocess.run(
+                        ["make", "data"], 
+                        capture_output=True, 
+                        text=True, 
+                        cwd=str(BASE_DIR),
+                        env=my_env
+                    )
                     
                     if result.returncode == 0:
                         st.success("✅ Парсинг и очистка датасета завершены успешно!")
