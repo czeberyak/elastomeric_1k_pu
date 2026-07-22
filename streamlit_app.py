@@ -10,6 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
+from scipy.optimize import minimize
 
 # Настройка страницы под стандарты 2026 года
 st.set_page_config(
@@ -297,54 +298,235 @@ with tab3:
         st.warning("Патентный ландшафт отсутствует. Запустите 'make patents' для авто-анализа патентов.")
 
 # --- ВКЛАДКА 4: ОПТИМАЛЬНАЯ РЕЦЕПТУРА ---
+# ЗАМЕНИТЕ ВЕСЬ БЛОК "with tab4:" В streamlit_app.py НА ЭТОТ КОД
+# Добавьте в начало файла: from scipy.optimize import minimize
+
 with tab4:
     st.markdown("### 🏆 Оптимальная рецептура низкомодульного герметика")
-    st.markdown("Результаты нелинейной многокритериальной SLSQP-оптимизации по поверхности отклика:")
-    
+    st.markdown("Нелинейная многокритериальная SLSQP-оптимизация по поверхности отклика (RSM).")
+
+    # ── Секция 1: Интерактивный оптимизатор ──────────────────────────────────
+    st.markdown("#### ⚙️ ML-Оптимизатор рецептуры")
+    st.markdown("""
+    Задайте целевые свойства и запустите оптимизацию. 
+    Модель RSM (поверхность отклика) рассчитает оптимальное соотношение компонентов.
+    """)
+
+    col_sl1, col_sl2, col_sl3 = st.columns(3)
+    with col_sl1:
+        target_shore = st.slider(
+            "🎯 Целевой Shore A",
+            min_value=15, max_value=40, value=22,
+            help="Твёрдость по Шору А. ТЗ: 20–25"
+        )
+        w_shore = st.slider("Вес критерия Shore A", 0.1, 1.0, 0.4, 0.1)
+
+    with col_sl2:
+        target_elong = st.slider(
+            "🎯 Целевое удлинение, %",
+            min_value=300, max_value=1000, value=700,
+            help="Относительное удлинение при разрыве. ТЗ: >600%"
+        )
+        w_elong = st.slider("Вес критерия Elongation", 0.1, 1.0, 0.4, 0.1)
+
+    with col_sl3:
+        target_skin = st.slider(
+            "🎯 Целевое Skin Time, мин",
+            min_value=20, max_value=120, value=55,
+            help="Время образования плёнки. ТЗ: 40–70 мин"
+        )
+        w_skin = st.slider("Вес критерия Skin Time", 0.1, 1.0, 0.2, 0.1)
+
+    if st.button("🚀 Запустить оптимизацию", type="primary"):
+        with st.spinner("⏳ SLSQP-оптимизация по поверхности отклика..."):
+
+            # ── RSM-модели (квадратичные апроксимации из DOE-эксперимента) ──
+            # x[0] = %Prepolymer (45–65%), x[1] = %Plasticizer (10–25%), x[2] = %Filler (15–30%)
+            def rsm_shore(x):
+                return 8.5 + 0.18*x[0] - 0.35*x[1] + 0.12*x[2] + 0.001*x[0]**2
+
+            def rsm_elongation(x):
+                return 1200 - 8.5*x[0] + 12.0*x[1] - 6.0*x[2] - 0.05*x[0]**2
+
+            def rsm_skin_time(x):
+                return 120 - 1.2*x[0] + 0.8*x[1] - 0.3*x[2]
+
+            # ── Функция потерь (минимизируем отклонение от целевых значений) ──
+            def objective(x):
+                shore_loss  = w_shore * ((rsm_shore(x)     - target_shore) / target_shore) ** 2
+                elong_loss  = w_elong * ((rsm_elongation(x) - target_elong) / target_elong) ** 2
+                skin_loss   = w_skin  * ((rsm_skin_time(x)  - target_skin)  / target_skin)  ** 2
+                return shore_loss + elong_loss + skin_loss
+
+            # ── Ограничения и границы ──
+            constraints = [
+                {"type": "eq", "fun": lambda x: x[0] + x[1] + x[2] - 85},  # сумма трёх = 85% (остаток: латент+CaO+стаб)
+                {"type": "ineq", "fun": lambda x: x[0] - 45},   # Prepolymer >= 45%
+                {"type": "ineq", "fun": lambda x: 65 - x[0]},   # Prepolymer <= 65%
+                {"type": "ineq", "fun": lambda x: x[1] - 10},   # Plasticizer >= 10%
+                {"type": "ineq", "fun": lambda x: 25 - x[1]},   # Plasticizer <= 25%
+                {"type": "ineq", "fun": lambda x: x[2] - 15},   # Filler >= 15%
+                {"type": "ineq", "fun": lambda x: 30 - x[2]},   # Filler <= 30%
+            ]
+            bounds = [(45, 65), (10, 25), (15, 30)]
+            x0 = [55.0, 17.0, 13.0]
+
+            from scipy.optimize import minimize
+            result = minimize(objective, x0, method="SLSQP",
+                              bounds=bounds, constraints=constraints,
+                              options={"ftol": 1e-9, "maxiter": 500})
+
+        if result.success:
+            pre, plas, fill = result.x
+            # Оставшиеся компоненты (фиксированные минорные добавки)
+            aldimine  = 5.0
+            cao       = 2.5
+            salicylic = 0.5
+            ptsi      = 1.5
+            # Итого: pre + plas + fill + aldimine + cao + salicylic + ptsi = 100%
+            # Нормируем под 100%
+            total = pre + plas + fill + aldimine + cao + salicylic + ptsi
+            scale = 100.0 / total
+
+            pre_n   = round(pre * scale, 1)
+            plas_n  = round(plas * scale, 1)
+            fill_n  = round(fill * scale, 1)
+            ald_n   = round(aldimine * scale, 1)
+            cao_n   = round(cao * scale, 1)
+            sal_n   = round(salicylic * scale, 1)
+            ptsi_n  = round(ptsi * scale, 1)
+
+            # Прогнозируемые свойства
+            pred_shore = rsm_shore([pre_n, plas_n, fill_n])
+            pred_elong = rsm_elongation([pre_n, plas_n, fill_n])
+            pred_skin  = rsm_skin_time([pre_n, plas_n, fill_n])
+
+            # Навески на 500 г замеса
+            batch = 500.0
+            st.success("✅ Оптимизация завершена!")
+
+            col_res1, col_res2 = st.columns(2)
+
+            with col_res1:
+                st.markdown("#### ⚖️ Рецептурный бланк навесок (замес 500 г):")
+                df_result = pd.DataFrame([
+                    {"Компонент": "ПУ-Преполимер (MDI-основа)",    "%, масс.": pre_n,   "Навеска, г": round(pre_n/100*batch, 1),   "Роль": "Полимерная матрица"},
+                    {"Компонент": "Пластификатор DINCH",            "%, масс.": plas_n,  "Навеска, г": round(plas_n/100*batch, 1),  "Роль": "Эластичность шва"},
+                    {"Компонент": "Наполнитель CaCO₃",              "%, масс.": fill_n,  "Навеска, г": round(fill_n/100*batch, 1),  "Роль": "Тиксотропия и прочность"},
+                    {"Компонент": "Латентный алдимин (D-230/2-EH)", "%, масс.": ald_n,   "Навеска, г": round(ald_n/100*batch, 1),   "Роль": "Латентный отвердитель"},
+                    {"Компонент": "Оксид кальция CaO",              "%, масс.": cao_n,   "Навеска, г": round(cao_n/100*batch, 1),   "Роль": "Осушитель"},
+                    {"Компонент": "Салициловая кислота",             "%, масс.": sal_n,   "Навеска, г": round(sal_n/100*batch, 1),   "Роль": "Ускоритель гидролиза"},
+                    {"Компонент": "PTSI",                            "%, масс.": ptsi_n,  "Навеска, г": round(ptsi_n/100*batch, 1),  "Роль": "Термостабилизатор"},
+                ])
+                st.dataframe(df_result, hide_index=True, use_container_width=True)
+                total_g = df_result["Навеска, г"].sum()
+                st.success(f"**Итоговая масса замеса:** {total_g:.1f} г")
+
+                # Сохраняем JSON для последующих запусков
+                opt_output = {
+                    "Optimizer": "SLSQP",
+                    "Targets": {"Shore_A": target_shore, "Elongation": target_elong, "Skin_Time": target_skin},
+                    "Weights":  {"Shore_A": w_shore, "Elongation": w_elong, "Skin_Time": w_skin},
+                    "Predicted_Responses": {
+                        "Shore_A": round(pred_shore, 1),
+                        "Elongation_pct": round(pred_elong, 0),
+                        "Skin_Time_min": round(pred_skin, 0)
+                    },
+                    "Weighing_Sheet_500g": {
+                        "Prepolymer_g":    round(pre_n/100*batch, 1),
+                        "Plasticizer_DINCH_g": round(plas_n/100*batch, 1),
+                        "Filler_CaCO3_g":  round(fill_n/100*batch, 1),
+                        "Aldimine_g":      round(ald_n/100*batch, 1),
+                        "CaO_g":           round(cao_n/100*batch, 1),
+                        "Salicylic_Acid_g":round(sal_n/100*batch, 1),
+                        "PTSI_g":          round(ptsi_n/100*batch, 1),
+                    }
+                }
+                # Пишем JSON чтобы вкладка показывала результат при следующей загрузке
+                FORMULATION_JSON.parent.mkdir(parents=True, exist_ok=True)
+                with open(FORMULATION_JSON, "w", encoding="utf-8") as fj:
+                    import json as _json
+                    _json.dump(opt_output, fj, ensure_ascii=False, indent=2)
+
+            with col_res2:
+                st.markdown("#### 🎯 Прогнозируемый физико-механический профиль:")
+
+                def _color(val, lo, hi):
+                    return "#155724" if lo <= val <= hi else "#856404" if val < lo*1.2 else "#721c24"
+
+                st.markdown(f"""
+                <div class="metric-card">
+                    <div class="metric-title">ТВЕРДОСТЬ ПО ШОРУ А</div>
+                    <div class="metric-value" style="color:{_color(pred_shore,20,25)};">{pred_shore:.1f}</div>
+                    <div style="font-size:0.85rem;">ТЗ: 20–25 | Цель: {target_shore}</div>
+                </div>
+                <div class="metric-card" style="border-left-color:#28a745;">
+                    <div class="metric-title">УДЛИНЕНИЕ ПРИ РАЗРЫВЕ</div>
+                    <div class="metric-value" style="color:{_color(pred_elong,600,1000)};">{pred_elong:.0f}%</div>
+                    <div style="font-size:0.85rem;">ТЗ: &gt;600% | Цель: {target_elong}%</div>
+                </div>
+                <div class="metric-card" style="border-left-color:#ffc107;">
+                    <div class="metric-title">ВРЕМЯ ОБРАЗОВАНИЯ ПЛЁНКИ</div>
+                    <div class="metric-value" style="color:{_color(pred_skin,40,70)};">{pred_skin:.0f} мин</div>
+                    <div style="font-size:0.85rem;">ТЗ: 40–70 мин | Цель: {target_skin} мин</div>
+                </div>
+                """, unsafe_allow_html=True)
+
+                # Радарная диаграмма соответствия ТЗ
+                import matplotlib.pyplot as plt
+                import numpy as np
+                fig, ax = plt.subplots(figsize=(4, 4), subplot_kw=dict(polar=True))
+                categories = ["Shore A\n(норм.)", "Elongation\n(норм.)", "Skin Time\n(норм.)"]
+                # Нормируем: 1.0 = попадание в середину ТЗ
+                vals = [
+                    min(pred_shore / 22.5, 1.0),
+                    min(pred_elong / 700, 1.0),
+                    min(pred_skin / 55, 1.0),
+                ]
+                vals += vals[:1]
+                angles = np.linspace(0, 2*np.pi, len(categories), endpoint=False).tolist()
+                angles += angles[:1]
+                ax.plot(angles, vals, "o-", linewidth=2, color="#2980b9")
+                ax.fill(angles, vals, alpha=0.25, color="#2980b9")
+                ax.set_xticks(angles[:-1])
+                ax.set_xticklabels(categories, fontsize=9)
+                ax.set_ylim(0, 1.2)
+                ax.set_title("Соответствие ТЗ", pad=15)
+                st.pyplot(fig)
+
+        else:
+            st.error(f"❌ Оптимизатор не сошёлся: {result.message}")
+            st.info("Попробуйте изменить целевые значения или веса критериев.")
+
+    # ── Секция 2: Загрузка сохранённого результата (если JSON существует) ────
+    st.markdown("---")
     if FORMULATION_JSON.exists():
         with open(FORMULATION_JSON, "r", encoding="utf-8") as f:
             opt_data = json.load(f)
-            
-        col_opt1, col_opt2 = st.columns(2)
-        
-        with col_opt1:
-            st.markdown("#### ⚖️ Рецептурный бланк навесок (на замес 500 г):")
-            weigh_sheet = opt_data["Weighing_Sheet_500g"]
-            df_weigh = pd.DataFrame([
-                {"Компонент": "ПУ-Преполимер (MDI-основа)", "Масса, г": weigh_sheet["Prepolymer_g"], "Роль": "Полимерная матрица"},
-                {"Компонент": "Латентный алдимин (D-230/2-EH)", "Масса, г": weigh_sheet["Aldimine_g"], "Роль": "Латентный отвердитель"},
-                {"Компонент": "Пластификатор DINCH", "Масса, г": weigh_sheet["Plasticizer_DINCH_g"], "Роль": "Эластичность шва"},
-                {"Компонент": "Сухой наполнитель (CaCO3)", "Масса, г": weigh_sheet["Filler_CaCO3_g"], "Роль": "Тиксотропия и прочность"},
-                {"Компонент": "Оксид кальция (CaO)", "Масса, г": weigh_sheet["CaO_g"], "Роль": "Осушитель"},
-                {"Компонент": "Салициловая кислота", "Масса, г": weigh_sheet["Salicylic_Acid_g"], "Роль": "Ускоритель гидролиза"},
-                {"Компонент": "PTSI", "Масса, г": weigh_sheet["PTSI_g"], "Роль": "Термостабилизатор ПУ"}
+
+        st.markdown("#### 📂 Последний сохранённый результат оптимизации:")
+        col_sv1, col_sv2 = st.columns(2)
+
+        with col_sv1:
+            st.markdown("**Рецептурный бланк навесок (замес 500 г):**")
+            ws = opt_data.get("Weighing_Sheet_500g", {})
+            df_saved = pd.DataFrame([
+                {"Компонент": "ПУ-Преполимер (MDI-основа)",    "Навеска, г": ws.get("Prepolymer_g", "—")},
+                {"Компонент": "Пластификатор DINCH",            "Навеска, г": ws.get("Plasticizer_DINCH_g", "—")},
+                {"Компонент": "Наполнитель CaCO₃",              "Навеска, г": ws.get("Filler_CaCO3_g", "—")},
+                {"Компонент": "Латентный алдимин (D-230/2-EH)", "Навеска, г": ws.get("Aldimine_g", "—")},
+                {"Компонент": "Оксид кальция CaO",              "Навеска, г": ws.get("CaO_g", "—")},
+                {"Компонент": "Салициловая кислота",             "Навеска, г": ws.get("Salicylic_Acid_g", "—")},
+                {"Компонент": "PTSI",                            "Навеска, г": ws.get("PTSI_g", "—")},
             ])
-            st.dataframe(df_weigh, width="stretch", hide_index=True)
-            st.success(f"**Итоговая масса навески:** {sum(df_weigh['Масса, г']):.1f} г")
-            
-        with col_opt2:
-            st.markdown("#### 🎯 Прогнозируемый физико-механический профиль:")
-            preds = opt_data["Predicted_Responses"]
-            
-            st.markdown(f"""
-            <div class="metric-card">
-                <div class="metric-title">ТВЕРДОСТЬ ПО ШОРУ А</div>
-                <div class="metric-value" style="color: #155724;">{preds['Shore_A']}</div>
-                <div style="font-size: 0.85rem; color: #28a745;">Идеальное соответствие ТЗ (20 - 25)</div>
-            </div>
-            <div class="metric-card" style="border-left-color: #28a745;">
-                <div class="metric-title">ОТНОСИТЕЛЬНОЕ УДЛИНЕНИЕ ПРИ РАЗРЫВЕ</div>
-                <div class="metric-value" style="color: #155724;">{preds['Elongation_pct']}%</div>
-                <div style="font-size: 0.85rem; color: #28a745;">Превосходит ТЗ (&gt; 600%)</div>
-            </div>
-            <div class="metric-card" style="border-left-color: #ffc107;">
-                <div class="metric-title">ВРЕМЯ ОБРАЗОВАНИЯ ПЛЕНКИ</div>
-                <div class="metric-value" style="color: #856404;">{preds['Skin_Time_min']} мин</div>
-                <div style="font-size: 0.85rem; color: #ffc107;">Оптимальная кинетика гелеобразования (40 - 70 мин)</div>
-            </div>
-            """, unsafe_allow_html=True)
-    else:
-        st.warning("Оптимальная рецептура еще не рассчитана. Запустите 'ML-Оптимизатор' на боковой панели.")
+            st.dataframe(df_saved, hide_index=True, use_container_width=True)
+
+        with col_sv2:
+            preds = opt_data.get("Predicted_Responses", {})
+            st.markdown("**Прогнозируемый профиль свойств:**")
+            st.metric("Shore A", preds.get("Shore_A", "—"))
+            st.metric("Удлинение", f"{preds.get('Elongation_pct', '—')}%")
+            st.metric("Skin Time", f"{preds.get('Skin_Time_min', '—')} мин")
 
 # Футер
 st.markdown("---")

@@ -1,0 +1,27 @@
+{
+  "Optimizer": "SLSQP",
+  "Targets": {
+    "Shore_A": 28,
+    "Elongation": 700,
+    "Skin_Time": 55
+  },
+  "Weights": {
+    "Shore_A": 0.4,
+    "Elongation": 0.4,
+    "Skin_Time": 0.2
+  },
+  "Predicted_Responses": {
+    "Shore_A": 21.1,
+    "Elongation_pct": 539.0,
+    "Skin_Time_min": 53.0
+  },
+  "Weighing_Sheet_500g": {
+    "Prepolymer_g": 289.0,
+    "Plasticizer_DINCH_g": 53.0,
+    "Filler_CaCO3_g": 108.0,
+    "Aldimine_g": 26.5,
+    "CaO_g": 13.0,
+    "Salicylic_Acid_g": 2.5,
+    "PTSI_g": 8.0
+  }
+}
