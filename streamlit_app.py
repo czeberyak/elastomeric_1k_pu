@@ -55,6 +55,14 @@ st.markdown("""
 st.markdown('<div class="main-header">🧪 R&D Панель управления: 1К ПУ Герметики</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-header">Data-driven R&D платформа формулирования высокоэластичных систем фасадных швов</div>', unsafe_allow_html=True)
 
+st.warning(
+    "**In silico демонстрация.** База бенчмарков собрана из открытых TDS, а отклики DOE и "
+    "RSM-модель построены на **синтетических** данных: реальных лабораторных замесов в проекте "
+    "пока нет. Это демонстрация методологии (парсинг TDS, DoE, RSM, оптимизация), а не готовая "
+    "рецептура. Требуется калибровка и лабораторная верификация.",
+    icon="⚠️",
+)
+
 # Определение путей к артефактам
 BASE_DIR = Path(__file__).resolve().parent
 RAW_DIR = BASE_DIR / "data/01_raw"
@@ -62,6 +70,13 @@ PROCESSED_CSV = BASE_DIR / "data/03_processed/benchmarks_dataset.csv"
 PATENT_XLSX = BASE_DIR / "reports/patent_landscape_analyzed.xlsx"
 DOE_CSV = BASE_DIR / "reports/doe_results_synthetic.csv"
 FORMULATION_JSON = BASE_DIR / "reports/optimal_formulation.json"
+
+FTO_DISCLAIMER = (
+    "Патентный анализ носит информационный характер: это инженерная карта публичного "
+    "патентного поиска и предварительные гипотезы по обходу, подготовленные автоматически. "
+    "Это не юридическое заключение о свободе деятельности (FTO). "
+    "Перед промышленным применением требуется заключение патентного поверенного."
+)
 
 # Боковая панель
 with st.sidebar:
@@ -82,8 +97,21 @@ with st.sidebar:
 
     st.markdown("---")
     st.markdown("**Статистика базы:**")
-    st.markdown("- Обработано спецификаций: 22")
-    st.markdown("- Успешность парсинга: 82-100%")
+    _pdf_count = len(list(RAW_DIR.glob("*.pdf"))) if RAW_DIR.exists() else 0
+    if PROCESSED_CSV.exists():
+        _stats = pd.read_csv(PROCESSED_CSV)
+        _params = {"Shore A": "Shore_A_mean", "Elongation": "Elongation_mean", "Skin Time": "Skin_Time_mean"}
+        st.markdown(f"- Записей в базе: {len(_stats)}")
+        if _pdf_count:
+            st.markdown(f"- Исходных PDF в data/01_raw: {_pdf_count}")
+        if len(_stats) and all(col in _stats.columns for col in _params.values()):
+            _full = int(_stats[list(_params.values())].notna().all(axis=1).sum())
+            st.markdown(f"- Полных профилей (все 3 параметра): {_full}")
+            st.markdown("- Заполнение: " + ", ".join(
+                f"{name} {_stats[col].notna().mean() * 100:.0f}%" for name, col in _params.items()
+            ))
+    else:
+        st.markdown("- База данных пуста")
     st.markdown("- Физическая валидация: Активна")
     
     st.markdown("---")
@@ -271,6 +299,7 @@ with tab2:
 # --- ВКЛАДКА 3: ПАТЕНТНЫЙ FTO-АНАЛИЗ ---
 with tab3:
     st.markdown("### ⚖️ Результаты FTO-анализа патентного ландшафта (Sika, Dow, Bostik)")
+    st.error("⚠️ **" + FTO_DISCLAIMER + "**", icon="⚖️")
     
     if PATENT_XLSX.exists():
         df_pat = pd.read_excel(PATENT_XLSX)
@@ -289,11 +318,14 @@ with tab3:
                 with col_p1:
                     st.markdown(f"**Классификатор IPC:** `{row['IPC_Classes']}`")
                 with col_p2:
-                    st.markdown(f"Уровень риска: <span class='badge {badge_class}'>{risk_level}</span>", unsafe_allow_html=True)
+                    st.markdown(f"Предварительная оценка риска: <span class='badge {badge_class}'>{risk_level}</span>", unsafe_allow_html=True)
                 
                 st.markdown(f"**Ключевые формулы патента:**\n\n{row['Key_Technical_Claims']}")
-                st.markdown("##### 🛡️ Утвержденная стратегия обхода (FTO Workaround):")
+                st.markdown("##### 🛡️ Гипотеза обхода (FTO Workaround, требует проверки патентным поверенным):")
                 st.info(row['FTO_Workaround_Strategy'])
+
+        st.divider()
+        st.warning(FTO_DISCLAIMER, icon="⚖️")
     else:
         st.warning("Патентный ландшафт отсутствует. Запустите 'make patents' для авто-анализа патентов.")
 
