@@ -565,6 +565,6 @@ st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #7f8c8d; font-size: 0.85rem;">
     <strong>AI Materials Informatics для тяжелой промышленности</strong> | Автоматизация R&D процессов ПУ<br>
-    ООО «Эластомерик Системс» © 2026
+    
 </div>
 """, unsafe_allow_html=True)
